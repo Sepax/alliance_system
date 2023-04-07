@@ -299,6 +299,24 @@ set_alliance_cost = {
 			which = puny_points
 		}
 	}
+	
+	if = {
+		limit = {
+			OR = {
+				is_subject_of_type = colony
+				is_subject_of_type = crown_colony
+				is_subject_of_type = private_enterprise
+				is_subject_of_type = self_governing_colony
+			}
+		}
+		divide_variable = {
+			which = alliance_cost
+			value = 2
+		}
+		round = {
+			which = alliance_cost
+		}
+	}
 }
 
 alliance_scanner = {
@@ -350,6 +368,10 @@ alliance_scanner = {
 				is_subject_of_type = march
 				is_subject_of_type = personal_union
 				is_subject_of_type = client_state
+				is_subject_of_type = colony
+				is_subject_of_type = crown_colony
+				is_subject_of_type = private_enterprise
+				is_subject_of_type = self_governing_colony
 			}
 		}
 		set_variable = {
@@ -373,8 +395,12 @@ alliance_scanner = {
 	}
 	every_country = {
 		limit = {
-			event_target:scan_nation = { 
-				guaranteed_by = PREV
+			event_target:scan_nation = {
+				OR = {
+					is_subject_of_type_with_overlord = { who = PREV type = tributary_state }
+					guaranteed_by = PREV
+				}
+				
 			}
 		}
 		set_variable = {
@@ -415,17 +441,6 @@ alliance_scanner = {
 	}
 }
 
-flatten = {
-	multiply_variable = {
-		which = $float$
-		value = 0.001
-	}
-	multiply_variable = {
-		which = $float$
-		value = 1000
-	}
-}
-
 list_ally = {
 	random_ally = {
 		limit = {
@@ -446,5 +461,31 @@ list_ally_clear = {
 		hidden_effect = {
 			clr_country_flag = ally_listed
 		}
+	}
+}
+
+flatten = {
+	multiply_variable = {
+		which = $float$
+		value = 0.001
+	}
+	multiply_variable = {
+		which = $float$
+		value = 1000
+	}
+}
+
+round = {
+	multiply_variable = {
+		which = $float$
+		value = 0.5
+	}
+	multiply_variable = {
+		which = $float$
+		value = 0.001
+	}
+	multiply_variable = {
+		which = $float$
+		value = 1000
 	}
 }
