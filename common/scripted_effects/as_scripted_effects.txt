@@ -2,7 +2,7 @@ alliance_system_config = {
 	# This is the base number of alliance slots a country gets
 	set_variable = {
 		which = base_alliance_points
-		value = 12
+		value = 10
 	}
 	# This is the point cost for each nation tier
 	set_variable = {
