@@ -6,27 +6,27 @@ alliance_system_config = {
 	}
 	# This is the point cost for each nation tier
 	set_variable = {
-		which = major_points
+		which = great_points
 		value = 8
 	}
 	set_variable = {
-		which = prominent_points
+		which = major_points
 		value = 6
 	}
 	set_variable = {
-		which = notable_points
+		which = prominent_points
 		value = 4
 	}
 	set_variable = {
-		which = minor_points
+		which = notable_points
 		value = 3
 	}
 	set_variable = {
-		which = puny_points
+		which = minor_points
 		value = 2
 	}
 	set_variable = {
-		which = pitiful_points
+		which = puny_points
 		value = 1
 	}
 	# This is the number one great power development
@@ -36,6 +36,10 @@ alliance_system_config = {
 	}
 	# This is the development limit for each nation tier
 	set_variable = {
+		which = great_dev
+		which = global_top_dev
+	}
+	set_variable = {
 		which = major_dev
 		which = global_top_dev
 	}
@@ -51,33 +55,36 @@ alliance_system_config = {
 		which = minor_dev
 		which = global_top_dev
 	}
-	set_variable = {
+	divide_variable = {
 		which = puny_dev
-		which = global_top_dev
+		value = global_top_dev
 	}
 	multiply_variable = {
-		which = major_dev
+		which = great_dev
 		value = 0.9
 	}
 	multiply_variable = {
+		which = major_dev
+		value = 0.75
+	}
+	multiply_variable = {
 		which = prominent_dev
-		value = 0.7
+		value = 0.55
 	}
 	multiply_variable = {
 		which = notable_dev
-		value = 0.5
+		value = 0.35
 	}
 	multiply_variable = {
 		which = minor_dev
-		value = 0.3
+		value = 0.15
 	}
 	multiply_variable = {
 		which = puny_dev
-		value = 0.1
-	}
-	set_variable = {
-		which = pitiful_dev
 		value = 0
+	}
+	flatten = {
+		float = great_dev
 	}
 	flatten = {
 		float = major_dev
@@ -93,6 +100,47 @@ alliance_system_config = {
 	}
 	flatten = {
 		float = puny_dev
+	}
+
+	set_variable = {
+		which = major_dev_upper
+		which = great_dev
+	}
+	change_variable = {
+		which = major_dev_upper
+		value = -1
+	}
+	set_variable = {
+		which = prominent_dev_upper
+		which = major_dev
+	}
+	change_variable = {
+		which = prominent_dev_upper
+		value = -1
+	}
+	set_variable = {
+		which = notable_dev_upper
+		which = prominent_dev
+	}
+	change_variable = {
+		which = notable_dev_upper
+		value = -1
+	}
+	set_variable = {
+		which = minor_dev_upper
+		which = notable_dev
+	}
+	change_variable = {
+		which = minor_dev_upper
+		value = -1
+	}
+	set_variable = {
+		which = puny_dev_upper
+		which = minor_dev
+	}
+	change_variable = {
+		which = puny_dev_upper
+		value = -1
 	}
 }
 
@@ -189,6 +237,18 @@ set_alliance_cost = {
 		limit = {
 			check_variable = {
 				which = dev
+				which = great_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = great_points
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = dev
 				which = major_dev
 			}
 		}
@@ -233,22 +293,10 @@ set_alliance_cost = {
 			which = minor_points
 		}
 	}
-	else_if = {
-		limit = {
-			check_variable = {
-				which = dev
-				which = puny_dev
-			}
-		}
-		change_variable = {
-			which = alliance_cost
-			which = puny_points
-		}
-	}
 	else = {
 		change_variable = {
 			which = alliance_cost
-			which = pitiful_points
+			which = puny_points
 		}
 	}
 }
@@ -290,6 +338,10 @@ alliance_scanner = {
 					OR = {
 						tag = SWE
 						tag = NOR
+						tag = HOL
+						tag = FLA
+						tag = BRB
+						tag = LIT
 					}
 				}
 			}
