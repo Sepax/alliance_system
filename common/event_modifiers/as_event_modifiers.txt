@@ -1,0 +1,8 @@
+alliance_scanner_timer = {
+}
+
+dev_list_timer = {
+}
+
+too_many_alliances_timer = {
+}

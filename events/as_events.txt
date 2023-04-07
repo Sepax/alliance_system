@@ -1,0 +1,164 @@
+namespace = alliance_system
+# Initialisation
+country_event = {
+	id = alliance_system.1
+	title = alliance_system.1.t
+	desc = alliance_system.1.d
+	picture = RELIGION_eventPicture
+	hidden = yes
+	trigger = {
+		NOT = {
+			has_country_flag = initialized_alliance_system
+		}
+	}
+	option = {
+		country_event = {
+			id = alliance_system.2
+		}
+		country_event = {
+			id = alliance_system.3
+		}
+		set_country_flag = initialized_alliance_system
+	}
+}
+
+# Generates a list of the 10 highest dev countries
+country_event = {
+	id = alliance_system.2
+	title = alliance_system.2.t
+	desc = alliance_system.2.d
+	picture = RELIGION_eventPicture
+	hidden = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		NOT = {
+			1269 = {
+				has_province_modifier = dev_list_timer
+			}
+		}
+	}
+	option = {
+		hidden_effect = {
+			sort_highest_dev_setup = yes
+			sort_highest_dev = {
+				target = GP1
+			}
+			sort_highest_dev = {
+				target = GP2
+			}
+			sort_highest_dev = {
+				target = GP3
+			}
+			sort_highest_dev = {
+				target = GP4
+			}
+			sort_highest_dev = {
+				target = GP5
+			}
+			sort_highest_dev = {
+				target = GP6
+			}
+			sort_highest_dev = {
+				target = GP7
+			}
+			sort_highest_dev = {
+				target = GP8
+			}
+			sort_highest_dev = {
+				target = GP9
+			}
+			sort_highest_dev = {
+				target = GP10
+			}
+			sort_highest_dev_cleanup = yes
+		}
+		1269 = {
+			add_province_modifier = {
+				name = dev_list_timer
+				duration = 90
+			}
+		}
+	}
+}
+
+# Updates the alliance points of all countries
+country_event = {
+	id = alliance_system.3
+	title = alliance_system.3.t
+	desc = alliance_system.3.d
+	picture = RELIGION_eventPicture
+	hidden = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		# ai = no
+		NOT = {
+			has_country_modifier = alliance_scanner_timer
+		}
+	}
+	option = {
+		hidden_effect = {
+			alliance_scanner = yes
+		}
+		add_country_modifier = {
+			name = alliance_scanner_timer
+			duration = 90
+			hidden = yes
+		}
+	}
+}
+
+# Too many alliances
+country_event = {
+	id = alliance_system.4
+	title = alliance_system.4.t
+	desc = alliance_system.4.d
+	picture = RULEBREAK_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = alliance_system.4.a
+		add_corruption = 1
+		add_country_modifier = {
+			name = too_many_alliances_timer
+			duration = 180
+			hidden = yes
+		}
+	}
+}
+
+# Too many alliances (pre-event)
+country_event = {
+	id = alliance_system.5
+	title = alliance_system.5.t
+	desc = alliance_system.5.d
+	picture = RULEBREAK_eventPicture
+	hidden = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		ai = no
+		has_country_flag = too_many_alliances
+		NOT = {
+			has_country_modifier = too_many_alliances_timer
+		}
+	}
+	immediate = {
+		country_event = {
+			id = alliance_system.3
+		}
+	}
+	option = {
+		if = {
+			limit = {
+				has_country_flag = too_many_alliances
+			}
+			country_event = {
+				id = alliance_system.4
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+check_alliance_cost = {
+	category = alliance
+	alert_index = 6
+	alert_tooltip = ICON_VASSAL
+	require_acceptance = no
+	is_visible = {
+		always = yes
+	}
+	is_allowed = {
+		hidden_trigger
+		{
+			always = no
+		}
+	}
+	on_accept = {
+	}
+	on_decline = {
+	}
+	ai_acceptance = {
+		always = yes
+	}
+	ai_will_do = {
+		always = no
+	}
+}

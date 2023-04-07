@@ -1,0 +1,35 @@
+﻿l_english:
+ alliance_system_decision_title: "§M‡‡§! Alliance System"
+ alliance_system_decision_desc: "Displays you current alliance points and if you are breaking the alliance rules."
+ alliance_system_decision: "Top Dev: [Root.global_top_dev.GetValue]\nYour alliance cost: [Root.alliance_cost.GetValue]\nAlliance Points: [Root.alliance_points.GetValue]\nPuny: [Root.puny_dev.GetValue]\nMinor: [Root.minor_dev.GetValue]\nNotable: [Root.notable_dev.GetValue]\nProminent: [Root.prominent_dev.GetValue]\nMajor: [Root.major_dev.GetValue] "
+
+ great_powers_decision_title: "§M‡‡§! Great Powers"
+ great_powers_decision_desc: "Top 10 countries sorted by development. Updates once every 90 days."
+ great_powers_decision: "§M------ Great Powers ------§!\n  1: [GP1.GetName], [GP1.dev.GetValue] dev\n  2: [GP2.GetName], [GP2.dev.GetValue] dev\n  3: [GP3.GetName], [GP3.dev.GetValue] dev\n  4: [GP4.GetName], [GP4.dev.GetValue] dev\n  5: [GP5.GetName], [GP5.dev.GetValue] dev\n  6: [GP6.GetName], [GP6.dev.GetValue] dev\n  7: [GP7.GetName], [GP7.dev.GetValue] dev\n  8: [GP8.GetName], [GP8.dev.GetValue] dev\n  9: [GP9.GetName], [GP9.dev.GetValue] dev\n  10: [GP10.GetName], [GP10.dev.GetValue] dev\n§M----------------------------§!"
+
+ alliance_system.4.t:0 "STOP! Du bryter mot alliansreglerna."
+ alliance_system.4.d:1 "Ta ditt straff och be tengilen om förlåtelse. (Detta event kommer upprepas varje månad om du fortfarande bryter mot alliansreglerna)"
+ alliance_system.4.a:0 "Tengil, snälla förlåt mig för jag har syndat"
+
+ check_alliance_cost: "Check Alliance Points"
+ check_alliance_cost_title: "Check Alliance Points"
+ check_alliance_cost_desc: "bla"
+ check_alliance_cost_tooltip: "- [From.GetName] has §M[From.alliance_points.GetValue]§! alliance points available.\n- Cost for him to ally you: §M[Root.alliance_cost.GetValue]§!\n- You have §M[Root.alliance_points.GetValue]§! alliance points available.\n- Cost for you to ally him: §M[From.alliance_cost.GetValue]§!"
+ check_alliance_cost_alert_tooltip: "bla"
+
+ alliance_system_header_1: "§M------------------- Gurkans Alliance System ------------------§!"
+ alliance_system_desc:       "The alliance system keeps track of your allowed alliances during gameplay. You start with [Root.base_alliance_points.GetValue] alliance points, which decrease based on your allies' and your own power status. Large nations cost more alliance points than smaller ones. Breaking the rules by reaching a negative point value results in the tengil haunting you for the rest of your days."
+ alliance_system_points:   "§J###############################################§!\n§J############§! §TAvailable Alliance Points:§! [Root.alliance_points.GetValue] §J############§!\n§J###############################################§!"
+ alliance_system_cost:   "§J#############§! §TYou cost§! [Root.alliance_cost.GetValue] §Tpoints to ally§! §J#############§!\n§J###############################################§!"
+ alliance_system_row:      ""
+ alliance_system_header_2: "§M------------------------ Power Statuses ------------------------§!"
+ alliance_system_limit_1:  "           Greatest Power:     §Y[GP1.dev.GetValue]§! dev (-[Root.colossal_points.GetValue] points)"
+ alliance_system_limit_2:  "           Major Power:        §Y[Root.major_dev.GetValue]§! dev (-[Root.major_points.GetValue] points)"
+ alliance_system_limit_3:  "           Prominent Power:  §Y[Root.prominent_dev.GetValue]§! dev (-[Root.prominent_points.GetValue] points)"
+ alliance_system_limit_4:  "           Notable Power:      §Y[Root.notable_dev.GetValue]§! dev (-[Root.notable_points.GetValue] points)"
+ alliance_system_limit_5:  "           Minor Power:        §Y[Root.minor_dev.GetValue]§! dev (-[Root.minor_points.GetValue] points)"
+ alliance_system_limit_6:  "           Puny Power:          §Y[Root.puny_dev.GetValue]§! dev (-[Root.puny_points.GetValue] points)"
+ alliance_system_line:     "§M------------------------------------------------------------------§!"
+  
+
+

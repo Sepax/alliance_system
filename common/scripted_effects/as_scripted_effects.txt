@@ -1,0 +1,310 @@
+alliance_system_config = {
+	# This is the base number of alliance slots a country gets
+	set_variable = {
+		which = base_alliance_points
+		value = 10
+	}
+	# This is the point cost for each nation tier
+	set_variable = {
+		which = colossal_points
+		value = 6
+	}
+	set_variable = {
+		which = major_points
+		value = 5
+	}
+	set_variable = {
+		which = prominent_points
+		value = 4
+	}
+	set_variable = {
+		which = notable_points
+		value = 3
+	}
+	set_variable = {
+		which = minor_points
+		value = 2
+	}
+	set_variable = {
+		which = puny_points
+		value = 1
+	}
+	# This is the number one great power development
+	set_variable = {
+		which = global_top_dev
+		which = event_target:GP1
+	}
+	# This is the development limit for each nation tier
+	set_variable = {
+		which = major_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = prominent_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = notable_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = minor_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = puny_dev
+		which = global_top_dev
+	}
+	multiply_variable = {
+		which = major_dev
+		value = 0.8
+	}
+	multiply_variable = {
+		which = prominent_dev
+		value = 0.6
+	}
+	multiply_variable = {
+		which = notable_dev
+		value = 0.4
+	}
+	multiply_variable = {
+		which = minor_dev
+		value = 0.2
+	}
+	multiply_variable = {
+		which = puny_dev
+		value = 0.1
+	}
+	flatten = {
+		float = major_dev
+	}
+	flatten = {
+		float = prominent_dev
+	}
+	flatten = {
+		float = notable_dev
+	}
+	flatten = {
+		float = minor_dev
+	}
+	flatten = {
+		float = puny_dev
+	}
+}
+
+sort_highest_dev_setup = {
+	every_country = {
+		export_to_variable = {
+			which = dev
+			value = total_development
+		}
+		save_event_target_as = target
+		every_subject_country = {
+			export_to_variable = {
+				which = dev
+				value = total_development
+			}
+			set_variable = {
+				which = temp
+				which = dev
+			}
+			divide_variable = {
+				which = temp
+				value = 2
+			}
+			event_target:target = {
+				set_variable = {
+					which = temp
+					which = PREV
+				}
+				change_variable = {
+					which = dev
+					which = temp
+				}
+			}
+		}
+		flatten = {
+			float = dev
+		}
+	}
+}
+
+sort_highest_dev_cleanup = {
+	every_country = {
+		clr_country_flag = top_dev_sorted
+	}
+}
+
+sort_highest_dev = {
+	#target
+	random_country = {
+		limit = {
+			NOT = {
+				has_country_flag = top_dev_sorted
+			}
+		}
+		save_global_event_target_as = $target$
+	}
+	every_country = {
+		limit = {
+			NOT = {
+				has_country_flag = top_dev_sorted
+			}
+			check_variable = {
+				which = dev
+				which = event_target:$target$
+			}
+		}
+		save_global_event_target_as = $target$
+	}
+	event_target:$target$ = {
+		set_country_flag = top_dev_sorted
+		set_variable = {
+			which = global_top_dev
+			which = dev
+		}
+	}
+}
+
+# Checks the size of the root country and sets the alliance cost of said country
+set_alliance_cost = {
+	#if = {
+	# limit = {
+	# 	ai = no
+	# }
+	hidden_effect = {
+		alliance_system_config = yes
+		set_variable = {
+			which = alliance_cost
+			value = 0
+		}
+		set_variable = {
+			which = alliance_points
+			which = base_alliance_points
+		}
+	}
+	if = {
+		limit = {
+			check_variable = {
+				which = dev
+				which = global_top_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = colossal_points
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = dev
+				which = major_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = major_points
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = dev
+				which = prominent_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = prominent_points
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = dev
+				which = notable_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = notable_points
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				which = dev
+				which = minor_dev
+			}
+		}
+		change_variable = {
+			which = alliance_cost
+			which = minor_points
+		}
+	}
+	else = {
+		change_variable = {
+			which = alliance_cost
+			which = puny_points
+		}
+	}
+	#}
+}
+
+alliance_scanner = {
+	set_alliance_cost = yes
+	subtract_variable = {
+		which = alliance_points
+		which = alliance_cost
+	}
+	save_event_target_as = target
+	every_ally = {
+		# limit = {
+		# 	ai = no
+		# }
+		set_variable = {
+			which = temp
+			which = alliance_cost
+		}
+		event_target:target = {
+			set_variable = {
+				which = temp
+				which = alliance_points
+			}
+			subtract_variable = {
+				which = temp
+				which = PREV
+			}
+			set_variable = {
+				which = alliance_points
+				which = temp
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				check_variable = {
+					which = alliance_points
+					value = 0
+				}
+			}
+		}
+		set_country_flag = too_many_alliances
+	}
+	else = {
+		clr_country_flag = too_many_alliances
+	}
+}
+
+flatten = {
+	multiply_variable = {
+		which = $float$
+		value = 0.001
+	}
+	multiply_variable = {
+		which = $float$
+		value = 1000
+	}
+}

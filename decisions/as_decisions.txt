@@ -1,0 +1,39 @@
+country_decisions = {
+	alliance_system_decision = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		effect = {
+			custom_tooltip = alliance_system_points
+			custom_tooltip = alliance_system_cost
+			custom_tooltip = alliance_system_header_1
+			custom_tooltip = alliance_system_desc
+			custom_tooltip = alliance_system_header_2
+			custom_tooltip = alliance_system_limit_1
+			custom_tooltip = alliance_system_limit_2
+			custom_tooltip = alliance_system_limit_3
+			custom_tooltip = alliance_system_limit_4
+			custom_tooltip = alliance_system_limit_5
+			custom_tooltip = alliance_system_limit_6
+			custom_tooltip = alliance_system_line
+		}
+	}
+	great_powers_decision = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+		effect = {
+			custom_tooltip = great_powers_decision
+		}
+	}
+}
