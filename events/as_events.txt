@@ -150,20 +150,76 @@ country_event = {
 			ally = A10
 		}
 		list_ally_clear = yes
-
-		num_of_allies
 	}
 	option = {
 		name = alliance_system.4.a
+		trigger = {
+			num_of_allies = 1
+		}
 		break_alliance = event_target:A1
 	}
 	option = {
 		name = alliance_system.4.b
+		trigger = {
+			num_of_allies = 2
+		}
 		break_alliance = event_target:A2
 	}
 	option = {
 		name = alliance_system.4.c
+		trigger = {
+			num_of_allies = 3
+		}
 		break_alliance = event_target:A3
+	}
+	option = {
+		name = alliance_system.4.d
+		trigger = {
+			num_of_allies = 4
+		}
+		break_alliance = event_target:A4
+	}
+	option = {
+		name = alliance_system.4.e
+		trigger = {
+			num_of_allies = 5
+		}
+		break_alliance = event_target:A5
+	}
+	option = {
+		name = alliance_system.4.f
+		trigger = {
+			num_of_allies = 6
+		}
+		break_alliance = event_target:A6
+	}
+	option = {
+		name = alliance_system.4.g
+		trigger = {
+			num_of_allies = 7
+		}
+		break_alliance = event_target:A7
+	}
+	option = {
+		name = alliance_system.4.h
+		trigger = {
+			num_of_allies = 8
+		}
+		break_alliance = event_target:A8
+	}
+	option = {
+		name = alliance_system.4.i
+		trigger = {
+			num_of_allies = 9
+		}
+		break_alliance = event_target:A9
+	}
+	option = {
+		name = alliance_system.4.j
+		trigger = {
+			num_of_allies = 10
+		}
+		break_alliance = event_target:A10
 	}
 	after = {
 		alliance_scanner = yes
