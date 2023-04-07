@@ -1,0 +1,18 @@
+allianceaction = {
+	condition = {
+		tooltip = NOT_ENOUGH_POINTS
+		potential = {
+			ai = no
+		}
+		allow = {
+			OR = {
+				NOT = {
+					has_country_flag = too_many_alliances
+				}
+				FROM = {
+					has_country_flag = too_many_alliances
+				}
+			}
+		}
+	}
+}

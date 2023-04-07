@@ -30,6 +30,8 @@
  alliance_system_limit_5:  "           Minor Power:        §Y[Root.minor_dev.GetValue]§! dev (-[Root.minor_points.GetValue] points)"
  alliance_system_limit_6:  "           Puny Power:          §Y[Root.puny_dev.GetValue]§! dev (-[Root.puny_points.GetValue] points)"
  alliance_system_line:     "§M------------------------------------------------------------------§!"
+
+ NOT_ENOUGH_POINTS:0 "[From.GetName]' or you does not have enough alliance points to ally."
   
 
 
