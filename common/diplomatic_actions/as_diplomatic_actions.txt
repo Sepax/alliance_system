@@ -6,25 +6,40 @@ allianceaction = {
 		}
 		allow = {
 			OR = {
-				has_country_flag = too_many_alliances
-				FROM = {
+				NOT = {
 					has_country_flag = too_many_alliances
+				}
+				FROM = {
+					NOT = {
+						has_country_flag = too_many_alliances
+					}
 				}
 			}
 		}
 	}
 	condition = {
-		tooltip = REPUBLIC_DENIED_ALLIANCE
+		tooltip = NOT_ENOUGH_POINTS
 		potential = {
-			has_government_attribute = cannot_ally_non_republics
+			has_country_flag = too_many_alliances
 		}
 		allow = {
-			OR = {
-				NOT = {
-					has_government_attribute = cannot_ally_non_republics
-				}
+			NOT = {
+			   has_country_flag = too_many_alliances
+			}
+		}
+	}
+
+	condition = {
+		tooltip = FROM_NOT_ENOUGH_POINTS
+		potential = {
+			FROM = {
+				has_country_flag = too_many_alliances
+			}
+		}
+		allow = {
+			NOT = {
 				FROM = {
-					government = republic
+					has_country_flag = too_many_alliances
 				}
 			}
 		}
