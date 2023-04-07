@@ -172,16 +172,14 @@ set_alliance_cost = {
 	# limit = {
 	# 	ai = no
 	# }
-	hidden_effect = {
-		alliance_system_config = yes
-		set_variable = {
-			which = alliance_cost
-			value = 0
-		}
-		set_variable = {
-			which = alliance_points
-			which = base_alliance_points
-		}
+	alliance_system_config = yes
+	set_variable = {
+		which = alliance_cost
+		value = 0
+	}
+	set_variable = {
+		which = alliance_points
+		which = base_alliance_points
 	}
 	if = {
 		limit = {
@@ -253,32 +251,93 @@ set_alliance_cost = {
 }
 
 alliance_scanner = {
-	set_alliance_cost = yes
+	hidden_effect = {
+		set_alliance_cost = yes
+	}
 	subtract_variable = {
 		which = alliance_points
 		which = alliance_cost
 	}
-	save_event_target_as = target
+	save_event_target_as = scan_nation
 	every_ally = {
-		# limit = {
-		# 	ai = no
-		# }
 		set_variable = {
-			which = temp
+			which = alliance_scanner_temp
 			which = alliance_cost
 		}
-		event_target:target = {
+		event_target:scan_nation = {
 			set_variable = {
-				which = temp
+				which = alliance_scanner_temp
 				which = alliance_points
 			}
 			subtract_variable = {
-				which = temp
+				which = alliance_scanner_temp
 				which = PREV
 			}
 			set_variable = {
 				which = alliance_points
-				which = temp
+				which = alliance_scanner_temp
+			}
+		}
+	}
+	every_subject_country = {
+		limit = {
+			NOT = {
+				AND = {
+					current_age = age_of_discovery
+					OR = {
+						tag = SWE
+						tag = NOR
+					}
+				}
+			}
+			OR = {
+				is_subject_of_type = vassal
+				is_subject_of_type = march
+				is_subject_of_type = personal_union
+				is_subject_of_type = client_state
+			}
+		}
+		set_variable = {
+			which = alliance_scanner_temp
+			which = alliance_cost
+		}
+		event_target:scan_nation = {
+			set_variable = {
+				which = alliance_scanner_temp
+				which = alliance_points
+			}
+			subtract_variable = {
+				which = alliance_scanner_temp
+				which = PREV
+			}
+			set_variable = {
+				which = alliance_points
+				which = alliance_scanner_temp
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			event_target:scan_nation = { 
+				guaranteed_by = PREV
+			}
+		}
+		set_variable = {
+			which = alliance_scanner_temp
+			which = alliance_cost
+		}
+		event_target:scan_nation = {
+			set_variable = {
+				which = alliance_scanner_temp
+				which = alliance_points
+			}
+			subtract_variable = {
+				which = alliance_scanner_temp
+				which = PREV
+			}
+			set_variable = {
+				which = alliance_points
+				which = alliance_scanner_temp
 			}
 		}
 	}
@@ -292,6 +351,9 @@ alliance_scanner = {
 			}
 		}
 		set_country_flag = too_many_alliances
+		country_event = {
+			id = alliance_system.4
+		}
 	}
 	else = {
 		clr_country_flag = too_many_alliances
@@ -306,5 +368,28 @@ flatten = {
 	multiply_variable = {
 		which = $float$
 		value = 1000
+	}
+}
+
+list_ally = {
+	random_ally = {
+		limit = {
+			NOT = {
+				has_country_flag = ally_listed
+			}
+		}
+		save_event_target_as = $ally$
+		set_country_flag = ally_listed
+	}
+}
+
+list_ally_clear = {
+	every_country = {
+		limit = {
+			has_country_flag = ally_listed
+		}
+		hidden_effect = {
+			clr_country_flag = ally_listed
+		}
 	}
 }

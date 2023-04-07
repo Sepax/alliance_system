@@ -118,9 +118,55 @@ country_event = {
 	desc = alliance_system.4.d
 	picture = RULEBREAK_eventPicture
 	is_triggered_only = yes
+	immediate {
+		list_ally = {
+			ally = A1
+		}
+		list_ally = {
+			ally = A2
+		}
+		list_ally = {
+			ally = A3
+		}
+		list_ally = {
+			ally = A4
+		}
+		list_ally = {
+			ally = A5
+		}
+		list_ally = {
+			ally = A6
+		}
+		list_ally = {
+			ally = A7
+		}
+		list_ally = {
+			ally = A8
+		}
+		list_ally = {
+			ally = A9
+		}
+		list_ally = {
+			ally = A10
+		}
+		list_ally_clear = yes
+
+		num_of_allies
+	}
 	option = {
 		name = alliance_system.4.a
-		add_corruption = 1
+		break_alliance = event_target:A1
+	}
+	option = {
+		name = alliance_system.4.b
+		break_alliance = event_target:A2
+	}
+	option = {
+		name = alliance_system.4.c
+		break_alliance = event_target:A3
+	}
+	after = {
+		alliance_scanner = yes
 		add_country_modifier = {
 			name = too_many_alliances_timer
 			duration = 180
@@ -162,3 +208,5 @@ country_event = {
 		}
 	}
 }
+
+

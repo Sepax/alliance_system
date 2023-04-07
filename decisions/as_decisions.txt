@@ -5,7 +5,7 @@ country_decisions = {
 		}
 		allow = {
 			hidden_trigger = {
-				always = no
+				always = yes
 			}
 		}
 		effect = {
@@ -21,6 +21,9 @@ country_decisions = {
 			custom_tooltip = alliance_system_limit_5
 			custom_tooltip = alliance_system_limit_6
 			custom_tooltip = alliance_system_line
+			#hidden_effect = {
+				alliance_scanner = yes
+			#}
 		}
 	}
 	great_powers_decision = {

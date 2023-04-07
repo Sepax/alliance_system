@@ -8,8 +8,7 @@
  great_powers_decision: "§M------ Great Powers ------§!\n  1: [GP1.GetName], [GP1.dev.GetValue] dev\n  2: [GP2.GetName], [GP2.dev.GetValue] dev\n  3: [GP3.GetName], [GP3.dev.GetValue] dev\n  4: [GP4.GetName], [GP4.dev.GetValue] dev\n  5: [GP5.GetName], [GP5.dev.GetValue] dev\n  6: [GP6.GetName], [GP6.dev.GetValue] dev\n  7: [GP7.GetName], [GP7.dev.GetValue] dev\n  8: [GP8.GetName], [GP8.dev.GetValue] dev\n  9: [GP9.GetName], [GP9.dev.GetValue] dev\n  10: [GP10.GetName], [GP10.dev.GetValue] dev\n§M----------------------------§!"
 
  alliance_system.4.t:0 "STOP! Du bryter mot alliansreglerna."
- alliance_system.4.d:1 "Ta ditt straff och be tengilen om förlåtelse. (Detta event kommer upprepas varje månad om du fortfarande bryter mot alliansreglerna)"
- alliance_system.4.a:0 "Tengil, snälla förlåt mig för jag har syndat"
+ alliance_system.4.d:1 "Bryt en allians och be tengilen om förlåtelse.
 
  check_alliance_cost: "Check Alliance Points"
  check_alliance_cost_title: "Check Alliance Points"
@@ -31,8 +30,19 @@
  alliance_system_limit_6:  "           Puny Power:          §Y[Root.puny_dev.GetValue]§! dev (-[Root.puny_points.GetValue] points)"
  alliance_system_line:     "§M------------------------------------------------------------------§!"
 
- NOT_ENOUGH_POINTS:0 "You do not have enough alliance points to ally."
- FROM_NOT_ENOUGH_POINTS:0 "[From.GetName] does not have enough alliance points to ally."
+ BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
+ FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
+
+ alliance_system.4.a:0 "End treaty: [A1.GetName]"
+ alliance_system.4.b:0 "End treaty: [A2.GetName]"
+ alliance_system.4.c:0 "End treaty: [A3.GetName]"
+ alliance_system.4.d:0 "End treaty: [A4.GetName]"
+ alliance_system.4.e:0 "End treaty: [A5.GetName]"
+ alliance_system.4.f:0 "End treaty: [A6.GetName]"
+ alliance_system.4.g:0 "End treaty: [A7.GetName]"
+ alliance_system.4.h:0 "End treaty: [A8.GetName]"
+ alliance_system.4.i:0 "End treaty: [A9.GetName]"
+ alliance_system.4.j:0 "End treaty: [A10.GetName]"
   
 
 
