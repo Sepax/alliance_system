@@ -4,11 +4,12 @@ check_alliance_cost = {
 	alert_tooltip = ICON_VASSAL
 	require_acceptance = no
 	is_visible = {
-		always = yes
+		FROM = {
+			ai = no
+		}
 	}
 	is_allowed = {
-		hidden_trigger
-		{
+		hidden_trigger = {
 			always = no
 		}
 	}

@@ -1,0 +1,19 @@
+# defined_text = {
+#     name = AllianceSystemNotificationStatus
+#     random = no
+
+#     text = {
+#         localisation_key = as_notification_status_on
+#         trigger = {
+#             has_country_flag = alliance_notifications
+#         }
+#     }
+#     text = {
+#         localisation_key = as_notification_status_off
+#         trigger = {
+#             NOT = {
+#                 has_country_flag = alliance_notifications
+#             }
+#         }
+#     }
+# }

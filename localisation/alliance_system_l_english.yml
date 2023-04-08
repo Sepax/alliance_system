@@ -14,17 +14,27 @@
  check_alliance_cost_alert_tooltip: "bla"
 
  alliance_system_header_1: "§M------------------- Gurkans Alliance System ------------------§!"
- alliance_system_desc:       "The alliance system keeps track of your allowed alliances during gameplay. You start with [Root.base_alliance_points.GetValue] alliance points, which decrease based on your allies' and your own power status. Large nations cost more alliance points than smaller ones. Breaking the rules by reaching a negative point value results in the tengil haunting you for the rest of your days.\n§O- Tip: Enact this decision to update your values.§!"
- alliance_system_points:   "§J###############################################§!\n§J############§! §TAvailable Alliance Points:§! [Root.alliance_points.GetValue] §J###########§!\n§J###############################################§!"
- alliance_system_cost:   "§J#############§! §TYou cost§! [Root.alliance_cost.GetValue] §Tpoints to ally§! §J#############§!\n§J###############################################§!"
- alliance_system_row:      ""
- alliance_system_header_2: "§M------------------------ Power Statuses ------------------------§!"
- alliance_system_limit_1:  "         Great Power:            §Y[Root.great_dev.GetValue]-[GP1.dev.GetValue]§! dev (-[Root.great_points.GetValue] points)"
- alliance_system_limit_2:  "         Major Power:           §Y[Root.major_dev.GetValue]-[Root.major_dev_upper.GetValue]§! dev (-[Root.major_points.GetValue] points)"
- alliance_system_limit_3:  "         Prominent Power:     §Y[Root.prominent_dev.GetValue]-[Root.prominent_dev_upper.GetValue]§! dev (-[Root.prominent_points.GetValue] points)"
- alliance_system_limit_4:  "         Notable Power:         §Y[Root.notable_dev.GetValue]-[Root.notable_dev_upper.GetValue]§! dev (-[Root.notable_points.GetValue] points)"
- alliance_system_limit_5:  "         Minor Power:           §Y[Root.minor_dev.GetValue]-[Root.minor_dev_upper.GetValue]§! dev (-[Root.minor_points.GetValue] points)"
- alliance_system_limit_6:  "         Puny Power:             §Y[Root.puny_dev.GetValue]-[Root.puny_dev_upper.GetValue]§! dev (-[Root.puny_points.GetValue] points)"
+ alliance_system_desc:       "The Alliance System keeps track of each players allowed alliances during gameplay.\nEach nation starts with §O[Root.base_alliance_points.GetValue] Alliance Points§!, which decrease based on your allies' and your own power status. If you for example have a power status of 8 points, these points will be subtracted from your available points. If you ally someone, their point cost will further be subtracted from your available points. Breaking the rules by reaching a negative point value results in the Tengil haunting you for the rest of your days."
+ alliance_system_header_2: "§M------------------------------ Stats ------------------------------§!"
+ alliance_system_points: "£dip£ Available Alliance Points: §O[Root.alliance_points.GetValue]§!"
+ alliance_system_cost: "£dip£ Your Alliance Point Cost: §O[Root.alliance_cost.GetValue]§!"
+ alliance_system_header_3: "§M------------------------ Power Statuses ------------------------§!"
+ alliance_system_limit_1:  "£mil£ Great Power: §Y[Root.great_dev.GetValue]-[GP1.dev.GetValue]§! £icon_development_in_text£ (-[Root.great_points.GetValue] points)"
+ alliance_system_limit_2:  "£mil£ Major Power: §Y[Root.major_dev.GetValue]-[Root.major_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.major_points.GetValue] points)"
+ alliance_system_limit_3:  "£mil£ Prominent Power: §Y[Root.prominent_dev.GetValue]-[Root.prominent_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.prominent_points.GetValue] points)"
+ alliance_system_limit_4:  "£mil£ Notable Power: §Y[Root.notable_dev.GetValue]-[Root.notable_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.notable_points.GetValue] points)"
+ alliance_system_limit_5:  "£mil£ Minor Power: §Y[Root.minor_dev.GetValue]-[Root.minor_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.minor_points.GetValue] points)"
+ alliance_system_limit_6:  "£mil£ Puny Power: §Y[Root.puny_dev.GetValue]-[Root.puny_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.puny_points.GetValue] points)"
+ alliance_system_header_4: "§M------------------------------ Note -----------------------------§!"
+ alliance_system_note_update: "§J‡‡§! Stats are updated automatically, but can also be updated by enacting this decision."
+ alliance_system_note_ai: "§J‡‡§! AI nations never have points or cost points."
+ alliance_system_note_own_cost: "§J‡‡§! Your own point cost is subtracted from your base value of [Root.base_alliance_points.GetValue], just like your allies."
+ alliance_system_note_subjects: "§J‡‡§! Player subjects reduce your points. This includes vassals, marches, colonies and client states."
+ alliance_system_note_free_subjects: "§J‡‡§! Free player subjects in Age of Discovery: Sweden, Norway, Holland, Brabant, Flanders, Lithuania."
+ alliance_system_note_not_allies: "§J‡‡§! Treaties like guarantees and tributaries cost points for the receiving nation."
+ alliance_system_note_colonies: "§J‡‡§! Colony point cost is halfed for their overlord."
+ alliance_system_header_5: "§M------------------------- Known Bugs -------------------------§!"
+ alliance_system_bug_on_start: "£attrition£ The alliance scanner can sometimes not work properly on startup. §RPlease enact this decision after loading in to be sure that your stats are correct!§!"
  alliance_system_line:     "§M------------------------------------------------------------------§!"
 
  BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
@@ -42,6 +52,20 @@
  alliance_system.4.h:0 "End treaty: [A8.GetName]"
  alliance_system.4.i:0 "End treaty: [A9.GetName]"
  alliance_system.4.j:0 "End treaty: [A10.GetName]"
+ alliance_system.4.k:0 "Du har inga allianser men strider ändån mot reglerna."
+
+ alliance_system.5.t:0 "[From.GetName] bryter mot alliansreglerna."
+ alliance_system.5.d:1 "[From.GetName] bryter mot alliansreglerna, men har inga allierade. Detta kan bero på att han är garanterad, är tributary, eller har för många spelarkolonier."
+ alliance_system.5.a:0 "OK"
+
+#  as_notification_status_on: "Enabled"
+#  as_notification_status_off: "Disabled"
+#  alliance_system_notify_decision_title: "Alliance System Notifications: §M[Root.AllianceSystemNotificationStatus]§!"
+#  alliance_system_notify_decision_desc: "Notifies you if a certain player is breaking the alliances rules."
+#  alliance_system_notify_decision: "Toggle Alliance System Notifications"
+
+
+
   
 
 

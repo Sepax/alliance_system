@@ -116,6 +116,10 @@ declarewar = {
 	#		}
 	#	}
 	#}
+    pre_effect = {
+		alliance_scanner = yes
+	}
+
 	effect = {
 		if = {
 			limit = { 
@@ -139,6 +143,17 @@ declarewar = {
 				id = flavor_teu.33
 				days = 10
 			}
+		}
+	}
+
+	condition = {
+		tooltip = BREAKING_ALLIANCE_RULES
+		potential = { 
+			ai = no
+			has_country_flag = too_many_alliances
+		}
+		allow = {
+			always = no
 		}
 	}
 }

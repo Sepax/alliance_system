@@ -9,21 +9,57 @@ country_decisions = {
 			}
 		}
 		effect = {
-			custom_tooltip = alliance_system_points
-			custom_tooltip = alliance_system_cost
 			custom_tooltip = alliance_system_header_1
 			custom_tooltip = alliance_system_desc
 			custom_tooltip = alliance_system_header_2
+			custom_tooltip = alliance_system_points
+			custom_tooltip = alliance_system_cost
+			custom_tooltip = alliance_system_header_3
 			custom_tooltip = alliance_system_limit_1
 			custom_tooltip = alliance_system_limit_2
 			custom_tooltip = alliance_system_limit_3
 			custom_tooltip = alliance_system_limit_4
 			custom_tooltip = alliance_system_limit_5
 			custom_tooltip = alliance_system_limit_6
+			custom_tooltip = alliance_system_header_4
+			custom_tooltip = alliance_system_note_update
+			custom_tooltip = alliance_system_note_ai
+			custom_tooltip = alliance_system_note_own_cost
+			custom_tooltip = alliance_system_note_subjects
+			custom_tooltip = alliance_system_note_free_subjects
+			custom_tooltip = alliance_system_note_colonies
+			custom_tooltip = alliance_system_note_not_allies
+			custom_tooltip = alliance_system_header_5
+			custom_tooltip = alliance_system_bug_on_start
 			custom_tooltip = alliance_system_line
 			hidden_effect = {
+				find_great_power = yes
 				alliance_scanner = yes
 			}
 		}
 	}
+
+	# alliance_system_notify_decision = {
+	# 	potential = {
+	# 		ai = no
+	# 	}
+	# 	allow = {
+	# 		hidden_trigger = {
+	# 			always = yes
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		hidden_effect = {
+	# 			if = {
+	# 				limit = {
+	# 					has_country_flag = alliance_notifications
+	# 				}
+	# 				clr_country_flag = alliance_notifications
+	# 			}
+	# 			else = {
+	# 				set_country_flag = alliance_notifications
+	# 			}
+	# 		}
+	# 	}
+	# }
 }

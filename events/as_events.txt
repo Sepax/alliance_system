@@ -5,11 +5,13 @@ country_event = {
 	title = alliance_system.1.t
 	desc = alliance_system.1.d
 	picture = RELIGION_eventPicture
+	is_triggered_only = yes
 	hidden = yes
+	mean_time_to_happen = {
+		days = 1
+	}
 	trigger = {
-		NOT = {
-			has_country_flag = initialized_alliance_system
-		}
+		always = yes
 	}
 	option = {
 		country_event = {
@@ -18,11 +20,10 @@ country_event = {
 		country_event = {
 			id = alliance_system.3
 		}
-		set_country_flag = initialized_alliance_system
 	}
 }
 
-# Generates a list of the 10 highest dev countries
+# Sets dev values and finds the top dev country
 country_event = {
 	id = alliance_system.2
 	title = alliance_system.2.t
@@ -41,11 +42,8 @@ country_event = {
 	}
 	option = {
 		hidden_effect = {
-			sort_highest_dev_setup = yes
-			sort_highest_dev = {
-				target = GP1
-			}
-			sort_highest_dev_cleanup = yes
+			set_dev_values = yes
+			find_top_dev = yes
 		}
 		1269 = {
 			add_province_modifier = {
@@ -67,7 +65,7 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		# ai = no
+		ai = no
 		NOT = {
 			has_country_modifier = alliance_scanner_timer
 		}
@@ -78,7 +76,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = alliance_scanner_timer
-			duration = 90
+			duration = 30
 			hidden = yes
 		}
 	}
@@ -91,6 +89,16 @@ country_event = {
 	desc = alliance_system.4.d
 	picture = RULEBREAK_eventPicture
 	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		ai = no
+		has_country_flag = too_many_alliances
+		NOT = {
+			has_country_modifier = too_many_alliances_timer
+		}
+	}
 	immediate {
 		list_ally = {
 			ally = A1
@@ -194,47 +202,52 @@ country_event = {
 		}
 		break_alliance = event_target:A10
 	}
+	option = {
+		name = alliance_system.4.k
+		trigger = {
+			OR = {
+				NOT = {
+					num_of_allies = 1
+				}
+				all_ally = {
+					ai = yes
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				NOT = {
+					tag = ROOT
+				}
+			}
+			country_event = {
+				id = alliance_system.5
+			}
+		}
+	}
 	after = {
 		alliance_scanner = yes
 		add_country_modifier = {
 			name = too_many_alliances_timer
-			duration = 180
+			duration = 90
 			hidden = yes
 		}
 	}
 }
 
-# Too many alliances (pre-event)
+# Too many alliances (notification)
 country_event = {
 	id = alliance_system.5
 	title = alliance_system.5.t
 	desc = alliance_system.5.d
-	picture = RULEBREAK_eventPicture
-	hidden = yes
-	mean_time_to_happen = {
-		days = 1
-	}
+	picture = southamericagfx_ANGRY_MOB_eventPicture
+	is_triggered_only = yes
 	trigger = {
 		ai = no
-		has_country_flag = too_many_alliances
-		NOT = {
-			has_country_modifier = too_many_alliances_timer
-		}
-	}
-	immediate = {
-		country_event = {
-			id = alliance_system.3
-		}
 	}
 	option = {
-		if = {
-			limit = {
-				has_country_flag = too_many_alliances
-			}
-			country_event = {
-				id = alliance_system.4
-			}
-		}
+		name = alliance_system.5.a
 	}
 }
 

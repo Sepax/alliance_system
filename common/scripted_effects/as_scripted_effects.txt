@@ -1,64 +1,50 @@
 alliance_system_config = {
-	# This is the base number of alliance slots a country gets
-	set_variable = {
-		which = base_alliance_points
-		value = 15
+	alliance_system_config_before = yes
+
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = point_limits_set
+			}
+		}
+
+		# This is the base number of alliance points each country gets
+		set_variable = {
+			which = base_alliance_points
+			value = 15
+		}
+
+		# This is the point cost for each nation tier
+		set_variable = {
+			which = great_points
+			value = 8
+		}
+		set_variable = {
+			which = major_points
+			value = 6
+		}
+		set_variable = {
+			which = prominent_points
+			value = 4
+		}
+		set_variable = {
+			which = notable_points
+			value = 3
+		}
+		set_variable = {
+			which = minor_points
+			value = 2
+		}
+		set_variable = {
+			which = puny_points
+			value = 1
+		}
+
+		set_country_flag = point_limits_set
 	}
-	# This is the point cost for each nation tier
-	set_variable = {
-		which = great_points
-		value = 8
-	}
-	set_variable = {
-		which = major_points
-		value = 6
-	}
-	set_variable = {
-		which = prominent_points
-		value = 4
-	}
-	set_variable = {
-		which = notable_points
-		value = 3
-	}
-	set_variable = {
-		which = minor_points
-		value = 2
-	}
-	set_variable = {
-		which = puny_points
-		value = 1
-	}
-	# This is the number one great power development
-	set_variable = {
-		which = global_top_dev
-		which = event_target:GP1
-	}
-	# This is the development limit for each nation tier
-	set_variable = {
-		which = great_dev
-		which = global_top_dev
-	}
-	set_variable = {
-		which = major_dev
-		which = global_top_dev
-	}
-	set_variable = {
-		which = prominent_dev
-		which = global_top_dev
-	}
-	set_variable = {
-		which = notable_dev
-		which = global_top_dev
-	}
-	set_variable = {
-		which = minor_dev
-		which = global_top_dev
-	}
-	divide_variable = {
-		which = puny_dev
-		value = global_top_dev
-	}
+
+	# This is the development limit for each power tier in
+	# percentages of the number one great power development.
 	multiply_variable = {
 		which = great_dev
 		value = 0.9
@@ -83,6 +69,41 @@ alliance_system_config = {
 		which = puny_dev
 		value = 0
 	}
+	alliance_system_config_after = yes
+}
+
+alliance_system_config_before = {
+	set_variable = {
+		which = global_top_dev
+		which = event_target:GP1
+	}
+	set_variable = {
+		which = great_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = major_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = prominent_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = notable_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = minor_dev
+		which = global_top_dev
+	}
+	set_variable = {
+		which = puny_dev
+		value = global_top_dev
+	}
+}
+
+alliance_system_config_after = {
 	flatten = {
 		float = great_dev
 	}
@@ -101,42 +122,41 @@ alliance_system_config = {
 	flatten = {
 		float = puny_dev
 	}
-
 	set_variable = {
 		which = major_dev_upper
 		which = great_dev
-	}
-	change_variable = {
-		which = major_dev_upper
-		value = -1
 	}
 	set_variable = {
 		which = prominent_dev_upper
 		which = major_dev
 	}
-	change_variable = {
-		which = prominent_dev_upper
-		value = -1
-	}
 	set_variable = {
 		which = notable_dev_upper
 		which = prominent_dev
-	}
-	change_variable = {
-		which = notable_dev_upper
-		value = -1
 	}
 	set_variable = {
 		which = minor_dev_upper
 		which = notable_dev
 	}
-	change_variable = {
-		which = minor_dev_upper
-		value = -1
-	}
 	set_variable = {
 		which = puny_dev_upper
 		which = minor_dev
+	}
+	change_variable = {
+		which = major_dev_upper
+		value = -1
+	}
+	change_variable = {
+		which = prominent_dev_upper
+		value = -1
+	}
+	change_variable = {
+		which = notable_dev_upper
+		value = -1
+	}
+	change_variable = {
+		which = minor_dev_upper
+		value = -1
 	}
 	change_variable = {
 		which = puny_dev_upper
@@ -144,7 +164,7 @@ alliance_system_config = {
 	}
 }
 
-sort_highest_dev_setup = {
+set_dev_values = {
 	every_country = {
 		export_to_variable = {
 			which = dev
@@ -181,36 +201,19 @@ sort_highest_dev_setup = {
 	}
 }
 
-sort_highest_dev_cleanup = {
-	every_country = {
-		clr_country_flag = top_dev_sorted
-	}
-}
-
-sort_highest_dev = {
-	#target
-	random_country = {
-		limit = {
-			NOT = {
-				has_country_flag = top_dev_sorted
-			}
-		}
-		save_global_event_target_as = $target$
-	}
+find_top_dev = {
 	every_country = {
 		limit = {
 			NOT = {
-				has_country_flag = top_dev_sorted
-			}
-			check_variable = {
-				which = dev
-				which = event_target:$target$
+				any_country = {
+					check_variable = {
+						which = dev
+						which = PREV
+					}
+				}
 			}
 		}
-		save_global_event_target_as = $target$
-	}
-	event_target:$target$ = {
-		set_country_flag = top_dev_sorted
+		save_global_event_target_as = GP1
 		set_variable = {
 			which = global_top_dev
 			which = dev
@@ -220,234 +223,240 @@ sort_highest_dev = {
 
 # Checks the size of the root country and sets the alliance cost of said country
 set_alliance_cost = {
-	#if = {
-	# limit = {
-	# 	ai = no
-	# }
-	alliance_system_config = yes
-	set_variable = {
-		which = alliance_cost
-		value = 0
-	}
-	set_variable = {
-		which = alliance_points
-		which = base_alliance_points
-	}
 	if = {
 		limit = {
-			check_variable = {
-				which = dev
-				which = great_dev
+			ai = no
+		}
+		alliance_system_config = yes
+		set_variable = {
+			which = alliance_cost
+			value = 0
+		}
+		set_variable = {
+			which = alliance_points
+			which = base_alliance_points
+		}
+		if = {
+			limit = {
+				check_variable = {
+					which = dev
+					which = great_dev
+				}
+			}
+			change_variable = {
+				which = alliance_cost
+				which = great_points
 			}
 		}
-		change_variable = {
-			which = alliance_cost
-			which = great_points
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				which = dev
-				which = major_dev
+		else_if = {
+			limit = {
+				check_variable = {
+					which = dev
+					which = major_dev
+				}
+			}
+			change_variable = {
+				which = alliance_cost
+				which = major_points
 			}
 		}
-		change_variable = {
-			which = alliance_cost
-			which = major_points
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				which = dev
-				which = prominent_dev
+		else_if = {
+			limit = {
+				check_variable = {
+					which = dev
+					which = prominent_dev
+				}
+			}
+			change_variable = {
+				which = alliance_cost
+				which = prominent_points
 			}
 		}
-		change_variable = {
-			which = alliance_cost
-			which = prominent_points
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				which = dev
-				which = notable_dev
+		else_if = {
+			limit = {
+				check_variable = {
+					which = dev
+					which = notable_dev
+				}
+			}
+			change_variable = {
+				which = alliance_cost
+				which = notable_points
 			}
 		}
-		change_variable = {
-			which = alliance_cost
-			which = notable_points
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				which = dev
-				which = minor_dev
+		else_if = {
+			limit = {
+				check_variable = {
+					which = dev
+					which = minor_dev
+				}
+			}
+			change_variable = {
+				which = alliance_cost
+				which = minor_points
 			}
 		}
-		change_variable = {
-			which = alliance_cost
-			which = minor_points
-		}
-	}
-	else = {
-		change_variable = {
-			which = alliance_cost
-			which = puny_points
-		}
-	}
-	
-	if = {
-		limit = {
-			OR = {
-				is_subject_of_type = colony
-				is_subject_of_type = crown_colony
-				is_subject_of_type = private_enterprise
-				is_subject_of_type = self_governing_colony
+		else = {
+			change_variable = {
+				which = alliance_cost
+				which = puny_points
 			}
 		}
-		divide_variable = {
-			which = alliance_cost
-			value = 2
+		
+		if = {
+			limit = {
+				OR = {
+					is_subject_of_type = colony
+					is_subject_of_type = crown_colony
+					is_subject_of_type = private_enterprise
+					is_subject_of_type = self_governing_colony
+				}
+			}
+			divide_variable = {
+				which = alliance_cost
+				value = 2
+			}
+			round = {
+				which = alliance_cost
+			}
 		}
-		round = {
-			which = alliance_cost
-		}
-
 	}
 }
 
 alliance_scanner = {
-	hidden_effect = {
+	if = {
+		limit = {
+			ai = no
+		}
 		set_alliance_cost = yes
-	}
-	subtract_variable = {
-		which = alliance_points
-		which = alliance_cost
-	}
-	save_event_target_as = scan_nation
-	every_ally = {
-		set_variable = {
-			which = alliance_scanner_temp
+		subtract_variable = {
+			which = alliance_points
 			which = alliance_cost
 		}
-		
-		ROOT = {
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_points
-			}
-			subtract_variable = {
-				which = alliance_scanner_temp
-				which = PREV
+		every_ally = {
+			limit = {
+				ai = no
 			}
 			set_variable = {
-				which = alliance_points
 				which = alliance_scanner_temp
+				which = alliance_cost
 			}
-			set_country_flag = found_ally_root
+			
+			ROOT = {
+				set_variable = {
+					which = alliance_scanner_temp
+					which = alliance_points
+				}
+				subtract_variable = {
+					which = alliance_scanner_temp
+					which = PREV
+				}
+				set_variable = {
+					which = alliance_points
+					which = alliance_scanner_temp
+				}
+			}
 		}
-		set_country_flag = found_ally@ROOT
-	}
-	every_subject_country = {
-		limit = {
-			NOT = {
-				AND = {
-					current_age = age_of_discovery
+		every_subject_country = {
+			limit = {
+				ai = no
+				NOT = {
+					AND = {
+						current_age = age_of_discovery
+						OR = {
+							tag = SWE
+							tag = NOR
+							tag = HOL
+							tag = FLA
+							tag = BRB
+							tag = LIT
+						}
+					}
+				}
+				OR = {
+					is_subject_of_type = vassal
+					is_subject_of_type = march
+					is_subject_of_type = personal_union
+					is_subject_of_type = client_state
+					is_subject_of_type = colony
+					is_subject_of_type = crown_colony
+					is_subject_of_type = private_enterprise
+					is_subject_of_type = self_governing_colony
+				}
+			}
+			set_variable = {
+				which = alliance_scanner_temp
+				which = alliance_cost
+			}
+			ROOT = {
+				set_variable = {
+					which = alliance_scanner_temp
+					which = alliance_points
+				}
+				subtract_variable = {
+					which = alliance_scanner_temp
+					which = PREV
+				}
+				set_variable = {
+					which = alliance_points
+					which = alliance_scanner_temp
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				ai = no
+				ROOT = {
 					OR = {
-						tag = SWE
-						tag = NOR
-						tag = HOL
-						tag = FLA
-						tag = BRB
-						tag = LIT
+						is_subject_of_type_with_overlord = { who = PREV type = tributary_state }
+						guaranteed_by = PREV
+					}
+					
+				}
+			}
+			set_variable = {
+				which = alliance_scanner_temp
+				which = alliance_cost
+			}
+			ROOT = {
+				set_variable = {
+					which = alliance_scanner_temp
+					which = alliance_points
+				}
+				subtract_variable = {
+					which = alliance_scanner_temp
+					which = PREV
+				}
+				set_variable = {
+					which = alliance_points
+					which = alliance_scanner_temp
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					check_variable = {
+						which = alliance_points
+						value = 0
 					}
 				}
 			}
-			OR = {
-				is_subject_of_type = vassal
-				is_subject_of_type = march
-				is_subject_of_type = personal_union
-				is_subject_of_type = client_state
-				is_subject_of_type = colony
-				is_subject_of_type = crown_colony
-				is_subject_of_type = private_enterprise
-				is_subject_of_type = self_governing_colony
+			set_country_flag = too_many_alliances
+			country_event = {
+				id = alliance_system.4
 			}
 		}
-		set_variable = {
-			which = alliance_scanner_temp
-			which = alliance_cost
+		else = {
+			clr_country_flag = too_many_alliances
 		}
-		ROOT = {
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_points
-			}
-			subtract_variable = {
-				which = alliance_scanner_temp
-				which = PREV
-			}
-			set_variable = {
-				which = alliance_points
-				which = alliance_scanner_temp
-			}
-		}
-	}
-	every_country = {
-		limit = {
-			ROOT = {
-				OR = {
-					is_subject_of_type_with_overlord = { who = PREV type = tributary_state }
-					guaranteed_by = PREV
-				}
-				
-			}
-		}
-		set_variable = {
-			which = alliance_scanner_temp
-			which = alliance_cost
-		}
-		ROOT = {
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_points
-			}
-			subtract_variable = {
-				which = alliance_scanner_temp
-				which = PREV
-			}
-			set_variable = {
-				which = alliance_points
-				which = alliance_scanner_temp
-			}
-		}
-	}
-	if = {
-		limit = {
-			NOT = {
-				check_variable = {
-					which = alliance_points
-					value = 0
-				}
-			}
-		}
-		set_country_flag = too_many_alliances
-		country_event = {
-			id = alliance_system.4
-		}
-	}
-	else = {
-		clr_country_flag = too_many_alliances
 	}
 }
 
 list_ally = {
 	random_ally = {
 		limit = {
+			ai = no
 			NOT = {
 				has_country_flag = ally_listed
 			}
