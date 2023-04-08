@@ -316,6 +316,7 @@ set_alliance_cost = {
 		round = {
 			which = alliance_cost
 		}
+
 	}
 }
 
@@ -333,7 +334,8 @@ alliance_scanner = {
 			which = alliance_scanner_temp
 			which = alliance_cost
 		}
-		event_target:scan_nation = {
+		
+		ROOT = {
 			set_variable = {
 				which = alliance_scanner_temp
 				which = alliance_points
@@ -346,7 +348,9 @@ alliance_scanner = {
 				which = alliance_points
 				which = alliance_scanner_temp
 			}
+			set_country_flag = found_ally_root
 		}
+		set_country_flag = found_ally@ROOT
 	}
 	every_subject_country = {
 		limit = {
@@ -378,7 +382,7 @@ alliance_scanner = {
 			which = alliance_scanner_temp
 			which = alliance_cost
 		}
-		event_target:scan_nation = {
+		ROOT = {
 			set_variable = {
 				which = alliance_scanner_temp
 				which = alliance_points
@@ -395,7 +399,7 @@ alliance_scanner = {
 	}
 	every_country = {
 		limit = {
-			event_target:scan_nation = {
+			ROOT = {
 				OR = {
 					is_subject_of_type_with_overlord = { who = PREV type = tributary_state }
 					guaranteed_by = PREV
@@ -407,7 +411,7 @@ alliance_scanner = {
 			which = alliance_scanner_temp
 			which = alliance_cost
 		}
-		event_target:scan_nation = {
+		ROOT = {
 			set_variable = {
 				which = alliance_scanner_temp
 				which = alliance_points

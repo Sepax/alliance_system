@@ -26,17 +26,4 @@ country_decisions = {
 			}
 		}
 	}
-	great_powers_decision = {
-		potential = {
-			ai = no
-		}
-		allow = {
-			hidden_trigger = {
-				always = no
-			}
-		}
-		effect = {
-			custom_tooltip = great_powers_decision
-		}
-	}
 }

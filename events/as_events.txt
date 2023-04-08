@@ -45,33 +45,6 @@ country_event = {
 			sort_highest_dev = {
 				target = GP1
 			}
-			sort_highest_dev = {
-				target = GP2
-			}
-			sort_highest_dev = {
-				target = GP3
-			}
-			sort_highest_dev = {
-				target = GP4
-			}
-			sort_highest_dev = {
-				target = GP5
-			}
-			sort_highest_dev = {
-				target = GP6
-			}
-			sort_highest_dev = {
-				target = GP7
-			}
-			sort_highest_dev = {
-				target = GP8
-			}
-			sort_highest_dev = {
-				target = GP9
-			}
-			sort_highest_dev = {
-				target = GP10
-			}
 			sort_highest_dev_cleanup = yes
 		}
 		1269 = {
@@ -154,70 +127,70 @@ country_event = {
 	option = {
 		name = alliance_system.4.a
 		trigger = {
-			num_of_allies = 1
+			alliance_with = event_target:A1
 		}
 		break_alliance = event_target:A1
 	}
 	option = {
 		name = alliance_system.4.b
 		trigger = {
-			num_of_allies = 2
+			alliance_with = event_target:A2
 		}
 		break_alliance = event_target:A2
 	}
 	option = {
 		name = alliance_system.4.c
 		trigger = {
-			num_of_allies = 3
+			alliance_with = event_target:A3
 		}
 		break_alliance = event_target:A3
 	}
 	option = {
 		name = alliance_system.4.d
 		trigger = {
-			num_of_allies = 4
+			alliance_with = event_target:A4
 		}
 		break_alliance = event_target:A4
 	}
 	option = {
 		name = alliance_system.4.e
 		trigger = {
-			num_of_allies = 5
+			alliance_with = event_target:A5
 		}
 		break_alliance = event_target:A5
 	}
 	option = {
 		name = alliance_system.4.f
 		trigger = {
-			num_of_allies = 6
+			alliance_with = event_target:A6
 		}
 		break_alliance = event_target:A6
 	}
 	option = {
 		name = alliance_system.4.g
 		trigger = {
-			num_of_allies = 7
+			alliance_with = event_target:A7
 		}
 		break_alliance = event_target:A7
 	}
 	option = {
 		name = alliance_system.4.h
 		trigger = {
-			num_of_allies = 8
+			alliance_with = event_target:A8
 		}
 		break_alliance = event_target:A8
 	}
 	option = {
 		name = alliance_system.4.i
 		trigger = {
-			num_of_allies = 9
+			alliance_with = event_target:A9
 		}
 		break_alliance = event_target:A9
 	}
 	option = {
 		name = alliance_system.4.j
 		trigger = {
-			num_of_allies = 10
+			alliance_with = event_target:A10
 		}
 		break_alliance = event_target:A10
 	}
