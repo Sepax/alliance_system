@@ -39,27 +39,35 @@ country_decisions = {
 		}
 	}
 
-	# alliance_system_notify_decision = {
-	# 	potential = {
-	# 		ai = no
-	# 	}
-	# 	allow = {
-	# 		hidden_trigger = {
-	# 			always = yes
-	# 		}
-	# 	}
-	# 	effect = {
-	# 		hidden_effect = {
-	# 			if = {
-	# 				limit = {
-	# 					has_country_flag = alliance_notifications
-	# 				}
-	# 				clr_country_flag = alliance_notifications
-	# 			}
-	# 			else = {
-	# 				set_country_flag = alliance_notifications
-	# 			}
-	# 		}
-	# 	}
-	# }
+	alliance_system_notify_decision = {
+		potential = {
+			ai = no
+			NOT = {
+				has_country_flag = alliance_system_notify_switch
+			}
+		}
+		allow = {
+			hidden_trigger = {
+				always = yes
+			}
+		}
+		effect = {
+			custom_tooltip = alliance_system_notify_decision
+			if = {
+				limit = {
+					has_country_flag = alliance_notifications
+				}
+				clr_country_flag = alliance_notifications
+			}
+			else = {
+				set_country_flag = alliance_notifications
+			}
+			set_country_flag = alliance_system_notify_switch
+			hidden_effect = {
+				country_event = {
+					id = alliance_system.6
+				}
+			}
+		}
+	}
 }

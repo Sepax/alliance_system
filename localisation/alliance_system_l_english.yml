@@ -10,7 +10,7 @@
  check_alliance_cost: "Check Alliance Points"
  check_alliance_cost_title: "Check Alliance Points"
  check_alliance_cost_desc: "bla"
- check_alliance_cost_tooltip: "- [From.GetName] has §M[From.alliance_points.GetValue]§! alliance points available.\n- Cost for him to ally you: §M[Root.alliance_cost.GetValue]§!\n- You have §M[Root.alliance_points.GetValue]§! alliance points available.\n- Cost for you to ally him: §M[From.alliance_cost.GetValue]§!"
+ check_alliance_cost_tooltip: "§M--------------------------- Their Stats -------------------------§!\n£dip£ Available Alliance Points: §O[From.alliance_points.GetValue]§!\n£dip£ Alliance Point Cost: §O[From.alliance_cost.GetValue]§!\n§M--------------------------- Your Stats --------------------------§!\n£dip£ Available Alliance Points: §O[Root.alliance_points.GetValue]§!\n£dip£ Alliance Point Cost: §O[Root.alliance_cost.GetValue]§!\n§M------------------------------------------------------------------§!"
  check_alliance_cost_alert_tooltip: "bla"
 
  alliance_system_header_1: "§M------------------- Gurkans Alliance System ------------------§!"
@@ -58,11 +58,11 @@
  alliance_system.5.d:1 "[From.GetName] bryter mot alliansreglerna, men har inga allierade. Detta kan bero på att han är garanterad, är tributary, eller har för många spelarkolonier."
  alliance_system.5.a:0 "OK"
 
-#  as_notification_status_on: "Enabled"
-#  as_notification_status_off: "Disabled"
-#  alliance_system_notify_decision_title: "Alliance System Notifications: §M[Root.AllianceSystemNotificationStatus]§!"
-#  alliance_system_notify_decision_desc: "Notifies you if a certain player is breaking the alliances rules."
-#  alliance_system_notify_decision: "Toggle Alliance System Notifications"
+ as_notification_status_on: "Enabled"
+ as_notification_status_off: "Disabled"
+ alliance_system_notify_decision_title: "§M‡‡§! Alliance System Notifications: §M[Root.AllianceSystemNotificationStatus]§!"
+ alliance_system_notify_decision_desc: "Notifies you if a certain player is breaking the alliances rules."
+ alliance_system_notify_decision: "Toggle Alliance System Notifications"
 
 
 

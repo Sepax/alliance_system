@@ -217,6 +217,7 @@ country_event = {
 		every_country = {
 			limit = {
 				ai = no
+				has_country_flag = alliance_notifications
 				NOT = {
 					tag = ROOT
 				}
@@ -245,9 +246,28 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		ai = no
+		has_country_flag = alliance_notifications
 	}
 	option = {
 		name = alliance_system.5.a
+	}
+}
+
+country_event = {
+	id = alliance_system.6
+	title = alliance_system.6.t
+	desc = alliance_system.6.d
+	picture = RELIGION_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		ai = no
+	}
+	option = {
+		clr_country_flag = alliance_system_notify_switch
 	}
 }
 
