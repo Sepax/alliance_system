@@ -14,6 +14,12 @@ alliance_system_config = {
 			value = 15
 		}
 
+		# Added cost for being the HRE Emperor
+		set_variable = {
+			which = hre_emperor_points
+			value = 2
+		}
+
 		# This is the point cost for each nation tier
 		set_variable = {
 			which = great_points
@@ -172,6 +178,11 @@ set_dev_values = {
 		}
 		save_event_target_as = target
 		every_subject_country = {
+			limit = {
+				NOT = {
+					is_subject_of_type = tributary_state
+				}
+			}
 			export_to_variable = {
 				which = dev
 				value = total_development
@@ -192,6 +203,35 @@ set_dev_values = {
 				change_variable = {
 					which = dev
 					which = temp
+				}
+			}
+			every_subject_country = {
+				limit = {
+					NOT = {
+						is_subject_of_type = tributary_state
+					}
+				}
+				export_to_variable = {
+					which = dev
+					value = total_development
+				}
+				set_variable = {
+					which = temp
+					which = dev
+				}
+				divide_variable = {
+					which = temp
+					value = 2
+				}
+				event_target:target = {
+					set_variable = {
+						which = temp
+						which = PREV
+					}
+					change_variable = {
+						which = dev
+						which = temp
+					}
 				}
 			}
 		}
@@ -225,7 +265,8 @@ find_top_dev = {
 set_alliance_cost = {
 	if = {
 		limit = {
-			ai = no
+			# ai = no
+			always = yes
 		}
 		alliance_system_config = yes
 		set_variable = {
@@ -317,7 +358,17 @@ set_alliance_cost = {
 				value = 2
 			}
 			round = {
+				float = alliance_cost
+			}
+		}
+
+		if = {
+			limit = {
+				is_emperor = yes
+			}
+			change_variable = {
 				which = alliance_cost
+				value = hre_emperor_points
 			}
 		}
 	}
@@ -326,7 +377,8 @@ set_alliance_cost = {
 alliance_scanner = {
 	if = {
 		limit = {
-			ai = no
+			# ai = no
+			always = yes
 		}
 		set_alliance_cost = yes
 		subtract_variable = {
@@ -335,7 +387,10 @@ alliance_scanner = {
 		}
 		every_ally = {
 			limit = {
-				ai = no
+				# ai = no
+				NOT = {
+					has_country_flag = ally_scanned
+				}
 			}
 			set_variable = {
 				which = alliance_scanner_temp
@@ -356,10 +411,11 @@ alliance_scanner = {
 					which = alliance_scanner_temp
 				}
 			}
+			set_country_flag = ally_scanned
 		}
 		every_subject_country = {
 			limit = {
-				ai = no
+				# ai = no
 				NOT = {
 					AND = {
 						current_age = age_of_discovery
@@ -405,13 +461,22 @@ alliance_scanner = {
 		}
 		every_country = {
 			limit = {
-				ai = no
+				# ai = no
 				ROOT = {
 					OR = {
-						is_subject_of_type_with_overlord = { who = PREV type = tributary_state }
 						guaranteed_by = PREV
+						AND = {
+							is_subject_of_type = tributary_state
+							is_subject_of = PREV
+						}
+						PREV = {
+							is_supporting_independence_of = ROOT
+						}
 					}
 					
+				}
+				NOT = {
+					has_country_flag = ally_scanned
 				}
 			}
 			set_variable = {
@@ -432,6 +497,9 @@ alliance_scanner = {
 					which = alliance_scanner_temp
 				}
 			}
+		}
+		every_ally = {
+			clr_country_flag = ally_scanned
 		}
 		if = {
 			limit = {
@@ -456,7 +524,7 @@ alliance_scanner = {
 list_ally = {
 	random_ally = {
 		limit = {
-			ai = no
+			# ai = no
 			NOT = {
 				has_country_flag = ally_listed
 			}
@@ -489,7 +557,7 @@ flatten = {
 }
 
 round = {
-	multiply_variable = {
+	change_variable = {
 		which = $float$
 		value = 0.5
 	}

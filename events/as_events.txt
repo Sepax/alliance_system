@@ -48,7 +48,7 @@ country_event = {
 		1269 = {
 			add_province_modifier = {
 				name = dev_list_timer
-				duration = 90
+				duration = 30
 			}
 		}
 	}
@@ -65,7 +65,7 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		ai = no
+		# ai = no
 		NOT = {
 			has_country_modifier = alliance_scanner_timer
 		}
@@ -93,7 +93,7 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		ai = no
+		# ai = no
 		has_country_flag = too_many_alliances
 		NOT = {
 			has_country_modifier = too_many_alliances_timer
@@ -231,7 +231,7 @@ country_event = {
 		alliance_scanner = yes
 		add_country_modifier = {
 			name = too_many_alliances_timer
-			duration = 90
+			duration = 30
 			hidden = yes
 		}
 	}
