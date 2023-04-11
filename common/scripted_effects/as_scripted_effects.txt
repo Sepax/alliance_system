@@ -81,7 +81,7 @@ alliance_system_config = {
 alliance_system_config_before = {
 	set_variable = {
 		which = global_top_dev
-		which = event_target:GP1
+		which = event_target:gp1
 	}
 	set_variable = {
 		which = great_dev
@@ -224,7 +224,7 @@ find_top_dev = {
 				}
 			}
 		}
-		save_global_event_target_as = GP1
+		save_global_event_target_as = gp1
 		set_variable = {
 			which = global_top_dev
 			which = dev
@@ -453,7 +453,7 @@ list_treaty = {
 	random_country = {
 		limit = {
 			is_player = yes
-			has_treaty_flag = yes
+			has_breakable_treaty_flag = yes
 			NOT = {
 				has_country_flag = treaty_listed
 			}
