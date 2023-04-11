@@ -1,7 +1,7 @@
 country_decisions = {
 	alliance_system_decision = {
 		potential = {
-			ai = no
+			is_player = yes
 			NOT = {
 				has_country_flag = alliance_system_switch
 			}
@@ -92,11 +92,14 @@ country_decisions = {
 				}
 			}
 		}
+		ai_will_do = {
+			factor = 0
+		}
 	}
 
 	alliance_system_notify_decision = {
 		potential = {
-			ai = no
+			is_player = yes
 			NOT = {
 				has_country_flag = alliance_system_notify_switch
 			}
@@ -124,6 +127,9 @@ country_decisions = {
 					id = alliance_system.6
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

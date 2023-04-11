@@ -70,3 +70,11 @@ has_treaty_flag = {
         has_country_flag = supporting_@ROOT
     }
 }
+
+has_breakable_treaty_flag = {
+    OR = {
+        has_country_flag = allied_with_@ROOT
+        has_country_flag = guaranteeing_@ROOT
+        has_country_flag = supporting_@ROOT
+    }
+}

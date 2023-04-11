@@ -149,7 +149,7 @@ declarewar = {
 	condition = {
 		tooltip = BREAKING_ALLIANCE_RULES
 		potential = { 
-			ai = no
+			is_player = yes
 			has_country_flag = too_many_alliances
 		}
 		allow = {
@@ -279,7 +279,6 @@ allianceaction = {
 
 guaranteeaction = {
 	effect = {
-		alliance_scanner = yes
 		FROM = {
 			alliance_scanner = yes
 		}
@@ -288,8 +287,17 @@ guaranteeaction = {
 
 support_independence_action = {
 	effect = {
-		alliance_scanner = yes
-		FROM = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject = yes
+				}
+			}
+			FROM = {
+				alliance_scanner = yes
+			}
+		}
+		else = {
 			alliance_scanner = yes
 		}
 	}

@@ -236,8 +236,7 @@ find_top_dev = {
 set_alliance_cost = {
 	if = {
 		limit = {
-			# ai = no
-			always = yes
+			is_player = yes
 		}
 		alliance_system_config = yes
 		set_variable = {
@@ -450,60 +449,61 @@ alliance_scanner = {
 	}
 }
 
-list_ally = {
-	random_ally = {
+list_treaty = {
+	random_country = {
 		limit = {
-			# ai = no
+			is_player = yes
+			has_treaty_flag = yes
 			NOT = {
-				has_country_flag = ally_listed
+				has_country_flag = treaty_listed
 			}
 		}
-		save_event_target_as = $ally$
-		set_country_flag = ally_listed
+		save_event_target_as = $id$
+		set_country_flag = treaty_listed
 	}
 }
 
-list_ally_clear = {
+list_treaties_clear_flags = {
 	every_country = {
 		limit = {
-			has_country_flag = ally_listed
+			has_country_flag = treaty_listed
 		}
-		clr_country_flag = ally_listed
+		clr_country_flag = treaty_listed
 	}
 }
 
-list_allies = {
-	list_ally = {
-		ally = a1
+list_treaties = {
+	list_treaty = {
+		id = a1
 	}
-	list_ally = {
-		ally = a2
+	list_treaty = {
+		id = a2
 	}
-	list_ally = {
-		ally = a3
+	list_treaty = {
+		id = a3
 	}
-	list_ally = {
-		ally = a4
+	list_treaty = {
+		id = a4
 	}
-	list_ally = {
-		ally = a5
+	list_treaty = {
+		id = a5
 	}
-	list_ally = {
-		ally = a6
+	list_treaty = {
+		id = a6
 	}
-	list_ally = {
-		ally = a7
+	list_treaty = {
+		id = a7
 	}
-	list_ally = {
-		ally = a8
+	list_treaty = {
+		id = a8
 	}
-	list_ally = {
-		ally = a9
+	list_treaty = {
+		id = a9
 	}
-	list_ally = {
-		ally = a10
+	list_treaty = {
+		id = a10
 	}
-	list_ally_clear = yes
+	list_treaties_clear_flags = yes
 }
 
 clr_treaty_flags = {
@@ -519,3 +519,39 @@ clr_treaty_flags = {
 	}
 }
 
+break_treaty = {
+	if = {
+		limit = {
+			alliance_with = $who$
+		}
+		break_alliance = $who$ 
+	}
+	else_if = {
+		limit = {
+			guaranteed_by = $who$
+		}
+
+		# Notify nation guaranteeing you
+		$who$ = {
+			country_event = {
+				id = alliance_system.7
+			}
+		}
+
+		# revoke guarantee (1.35 feature)
+	}
+	else_if = {
+		limit = {
+			$who$ = {
+				is_supporting_independence_of = ROOT
+			}
+		}
+
+		# Notify nation SUPPORTING you
+		$who$ = {
+			country_event = {
+				id = alliance_system.8
+			}
+		}
+	}
+}
