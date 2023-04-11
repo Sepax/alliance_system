@@ -42,17 +42,19 @@
 
  alliance_system.4.t:0 "STOP! Du bryter mot alliansreglerna."
  alliance_system.4.d:1 "Bryt en av dina allianser och be tengilen om förlåtelse."
- alliance_system.4.a:0 "End treaty: [A1.GetName]"
- alliance_system.4.b:0 "End treaty: [A2.GetName]"
- alliance_system.4.c:0 "End treaty: [A3.GetName]"
- alliance_system.4.d:0 "End treaty: [A4.GetName]"
- alliance_system.4.e:0 "End treaty: [A5.GetName]"
- alliance_system.4.f:0 "End treaty: [A6.GetName]"
- alliance_system.4.g:0 "End treaty: [A7.GetName]"
- alliance_system.4.h:0 "End treaty: [A8.GetName]"
- alliance_system.4.i:0 "End treaty: [A9.GetName]"
- alliance_system.4.j:0 "End treaty: [A10.GetName]"
+ alliance_system.4.a:0 "End treaty: [a1.GetName]"
+ alliance_system.4.b:0 "End treaty: [a2.GetName]"
+ alliance_system.4.c:0 "End treaty: [a3.GetName]"
+ alliance_system.4.d:0 "End treaty: [a4.GetName]"
+ alliance_system.4.e:0 "End treaty: [a5.GetName]"
+ alliance_system.4.f:0 "End treaty: [a6.GetName]"
+ alliance_system.4.g:0 "End treaty: [a7.GetName]"
+ alliance_system.4.h:0 "End treaty: [a8.GetName]"
+ alliance_system.4.i:0 "End treaty: [a9.GetName]"
+ alliance_system.4.j:0 "End treaty: [a10.GetName]"
  alliance_system.4.k:0 "Du har inga allianser men strider ändån mot reglerna."
+
+ 
 
  alliance_system.5.t:0 "[From.GetName] bryter mot alliansreglerna."
  alliance_system.5.d:1 "[From.GetName] bryter mot alliansreglerna, men har inga allierade. Detta kan bero på att han är garanterad, är tributary, eller har för många spelarkolonier."
@@ -63,6 +65,31 @@
  alliance_system_notify_decision_title: "§M‡‡§! Alliance System Notifications: §M[Root.AllianceSystemNotificationStatus]§!"
  alliance_system_notify_decision_desc: "Notifies you if a certain player is breaking the alliances rules."
  alliance_system_notify_decision: "Toggle Alliance System Notifications"
+
+ alliance_system_header_allies: "[Root.AllianceSystemHeaderAllies]"
+ alliance_system_header_allies_on: "- Player Allies:"
+ alliance_system_header_allies_off: ""
+
+ alliance_system_header_subjects: "[Root.AllianceSystemHeaderSubjects}"
+ alliance_system_header_subjects_on: "- Player Subjects:"
+ alliance_system_header_subjects_off: ""
+
+ alliance_system_header_guarantees: "[Root.AllianceSystemHeaderGuarantees]"
+ alliance_system_header_guarantees_on: "- Player Guarantees:"
+ alliance_system_header_guarantees_off: ""
+
+ alliance_system_header_supports: "[Root.AllianceSystemHeaderSupports]"
+ alliance_system_header_supports_on: "- Players Supporting Independence:"
+ alliance_system_header_supports_off: ""
+
+ alliance_system_header_overlord: "[Root.AllianceSystemHeaderOverlord]"
+ alliance_system_header_overlord_on: "- Tributary Overlord:"
+ alliance_system_header_overlord_off: ""
+
+ alliance_system_treaty_cost: "[This.AllianceSystemTreatyCost]"
+ alliance_system_treaty_cost_ally: "@[This.GetTag] [This.GetName]: -[This.alliance_cost.GetValue] Points"
+ alliance_system_treaty_cost_free: "§J(Free)§!"
+ alliance_system_treaty_cost_base: "-[This.alliance_cost.GetValue] Points"
 
 
 

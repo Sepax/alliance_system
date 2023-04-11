@@ -286,6 +286,15 @@ guaranteeaction = {
 	}
 }
 
+support_independence_action = {
+	effect = {
+		alliance_scanner = yes
+		FROM = {
+			alliance_scanner = yes
+		}
+	}
+}
+
 enforce_peace = {
 	#do this before the peace is enforced, or there is no war enemy country
 	pre_effect = {

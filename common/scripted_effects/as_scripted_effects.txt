@@ -205,35 +205,6 @@ set_dev_values = {
 					which = temp
 				}
 			}
-			every_subject_country = {
-				limit = {
-					NOT = {
-						is_subject_of_type = tributary_state
-					}
-				}
-				export_to_variable = {
-					which = dev
-					value = total_development
-				}
-				set_variable = {
-					which = temp
-					which = dev
-				}
-				divide_variable = {
-					which = temp
-					value = 2
-				}
-				event_target:target = {
-					set_variable = {
-						which = temp
-						which = PREV
-					}
-					change_variable = {
-						which = dev
-						which = temp
-					}
-				}
-			}
 		}
 		flatten = {
 			float = dev
@@ -377,129 +348,87 @@ set_alliance_cost = {
 alliance_scanner = {
 	if = {
 		limit = {
-			# ai = no
-			always = yes
+			is_player = yes
 		}
 		set_alliance_cost = yes
+		clr_treaty_flags = yes
+		every_country = {
+			limit = {
+				OR = {
+					is_player_allied_with_player = { who = ROOT }
+					is_player_subject_of_player = { who = ROOT }
+					is_player_with_player_tributary = { who = ROOT }
+					is_player_guaranteeing_player = { who = ROOT }
+					is_player_supporting_player = { who = ROOT }
+				}
+			}
+			if = {
+				limit = {
+					is_free_player_subject_of_player = { who = ROOT }
+				}
+				set_country_flag = free_subject_of_@ROOT
+			}
+			else_if = {
+				limit = {
+					is_player_allied_with_player = { who = ROOT }
+				}
+				set_country_flag = allied_with_@ROOT
+			}
+			else_if = {
+				limit = {
+					is_player_subject_of_player = { who = ROOT }
+				}
+				set_country_flag = subject_of_@ROOT
+				
+			}
+			else_if = {
+				limit = {
+					is_player_with_player_tributary = { who = ROOT }
+				}
+				set_country_flag = has_tributary_@ROOT
+			}
+			else_if = {
+				limit = {
+					is_player_guaranteeing_player = { who = ROOT }
+				}
+				set_country_flag = guaranteeing_@ROOT
+			}
+			else_if = {
+				limit = {
+					is_player_supporting_player = { who = ROOT }
+				}
+				set_country_flag = supporting_@ROOT
+			}
+
+			if = {
+				limit = {
+					NOT = {
+						is_free_player_subject_of_player = { who = ROOT }
+					}
+				}
+				set_variable = {
+					which = alliance_scanner_temp
+					which = alliance_cost
+				}
+				ROOT = {
+					set_variable = {
+						which = alliance_scanner_temp
+						which = alliance_points
+					}
+					subtract_variable = {
+						which = alliance_scanner_temp
+						which = PREV
+					}
+					set_variable = {
+						which = alliance_points
+						which = alliance_scanner_temp
+					}
+				}
+			}
+		}
 		subtract_variable = {
 			which = alliance_points
 			which = alliance_cost
-		}
-		every_ally = {
-			limit = {
-				# ai = no
-				NOT = {
-					has_country_flag = ally_scanned
-				}
-			}
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_cost
-			}
-			
-			ROOT = {
-				set_variable = {
-					which = alliance_scanner_temp
-					which = alliance_points
-				}
-				subtract_variable = {
-					which = alliance_scanner_temp
-					which = PREV
-				}
-				set_variable = {
-					which = alliance_points
-					which = alliance_scanner_temp
-				}
-			}
-			set_country_flag = ally_scanned
-		}
-		every_subject_country = {
-			limit = {
-				# ai = no
-				NOT = {
-					AND = {
-						current_age = age_of_discovery
-						OR = {
-							tag = SWE
-							tag = NOR
-							tag = HOL
-							tag = FLA
-							tag = BRB
-							tag = LIT
-						}
-					}
-				}
-				OR = {
-					is_subject_of_type = vassal
-					is_subject_of_type = march
-					is_subject_of_type = personal_union
-					is_subject_of_type = client_state
-					is_subject_of_type = colony
-					is_subject_of_type = crown_colony
-					is_subject_of_type = private_enterprise
-					is_subject_of_type = self_governing_colony
-				}
-			}
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_cost
-			}
-			ROOT = {
-				set_variable = {
-					which = alliance_scanner_temp
-					which = alliance_points
-				}
-				subtract_variable = {
-					which = alliance_scanner_temp
-					which = PREV
-				}
-				set_variable = {
-					which = alliance_points
-					which = alliance_scanner_temp
-				}
-			}
-		}
-		every_country = {
-			limit = {
-				# ai = no
-				ROOT = {
-					OR = {
-						guaranteed_by = PREV
-						AND = {
-							is_subject_of_type = tributary_state
-							is_subject_of = PREV
-						}
-						PREV = {
-							is_supporting_independence_of = ROOT
-						}
-					}
-					
-				}
-				NOT = {
-					has_country_flag = ally_scanned
-				}
-			}
-			set_variable = {
-				which = alliance_scanner_temp
-				which = alliance_cost
-			}
-			ROOT = {
-				set_variable = {
-					which = alliance_scanner_temp
-					which = alliance_points
-				}
-				subtract_variable = {
-					which = alliance_scanner_temp
-					which = PREV
-				}
-				set_variable = {
-					which = alliance_points
-					which = alliance_scanner_temp
-				}
-			}
-		}
-		every_ally = {
-			clr_country_flag = ally_scanned
 		}
 		if = {
 			limit = {
@@ -539,34 +468,54 @@ list_ally_clear = {
 		limit = {
 			has_country_flag = ally_listed
 		}
-		hidden_effect = {
-			clr_country_flag = ally_listed
+		clr_country_flag = ally_listed
+	}
+}
+
+list_allies = {
+	list_ally = {
+		ally = a1
+	}
+	list_ally = {
+		ally = a2
+	}
+	list_ally = {
+		ally = a3
+	}
+	list_ally = {
+		ally = a4
+	}
+	list_ally = {
+		ally = a5
+	}
+	list_ally = {
+		ally = a6
+	}
+	list_ally = {
+		ally = a7
+	}
+	list_ally = {
+		ally = a8
+	}
+	list_ally = {
+		ally = a9
+	}
+	list_ally = {
+		ally = a10
+	}
+	list_ally_clear = yes
+}
+
+clr_treaty_flags = {
+	every_country = {
+		limit = {
+			has_treaty_flag = yes
 		}
+		clr_country_flag = allied_with_@ROOT
+		clr_country_flag = subject_of_@ROOT
+		clr_country_flag = has_tributary_@ROOT
+		clr_country_flag = guaranteeing_@ROOT
+		clr_country_flag = supporting_@ROOT
 	}
 }
 
-flatten = {
-	multiply_variable = {
-		which = $float$
-		value = 0.001
-	}
-	multiply_variable = {
-		which = $float$
-		value = 1000
-	}
-}
-
-round = {
-	change_variable = {
-		which = $float$
-		value = 0.5
-	}
-	multiply_variable = {
-		which = $float$
-		value = 0.001
-	}
-	multiply_variable = {
-		which = $float$
-		value = 1000
-	}
-}

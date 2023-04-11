@@ -76,7 +76,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = alliance_scanner_timer
-			duration = 30
+			duration = 5 
 			hidden = yes
 		}
 	}
@@ -100,107 +100,77 @@ country_event = {
 		}
 	}
 	immediate {
-		list_ally = {
-			ally = A1
-		}
-		list_ally = {
-			ally = A2
-		}
-		list_ally = {
-			ally = A3
-		}
-		list_ally = {
-			ally = A4
-		}
-		list_ally = {
-			ally = A5
-		}
-		list_ally = {
-			ally = A6
-		}
-		list_ally = {
-			ally = A7
-		}
-		list_ally = {
-			ally = A8
-		}
-		list_ally = {
-			ally = A9
-		}
-		list_ally = {
-			ally = A10
-		}
-		list_ally_clear = yes
+		list_allies = yes
 	}
 	option = {
 		name = alliance_system.4.a
 		trigger = {
-			alliance_with = event_target:A1
+			alliance_with = event_target:@ROOTa1
 		}
-		break_alliance = event_target:A1
+		break_alliance = event_target:@ROOTa1
 	}
 	option = {
 		name = alliance_system.4.b
 		trigger = {
-			alliance_with = event_target:A2
+			alliance_with = event_target:a2
 		}
-		break_alliance = event_target:A2
+		break_alliance = event_target:a2
 	}
 	option = {
 		name = alliance_system.4.c
 		trigger = {
-			alliance_with = event_target:A3
+			alliance_with = event_target:a3
 		}
-		break_alliance = event_target:A3
+		break_alliance = event_target:a3
 	}
 	option = {
 		name = alliance_system.4.d
 		trigger = {
-			alliance_with = event_target:A4
+			alliance_with = event_target:a4
 		}
-		break_alliance = event_target:A4
+		break_alliance = event_target:a4
 	}
 	option = {
 		name = alliance_system.4.e
 		trigger = {
-			alliance_with = event_target:A5
+			alliance_with = event_target:a5
 		}
-		break_alliance = event_target:A5
+		break_alliance = event_target:a5
 	}
 	option = {
 		name = alliance_system.4.f
 		trigger = {
-			alliance_with = event_target:A6
+			alliance_with = event_target:a6
 		}
-		break_alliance = event_target:A6
+		break_alliance = event_target:a6
 	}
 	option = {
 		name = alliance_system.4.g
 		trigger = {
-			alliance_with = event_target:A7
+			alliance_with = event_target:a7
 		}
-		break_alliance = event_target:A7
+		break_alliance = event_target:a7
 	}
 	option = {
 		name = alliance_system.4.h
 		trigger = {
-			alliance_with = event_target:A8
+			alliance_with = event_target:a8
 		}
-		break_alliance = event_target:A8
+		break_alliance = event_target:a8
 	}
 	option = {
 		name = alliance_system.4.i
 		trigger = {
-			alliance_with = event_target:A9
+			alliance_with = event_target:a9
 		}
-		break_alliance = event_target:A9
+		break_alliance = event_target:a9
 	}
 	option = {
 		name = alliance_system.4.j
 		trigger = {
-			alliance_with = event_target:A10
+			alliance_with = event_target:a10
 		}
-		break_alliance = event_target:A10
+		break_alliance = event_target:a10
 	}
 	option = {
 		name = alliance_system.4.k
@@ -268,6 +238,7 @@ country_event = {
 	}
 	option = {
 		clr_country_flag = alliance_system_notify_switch
+		clr_country_flag = alliance_system_switch
 	}
 }
 

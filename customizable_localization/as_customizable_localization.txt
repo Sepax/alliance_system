@@ -15,3 +15,132 @@ defined_text = {
         }
     }
 }
+
+defined_text = {
+    name = AllianceSystemHeaderAllies
+    random = no
+
+    text = {
+        localisation_key = alliance_system_header_allies_on
+        trigger = {
+            any_country = {
+                has_country_flag = allied_with_@ROOT
+            }
+        }
+    }
+    text = {
+        localisation_key = alliance_system_header_allies_off
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = AllianceSystemHeaderSubjects
+    random = no
+
+    text = {
+        localisation_key = alliance_system_header_subjects_on
+        trigger = {
+            always = yes
+            # any_subject_country = {
+            #     OR = {
+            #         has_country_flag = subject_of_@ROOT
+            #         has_country_flag = free_subject_of_@ROOT
+            #     }
+            # }
+        }
+    }
+    text = {
+        localisation_key = alliance_system_header_subjects_off
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = AllianceSystemHeaderGuarantees
+    random = no
+
+    text = {
+        localisation_key = alliance_system_header_guarantees_on
+        trigger = {
+            any_country = {
+                has_country_flag = guaranteeing_@ROOT
+            }
+        }
+    }
+    text = {
+        localisation_key = alliance_system_header_guarantees_off
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = AllianceSystemHeaderSupports
+    random = no
+
+    text = {
+        localisation_key = alliance_system_header_supports_on
+        trigger = {
+            any_country = {
+                has_country_flag = supporting_@ROOT
+            }
+        }
+    }
+    text = {
+        localisation_key = alliance_system_header_supports_off
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = AllianceSystemHeaderOverlord
+    random = no
+
+    text = {
+        localisation_key = alliance_system_header_overlord_on
+        trigger = {
+            is_subject_of_type = tributary_state
+            overlord = {
+                has_treaty_flag = yes
+            }
+        }
+    }
+    text = {
+        localisation_key = alliance_system_header_overlord_off
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = AllianceSystemTreatyCost
+    random = no
+
+    text = {
+        localisation_key = alliance_system_treaty_cost_ally
+        trigger = {
+            has_country_flag = allied_with_@ROOT
+        }
+    }
+    text = {
+        localisation_key = alliance_system_treaty_cost_free
+        trigger = {
+            has_country_flag = free_subject_of_@ROOT
+        }
+    }
+    text = {
+        localisation_key = alliance_system_treaty_cost_base
+        trigger = {
+            always = yes
+        }
+    }
+}
