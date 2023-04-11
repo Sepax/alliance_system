@@ -39,22 +39,37 @@
 
  BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
  FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
-
- alliance_system.4.t:0 "STOP! Du bryter mot alliansreglerna."
- alliance_system.4.d:1 "Bryt en av dina allianser och be tengilen om förlåtelse."
- alliance_system.4.a:0 "End treaty: [a1.GetName]"
- alliance_system.4.b:0 "End treaty: [a2.GetName]"
- alliance_system.4.c:0 "End treaty: [a3.GetName]"
- alliance_system.4.d:0 "End treaty: [a4.GetName]"
- alliance_system.4.e:0 "End treaty: [a5.GetName]"
- alliance_system.4.f:0 "End treaty: [a6.GetName]"
- alliance_system.4.g:0 "End treaty: [a7.GetName]"
- alliance_system.4.h:0 "End treaty: [a8.GetName]"
- alliance_system.4.i:0 "End treaty: [a9.GetName]"
- alliance_system.4.j:0 "End treaty: [a10.GetName]"
- alliance_system.4.k:0 "Du har inga allianser men strider ändån mot reglerna."
-
  
+ alliance_system.4.t:0 "STOP! you are breaking the alliance rules."
+ alliance_system.4.d:1 "You are breaking the alliance rules and need to break one or more treaties with other player. You are able to recheck your treaties once. Other players will be notified if you have no breakable treaties (player subjects, player tributary overlord)."
+ alliance_system.4.a:0 "Recheck Treaties (you can only do this once)"
+ alliance_system.4.b:0 "You have no breakable treaties (notifies other players)"
+ alliance_system.4.c:0 "End treaty: [a1.GetName]"
+ alliance_system.4.d:0 "End treaty: [a2.GetName]"
+ alliance_system.4.e:0 "End treaty: [a3.GetName]"
+ alliance_system.4.f:0 "End treaty: [a4.GetName]"
+ alliance_system.4.g:0 "End treaty: [a5.GetName]"
+ alliance_system.4.h:0 "End treaty: [a6.GetName]"
+ alliance_system.4.i:0 "End treaty: [a7.GetName]"
+ alliance_system.4.j:0 "End treaty: [a8.GetName]"
+ alliance_system.4.k:0 "End treaty: [a9.GetName]"
+ alliance_system.4.l:0 "End treaty: [a10.GetName]"
+
+ alliance_system.7.t:0 "Revoke Guarantee of @[From.GetTag] [From.GetName]"
+ alliance_system.7.d:1 "[From.GetName] is breaking the alliance rules and is requesting that you revoke your guarantee of him."
+ alliance_system.7.a:0 "OK"
+
+ alliance_system.8.t:0 "Revoke Independece Support of @[From.GetTag] [From.GetName]"
+ alliance_system.8.d:1 "[From.GetName] is breaking the alliance rules and is requesting that you revoke your support of his independence."
+ alliance_system.8.a:0 "OK"
+
+ alliance_system.9.t:0 "@[From.GetTag] [From.GetName] has been asked to revoke his guarantee of @[From.From.GetTag] [From.From.GetName]"
+ alliance_system.9.d:1 "[From.From.GetName] is breaking the alliance rules and is requesting that [From.GetName] revoke his guarantee of him."
+ alliance_system.9.a:0 "OK"
+
+ alliance_system.10.t:0 "@[From.GetTag] [From.GetName] has been asked to revoke his Independece Support of @[From.From.GetTag] [From.From.GetName]"
+ alliance_system.10.d:1 "[From.From.GetName] is breaking the alliance rules and is requesting that [From.GetName] revokes support of his independence."
+ alliance_system.10.a:0 "OK"
 
  alliance_system.5.t:0 "[From.GetName] bryter mot alliansreglerna."
  alliance_system.5.d:1 "[From.GetName] bryter mot alliansreglerna, men har inga allierade. Detta kan bero på att han är garanterad, är tributary, eller har för många spelarkolonier."

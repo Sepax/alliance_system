@@ -6,20 +6,23 @@ country_event = {
 	desc = alliance_system.1.d
 	picture = RELIGION_eventPicture
 	is_triggered_only = yes
+	fire_only_once = yes
 	hidden = yes
 	mean_time_to_happen = {
 		days = 1
 	}
 	trigger = {
-		always = yes
+		is_player = yes
 	}
 	option = {
 		country_event = {
 			id = alliance_system.2
 		}
-		country_event = {
-			id = alliance_system.3
-		}
+		every_country = {
+            country_event = {
+                id = alliance_system.3
+            }
+        }
 	}
 }
 
@@ -34,6 +37,7 @@ country_event = {
 		days = 1
 	}
 	trigger = {
+		is_player = yes
 		NOT = {
 			1269 = {
 				has_province_modifier = dev_list_timer
@@ -65,7 +69,7 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		# ai = no
+		is_player = yes
 		NOT = {
 			has_country_modifier = alliance_scanner_timer
 		}
@@ -76,7 +80,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = alliance_scanner_timer
-			duration = 5 
+			duration = 10 
 			hidden = yes
 		}
 	}
@@ -93,100 +97,36 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		# ai = no
+		is_player = yes
 		has_country_flag = too_many_alliances
 		NOT = {
 			has_country_modifier = too_many_alliances_timer
 		}
 	}
 	immediate {
-		list_allies = yes
+		list_treaties = yes
 	}
 	option = {
 		name = alliance_system.4.a
 		trigger = {
-			alliance_with = event_target:@ROOTa1
+			NOT = {
+				has_country_flag = rechecked_alliances
+			}
 		}
-		break_alliance = event_target:@ROOTa1
+		set_country_flag = rechecked_alliances
 	}
 	option = {
 		name = alliance_system.4.b
 		trigger = {
-			alliance_with = event_target:a2
-		}
-		break_alliance = event_target:a2
-	}
-	option = {
-		name = alliance_system.4.c
-		trigger = {
-			alliance_with = event_target:a3
-		}
-		break_alliance = event_target:a3
-	}
-	option = {
-		name = alliance_system.4.d
-		trigger = {
-			alliance_with = event_target:a4
-		}
-		break_alliance = event_target:a4
-	}
-	option = {
-		name = alliance_system.4.e
-		trigger = {
-			alliance_with = event_target:a5
-		}
-		break_alliance = event_target:a5
-	}
-	option = {
-		name = alliance_system.4.f
-		trigger = {
-			alliance_with = event_target:a6
-		}
-		break_alliance = event_target:a6
-	}
-	option = {
-		name = alliance_system.4.g
-		trigger = {
-			alliance_with = event_target:a7
-		}
-		break_alliance = event_target:a7
-	}
-	option = {
-		name = alliance_system.4.h
-		trigger = {
-			alliance_with = event_target:a8
-		}
-		break_alliance = event_target:a8
-	}
-	option = {
-		name = alliance_system.4.i
-		trigger = {
-			alliance_with = event_target:a9
-		}
-		break_alliance = event_target:a9
-	}
-	option = {
-		name = alliance_system.4.j
-		trigger = {
-			alliance_with = event_target:a10
-		}
-		break_alliance = event_target:a10
-	}
-	option = {
-		name = alliance_system.4.k
-		trigger = {
-			OR = {
-				NOT = {
-					num_of_allies = 1
-				}
-				all_ally = {
-					ai = yes
+			NOT = {
+				any_country = {
+					has_breakable_treaty_flag = yes
 				}
 			}
 		}
 		every_country = {
 			limit = {
-				ai = no
+				is_player = yes
 				has_country_flag = alliance_notifications
 				NOT = {
 					tag = ROOT
@@ -197,12 +137,120 @@ country_event = {
 			}
 		}
 	}
+	option = {
+		name = alliance_system.4.c
+		trigger = {
+			event_target:a1 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a1 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.d
+		trigger = {
+			event_target:a2 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a2 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.e
+		trigger = {
+			event_target:a3 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a3 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.f
+		trigger = {
+			event_target:a4 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a4 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.g
+		trigger = {
+			event_target:a5 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a5 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.h
+		trigger = {
+			event_target:a6 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a6 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.i
+		trigger = {
+			event_target:a7 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a7 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.j
+		trigger = {
+			event_target:a8 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a8 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.k
+		trigger = {
+			event_target:a9 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a9 }
+		clr_country_flag = rechecked_alliances
+	}
+	option = {
+		name = alliance_system.4.l
+		trigger = {
+			event_target:a10 = {
+				has_breakable_treaty_flag = yes
+			}
+		}
+		break_treaty = { who = event_target:a10 }
+		clr_country_flag = rechecked_alliances
+	}
+
 	after = {
 		alliance_scanner = yes
-		add_country_modifier = {
-			name = too_many_alliances_timer
-			duration = 30
-			hidden = yes
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = rechecked_alliances
+				}
+			}
+			add_country_modifier = {
+				name = too_many_alliances_timer
+				duration = 30
+				hidden = yes
+			}
 		}
 	}
 }
@@ -215,7 +263,7 @@ country_event = {
 	picture = southamericagfx_ANGRY_MOB_eventPicture
 	is_triggered_only = yes
 	trigger = {
-		ai = no
+		is_player = yes
 		has_country_flag = alliance_notifications
 	}
 	option = {
@@ -223,6 +271,7 @@ country_event = {
 	}
 }
 
+# Decision switches
 country_event = {
 	id = alliance_system.6
 	title = alliance_system.6.t
@@ -234,11 +283,117 @@ country_event = {
 		days = 1
 	}
 	trigger = {
-		ai = no
+		is_player = yes
 	}
 	option = {
 		clr_country_flag = alliance_system_notify_switch
 		clr_country_flag = alliance_system_switch
+	}
+}
+
+# End guarantee with country (notification)
+country_event = {
+	id = alliance_system.7
+	title = alliance_system.7.t
+	desc = alliance_system.7.d
+	picture = southamericagfx_ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		is_player = yes
+	}
+	immediate = {
+		# Notify everyone else
+		every_country = {
+			limit = {
+				is_player = yes
+				has_country_flag = alliance_notifications
+				NOT = {
+					tag = FROM
+					tag = PREV
+				}
+			}
+			country_event = {
+				id = alliance_system.9
+			}
+		}
+	}
+	option = {
+		name = alliance_system.7.a
+	}
+}
+
+# Stop supporting independence of country (notification)
+country_event = {
+	id = alliance_system.8
+	title = alliance_system.8.t
+	desc = alliance_system.8.d
+	picture = southamericagfx_ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		is_player = yes
+	}
+	immediate = {
+		# Notify everyone else
+		every_country = {
+			limit = {
+				is_player = yes
+				has_country_flag = alliance_notifications
+				NOT = {
+					tag = FROM
+					tag = PREV
+				}
+			}
+			country_event = {
+				id = alliance_system.10
+			}
+		}
+	}
+	option = {
+		name = alliance_system.8.a
+	}
+}
+
+# A nation has recived a notification to end a guarantee (notification)
+country_event = {
+	id = alliance_system.9
+	title = alliance_system.9.t
+	desc = alliance_system.9.d
+	picture = southamericagfx_ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		is_player = yes
+		has_country_flag = alliance_notifications
+	}
+	option = {
+		name = alliance_system.9.a
+	}
+}
+
+# A nation has recived a notification to end a support independence (notification)
+country_event = {
+	id = alliance_system.10
+	title = alliance_system.10.t
+	desc = alliance_system.10.d
+	picture = southamericagfx_ANGRY_MOB_eventPicture
+	is_triggered_only = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		is_player = yes
+		has_country_flag = alliance_notifications
+	}
+	option = {
+		name = alliance_system.10.a
 	}
 }
 
