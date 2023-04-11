@@ -1,11 +1,6 @@
 ﻿l_english:
  alliance_system_decision_title: "§M‡‡§! Alliance System"
  alliance_system_decision_desc: "Displays you current alliance points and if you are breaking the alliance rules."
- alliance_system_decision: "Top Dev: [Root.global_top_dev.GetValue]\nYour alliance cost: [Root.alliance_cost.GetValue]\nAlliance Points: [Root.alliance_points.GetValue]\nPuny: [Root.puny_dev.GetValue]\nMinor: [Root.minor_dev.GetValue]\nNotable: [Root.notable_dev.GetValue]\nProminent: [Root.prominent_dev.GetValue]\nMajor: [Root.major_dev.GetValue] "
-
- great_powers_decision_title: "§M‡‡§! Great Powers"
- great_powers_decision_desc: "Top 10 countries sorted by development. Updates once every 90 days."
- great_powers_decision: "§M------ Great Powers ------§!\n  1: [GP1.GetName], [GP1.dev.GetValue] dev\n  2: [GP2.GetName], [GP2.dev.GetValue] dev\n  3: [GP3.GetName], [GP3.dev.GetValue] dev\n  4: [GP4.GetName], [GP4.dev.GetValue] dev\n  5: [GP5.GetName], [GP5.dev.GetValue] dev\n  6: [GP6.GetName], [GP6.dev.GetValue] dev\n  7: [GP7.GetName], [GP7.dev.GetValue] dev\n  8: [GP8.GetName], [GP8.dev.GetValue] dev\n  9: [GP9.GetName], [GP9.dev.GetValue] dev\n  10: [GP10.GetName], [GP10.dev.GetValue] dev\n§M----------------------------§!"
 
  check_alliance_cost: "Check Alliance Points"
  check_alliance_cost_title: "Check Alliance Points"
@@ -19,7 +14,7 @@
  alliance_system_points: "£dip£ Available Alliance Points: §O[Root.alliance_points.GetValue]§!"
  alliance_system_cost: "£dip£ Your Alliance Point Cost: §O[Root.alliance_cost.GetValue]§!"
  alliance_system_header_3: "§M------------------------ Power Statuses ------------------------§!"
- alliance_system_limit_1:  "£mil£ Great Power: §Y[Root.great_dev.GetValue]-[GP1.dev.GetValue]§! £icon_development_in_text£ (-[Root.great_points.GetValue] points)"
+ alliance_system_limit_1:  "£mil£ Great Power: §Y[Root.great_dev.GetValue]-[Root.global_top_dev.GetValue]§! £icon_development_in_text£ (-[Root.great_points.GetValue] points)"
  alliance_system_limit_2:  "£mil£ Major Power: §Y[Root.major_dev.GetValue]-[Root.major_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.major_points.GetValue] points)"
  alliance_system_limit_3:  "£mil£ Prominent Power: §Y[Root.prominent_dev.GetValue]-[Root.prominent_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.prominent_points.GetValue] points)"
  alliance_system_limit_4:  "£mil£ Notable Power: §Y[Root.notable_dev.GetValue]-[Root.notable_dev_upper.GetValue]§! £icon_development_in_text£ (-[Root.notable_points.GetValue] points)"
