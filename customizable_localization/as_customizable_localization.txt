@@ -43,13 +43,9 @@ defined_text = {
     text = {
         localisation_key = alliance_system_header_subjects_on
         trigger = {
-            always = yes
-            # any_subject_country = {
-            #     OR = {
-            #         has_country_flag = subject_of_@ROOT
-            #         has_country_flag = free_subject_of_@ROOT
-            #     }
-            # }
+            any_subject_country = {
+                has_treaty_flag = yes
+            }
         }
     }
     text = {

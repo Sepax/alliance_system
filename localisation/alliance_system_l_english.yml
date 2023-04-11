@@ -70,7 +70,7 @@
  alliance_system_header_allies_on: "- Player Allies:"
  alliance_system_header_allies_off: ""
 
- alliance_system_header_subjects: "[Root.AllianceSystemHeaderSubjects}"
+ alliance_system_header_subjects: "[Root.AllianceSystemHeaderSubjects]"
  alliance_system_header_subjects_on: "- Player Subjects:"
  alliance_system_header_subjects_off: ""
 
