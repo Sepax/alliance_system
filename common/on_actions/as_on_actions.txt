@@ -33,7 +33,7 @@ on_startup = {
 		muslim_school_events.20		#Pick School
 		flavor_got.1		#Event for Gotland to select their mission tree
 		#flavor_fra.15000 #Make the French Revolution happen if starting in 1789
-		alliance_system.1
+		as.1 # Alliance System Init
 	}
 	if = {
 		limit = {

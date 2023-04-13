@@ -59,22 +59,3 @@ is_player_supporting_player = {
         is_player = yes
     }
 }
-
-has_treaty_flag = {
-    OR = {
-        has_country_flag = allied_with_@ROOT
-        has_country_flag = subject_of_@ROOT
-        has_country_flag = free_subject_of_@ROOT
-        has_country_flag = has_tributary_@ROOT
-        has_country_flag = guaranteeing_@ROOT
-        has_country_flag = supporting_@ROOT
-    }
-}
-
-has_breakable_treaty_flag = {
-    OR = {
-        has_country_flag = allied_with_@ROOT
-        has_country_flag = guaranteeing_@ROOT
-        has_country_flag = supporting_@ROOT
-    }
-}

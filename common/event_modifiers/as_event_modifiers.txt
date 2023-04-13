@@ -1,8 +1,3 @@
-alliance_scanner_timer = {
-}
+as_global_timer = {}
 
-dev_list_timer = {
-}
-
-too_many_alliances_timer = {
-}
+as_country_timer = {}

@@ -2,9 +2,7 @@ country_decisions = {
 	alliance_system_decision = {
 		potential = {
 			is_player = yes
-			NOT = {
-				has_country_flag = alliance_system_switch
-			}
+			# has_global_flag = as_initiated
 		}
 		allow = {
 			hidden_trigger = {
@@ -13,120 +11,12 @@ country_decisions = {
 		}
 		effect = {
 			hidden_effect = {
-				alliance_scanner = yes
+				as_update_ratings = yes
 			}
-
-			custom_tooltip = alliance_system_header_1
-			custom_tooltip = alliance_system_desc
-			custom_tooltip = alliance_system_header_2
-			custom_tooltip = alliance_system_points
-			custom_tooltip = alliance_system_cost
-			custom_tooltip = alliance_system_header_3
-			custom_tooltip = alliance_system_limit_1
-			custom_tooltip = alliance_system_limit_2
-			custom_tooltip = alliance_system_limit_3
-			custom_tooltip = alliance_system_limit_4
-			custom_tooltip = alliance_system_limit_5
-			custom_tooltip = alliance_system_limit_6
-			custom_tooltip = alliance_system_header_4
-			custom_tooltip = alliance_system_note_update
-			custom_tooltip = alliance_system_note_ai
-			custom_tooltip = alliance_system_note_own_cost
-			custom_tooltip = alliance_system_note_subjects
-			custom_tooltip = alliance_system_note_free_subjects
-			custom_tooltip = alliance_system_note_colonies
-			custom_tooltip = alliance_system_note_not_allies
-			custom_tooltip = alliance_system_header_5
-			custom_tooltip = alliance_system_bug_on_start
-			custom_tooltip = alliance_system_line
-
-			custom_tooltip = alliance_system_header_allies
-			every_ally = {
-				limit = {
-					has_treaty_flag = yes
-				}
-				custom_tooltip = alliance_system_treaty_cost
-			}
-
-			custom_tooltip = alliance_system_header_subjects
-			every_subject_country = {
-				limit = {
-					has_treaty_flag = yes
-				}
-				custom_tooltip = alliance_system_treaty_cost
-			}
-
-			custom_tooltip = alliance_system_header_guarantees
-			every_country = {
-				limit = {
-					has_country_flag = guaranteeing_@ROOT
-				}
-				custom_tooltip = alliance_system_treaty_cost
-			}
-
-			custom_tooltip = alliance_system_header_supports
-			every_country = {
-				limit = {
-					has_country_flag = supporting_@ROOT
-				}
-				custom_tooltip = alliance_system_treaty_cost
-			}
-
-			if = {
-				limit = {
-					is_subject_of_type = tributary_state
-				}
-				custom_tooltip = alliance_system_header_overlord
-				overlord = { 
-					limit = {
-						has_treaty_flag = yes
-					}
-					custom_tooltip = alliance_system_treaty_cost
-				}
-			}
-
-			hidden_effect = {
-				set_country_flag = alliance_system_switch
-				country_event = {
-					id = alliance_system.6
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	alliance_system_notify_decision = {
-		potential = {
-			is_player = yes
-			NOT = {
-				has_country_flag = alliance_system_notify_switch
-			}
-		}
-		allow = {
-			custom_tooltip = alliance_system_notify_decision
-			hidden_trigger = {
-				always = yes
-			}
-		}
-		effect = {
-			custom_tooltip = alliance_system_notify_decision
-			if = {
-				limit = {
-					has_country_flag = alliance_notifications
-				}
-				clr_country_flag = alliance_notifications
-			}
-			else = {
-				set_country_flag = alliance_notifications
-			}
-			set_country_flag = alliance_system_notify_switch
-			hidden_effect = {
-				country_event = {
-					id = alliance_system.6
-				}
-			}
+			custom_tooltip = as_top_rating_tt
+			custom_tooltip = as_root_rating_tt
+			custom_tooltip = as_root_points_tt
+			custom_tooltip = as_root_point_cost_tt
 		}
 		ai_will_do = {
 			factor = 0
