@@ -255,7 +255,7 @@ allianceaction = {
 	condition = {
 		tooltip = BREAKING_ALLIANCE_RULES
 		potential = {
-			has_country_flag = too_many_alliances
+			has_country_flag = breaking_rules
 		}
 		allow = {
 			always = no
