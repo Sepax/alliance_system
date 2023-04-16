@@ -32,6 +32,8 @@
 
  BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
  FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
+ WOULD_BREAK_ALLIANCE_RULES:0 "You would end up breaking the alliance rules by making a treaty with this nation."
+ FROM_WOULD_BREAK_ALLIANCE_RULES:0 "This nation would end up breaking the alliance rules by making a treaty with you."
 
  as.5.t:0 "STOP! you are breaking the alliance rules."
  as.5.d:1 "You are breaking the alliance rules and need to break one or more treaties with other players."

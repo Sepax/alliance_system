@@ -272,6 +272,26 @@ allianceaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			would_break_rules = { compare = FROM }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 	effect = {
 		set_country_flag = force_update_treaties
 		country_event = {
@@ -298,6 +318,17 @@ guaranteeaction = {
 			always = no
 		}
 	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 	effect = {
 		FROM = {
 			set_country_flag = force_update_treaties
@@ -314,6 +345,27 @@ support_independence_action = {
 		potential = {
 			FROM = {
 				has_country_flag = breaking_rules
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			is_subject = yes
+			would_break_rules = { compare = FROM }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
 			}
 		}
 		allow = {
@@ -553,6 +605,29 @@ tributary_state_action = {
 			}
 		}
 	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = FROM_BREAKING_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				has_country_flag = breaking_rules
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	
 }
 ask_for_tributary_state_action = {
 	condition = {
@@ -574,6 +649,24 @@ ask_for_tributary_state_action = {
 					NOT = { ROOT = { capital_scope = { region = japan_region } } }
 				}
 			}
+		}
+	}
+	condition = {
+		tooltip = WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			would_break_rules = { compare = FROM }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = BREAKING_ALLIANCE_RULES
+		potential = {
+			has_country_flag = breaking_rules
+		}
+		allow = {
+			always = no
 		}
 	}
 }

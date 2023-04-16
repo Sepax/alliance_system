@@ -68,3 +68,32 @@ in_treaty_with = {
         has_country_flag = supporting_@$who$
     }
 }
+
+would_break_rules = {
+    OR = {
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_great_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_great_power } } 
+        }
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_major_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_major_power } } 
+        }
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_prom_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_prom_power } } 
+        }
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_notable_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_notable_power } } 
+        }
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_minor_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_minor_power } } 
+        }
+        AND = {
+            $compare$ = { is_variable_equal = { which = as_cost which = as_cost_puny_power } }
+            NOT = { check_variable = { which = as_points which = as_cost_puny_power } } 
+        }
+    }
+}
