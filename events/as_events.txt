@@ -211,6 +211,16 @@ country_event = {
     option = {
         name = as.6.a
     }
+    option = {
+        name = as.6.b
+        clr_country_flag = as_notify
+        set_country_flag = as_notify_switch
+        hidden_effect = {
+            country_event = {
+                id = as.7
+            }
+        }
+    }
 }
 
 # Notify Switch

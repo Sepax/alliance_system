@@ -1,6 +1,5 @@
 is_player = {
-    # ai = no
-    always = yes
+    ai = no
 }
 
 is_player_allied_with_player = {

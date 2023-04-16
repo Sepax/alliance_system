@@ -29,6 +29,16 @@
  as_notify_decision: "Toggle Alliance System Notifications"
  as_notify_enabled: "Enabled"
  as_notify_disabled: "Disabled"
-  
 
+ BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
+ FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
+
+ as.5.t:0 "STOP! you are breaking the alliance rules."
+ as.5.d:1 "You are breaking the alliance rules and need to break one or more treaties with other players."
+ as.5.a:0 "I'm sorry, please let the Tengil show me mercy."
+
+ as.6.t:0 "[From.GetName] is breaking the alliance rules."
+ as.6.d:1 "[From.GetName] is breaking the alliance rules and need to break one or more treaties with other players."
+ as.6.a:0 "Shame on him!"
+ as.6.b:0 "Disable notifications"
 
