@@ -62,6 +62,60 @@ as_config = {
 			which = as_percentage_puny_power
 			value = $puny_power_percentage$
 		}
+
+		set_variable = {
+			which = as_points_max_great_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_great_power
+			which = as_cost_great_power
+		}
+
+		set_variable = {
+			which = as_points_max_major_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_major_power
+			which = as_cost_major_power
+		}
+
+		set_variable = {
+			which = as_points_max_prom_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_prom_power
+			which = as_cost_prom_power
+		}
+
+		set_variable = {
+			which = as_points_max_notable_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_notable_power
+			which = as_cost_notable_power
+		}
+
+		set_variable = {
+			which = as_points_max_minor_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_minor_power
+			which = as_cost_minor_power
+		}
+
+		set_variable = {
+			which = as_points_max_puny_power
+			which = as_points_base
+		}
+		subtract_variable = {
+			which = as_points_max_puny_power
+			which = as_cost_puny_power
+		}
 	}
 }
 
@@ -196,6 +250,25 @@ update_power_ratings = {
 			which = as_rating_puny_power
 			which = as_percentage_puny_power
 		}
+
+		flatten = {
+			float = as_rating_great_power
+		}
+		flatten = {
+			float = as_rating_major_power
+		}
+		flatten = {
+			float = as_rating_prom_power
+		}
+		flatten = {
+			float = as_rating_notable_power
+		}
+		flatten = {
+			float = as_rating_minor_power
+		}
+		flatten = {
+			float = as_rating_puny_power
+		}
 	}
 }
 
@@ -221,6 +294,10 @@ update_point_costs = {
 				which = as_cost
 				which = as_cost_great_power
 			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_great_power
+			}
 		}
 		else_if = {
 			limit = {
@@ -232,6 +309,10 @@ update_point_costs = {
 			change_variable = {
 				which = as_cost
 				which = as_cost_major_power
+			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_major_power
 			}
 		}
 		else_if = {
@@ -245,6 +326,10 @@ update_point_costs = {
 				which = as_cost
 				which = as_cost_prom_power
 			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_prom_power
+			}
 		}
 		else_if = {
 			limit = {
@@ -256,6 +341,10 @@ update_point_costs = {
 			change_variable = {
 				which = as_cost
 				which = as_cost_notable_power
+			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_notable_power
 			}
 		}
 		else_if = {
@@ -269,11 +358,19 @@ update_point_costs = {
 				which = as_cost
 				which = as_cost_minor_power
 			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_minor_power
+			}
 		} 
 		else = {
 			change_variable = {
 				which = as_cost
 				which = as_cost_puny_power
+			}
+			set_variable = {
+				which = as_points_max
+				which = as_points_max_puny_power
 			}
 		}
 		
@@ -295,18 +392,18 @@ update_point_costs = {
 			}
 		}
 
-		if = {
-			limit = {
-				is_emperor = yes
-				NOT = {
-					is_year = 1470
-				}
-			}
-			change_variable = {
-				which = as_cost
-				value = as_cost_emperor
-			}
-		}
+		# if = {
+		# 	limit = {
+		# 		is_emperor = yes
+		# 		NOT = {
+		# 			is_year = 1470
+		# 		}
+		# 	}
+		# 	change_variable = {
+		# 		which = as_cost
+		# 		value = as_cost_emperor
+		# 	}
+		# }
 	}
 }
 
@@ -315,11 +412,32 @@ update_treaties = {
 		limit = {
 			is_player = yes
 		}
+
 		set_variable = {
 			which = as_points
-			which = as_points_base
+			which = as_points_max
 		}
-		every_country = {
+
+		every_known_country = {
+			limit = {
+				OR = {
+					has_country_flag = allied_with_@ROOT
+					has_country_flag = free_subject_of_@ROOT
+					has_country_flag = subject_of_@ROOT
+					has_country_flag = has_tributary_@ROOT
+					has_country_flag = guaranteeing_@ROOT
+					has_country_flag = supporting_@ROOT
+				}
+			}
+			clr_country_flag = allied_with_@ROOT
+			clr_country_flag = free_subject_of_@ROOT
+			clr_country_flag = subject_of_@ROOT
+			clr_country_flag = has_tributary_@ROOT
+			clr_country_flag = guaranteeing_@ROOT
+			clr_country_flag = supporting_@ROOT
+		}
+
+		every_known_country = {
 			limit = {
 				OR = {
 					is_player_allied_with_player = { who = ROOT }
@@ -372,11 +490,6 @@ update_treaties = {
 				set_country_flag = supporting_@ROOT
 				subtract_points = { from = ROOT }
 			}
-		}
-
-		subtract_variable = {
-			which = as_points
-			which = as_cost
 		}
 
 		check_rulebreak = yes

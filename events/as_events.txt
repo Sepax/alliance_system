@@ -34,10 +34,10 @@ country_event = {
             # Each power status is a percentage of the top rating in the world
             # If a country is above this percentage, they are considered have that power status
             great_power_percentage = 0.9
-            major_power_percentage = 0.7
-            prominent_power_percentage = 0.5
-            notable_power_percentage = 0.3
-            minor_power_percentage = 0.1
+            major_power_percentage = 0.75
+            prominent_power_percentage = 0.55
+            notable_power_percentage = 0.35
+            minor_power_percentage = 0.15
             puny_power_percentage = 0
         }
         country_event = {
@@ -133,9 +133,12 @@ country_event = {
     }
     trigger = {
         is_player = yes
-        NOT = {
-			has_country_modifier = as_country_timer
-		}
+        OR = {
+            has_country_flag = force_update_treaties
+            NOT = {
+                has_country_modifier = as_country_timer
+            }
+        }
     }
     option = {
         name = as.4.a
@@ -143,7 +146,7 @@ country_event = {
             name = as_country_timer
             duration = 5
         }
-
+        clr_country_flag = force_update_treaties
         update_treaties = yes
     }
 }
@@ -155,29 +158,78 @@ country_event = {
     desc = as.5.d
     picture = RULEBREAK_eventPicture
     is_triggered_only = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+    trigger = {
+        is_player = yes
+    }
+    immediate = {
+        # Notify everyone else
+        if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = as_notify_timer
+                }
+            }
+            add_country_modifier = {
+                name = as_notify_timer
+                duration = 90
+            }
+            every_country = {
+                limit = {
+                    NOT = {
+                        tag = ROOT
+                    }
+                    has_country_flag = as_notify
+                }
+                country_event = {
+                    id = as.6
+                }
+            }
+        }
+    }
+    option = {
+        name = as.5.a
+    }
+}
+
+# Notify
+country_event = {
+    id = as.6
+    title = as.6.t
+    desc = as.6.d
+    picture = TEMPORAL_RIFT_eventPicture
+    is_triggered_only = yes
     major = yes
     mean_time_to_happen = {
         days = 1
     }
     trigger = {
         is_player = yes
-        has_country_flag = breaking_rules
     }
     option = {
-        name = as.5.a
-        trigger = {
-            NOT = {
-                has_country_flag = rechecked_treaties
-            }
-        }
-        set_country_flag = rechecked_treaties
+        name = as.6.a
     }
-    option = {
-        name = as.5.b
-        trigger = {
-            has_country_flag = rechecked_treaties
-        }
+}
 
+# Notify Switch
+country_event = {
+    id = as.7
+    title = as.7.t
+    desc = as.7.d
+    picture = TEMPORAL_RIFT_eventPicture
+    is_triggered_only = yes
+    hidden = yes
+    mean_time_to_happen = {
+        days = 1
+    }
+    trigger = {
+        always = yes
+    }
+    option = {
+        name = as.7.a
+        clr_country_flag = as_notify_switch
     }
 }
 

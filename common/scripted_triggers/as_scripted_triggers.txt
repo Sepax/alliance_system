@@ -59,3 +59,13 @@ is_player_supporting_player = {
         is_player = yes
     }
 }
+
+in_treaty_with = {
+    OR = {
+        has_country_flag = allied_with_@$who$
+        has_country_flag = subject_of_@$who$
+        has_country_flag = has_tributary_@$who$
+        has_country_flag = guaranteeing_@$who$
+        has_country_flag = supporting_@$who$
+    }
+}
