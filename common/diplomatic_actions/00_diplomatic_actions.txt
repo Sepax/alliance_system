@@ -116,14 +116,52 @@ declarewar = {
 	#		}
 	#	}
 	#}
-    pre_effect = {
+	pre_effect = {
 		set_country_flag = force_update_treaties
 		country_event = {
 			id = as.4
 		}
 	}
-
+	condition = {
+		tooltip = AI_CANNOT_DECLARE_WHEN_STABILITY_LOSS
+		potential = {
+			ai = yes
+		}
+		allow = {
+			ai = yes
+			NOT = {
+				has_global_modifier_value = {
+					which = stability_cost_to_declare_war
+					value = 1
+				}
+			}
+		}
+	}
+	condition = {
+		tooltip = CANNOT_DECLARE_WARS_OTHER_THAN_INDEPENDENCE_WARS
+		potential = {
+			has_country_modifier = revoked_war_rights
+			FROM = { NOT = { overlord_of = ROOT } }
+		}
+		allow = {
+			OR = {
+				NOT = { has_country_modifier = revoked_war_rights }
+				FROM = { overlord_of = ROOT }
+			}
+		}
+	}
+	condition = {
+		tooltip = BREAKING_ALLIANCE_RULES
+		potential = { 
+			is_player = yes
+			has_country_flag = breaking_rules
+		}
+		allow = {
+			always = no
+		}
+	}
 	effect = {
+		on_war_declaration_effect = yes
 		if = {
 			limit = { 
 				has_country_flag = nor_norwegian_independence_modifier
@@ -146,17 +184,6 @@ declarewar = {
 				id = flavor_teu.33
 				days = 10
 			}
-		}
-	}
-
-	condition = {
-		tooltip = BREAKING_ALLIANCE_RULES
-		potential = { 
-			is_player = yes
-			has_country_flag = breaking_rules
-		}
-		allow = {
-			always = no
 		}
 	}
 }
@@ -244,12 +271,30 @@ allianceaction = {
 		}
 		allow = {
 			OR = {
-				OR = {
-					government = republic 
-					is_revolutionary = yes
-				}
+				government = republic 
+				is_revolutionary = yes
 				NOT = { FROM = { has_government_attribute = cannot_ally_non_republics_or_non_rev } }
 			}
+		}
+	}
+	condition = {
+		tooltip = CANNOT_MAKE_ALLIANCES
+		potential = {
+			has_government_attribute = cannot_form_alliances
+		}
+		allow = {
+			NOT = { has_government_attribute = cannot_form_alliances }
+		}
+	}
+	condition = {
+		tooltip = FROM_CANNOT_MAKE_ALLIANCES
+		potential = {
+			FROM = {
+				has_government_attribute = cannot_form_alliances
+			}
+		}
+		allow = {
+			NOT = { FROM = { has_government_attribute = cannot_form_alliances } }
 		}
 	}
 	condition = {
@@ -306,95 +351,6 @@ allianceaction = {
 	}
 }
 
-guaranteeaction = {
-	condition = {
-		tooltip = FROM_BREAKING_ALLIANCE_RULES
-		potential = {
-			FROM = {
-				has_country_flag = breaking_rules
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
-		potential = {
-			FROM = {
-				would_break_rules = { compare = ROOT }
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	effect = {
-		FROM = {
-			set_country_flag = force_update_treaties
-			country_event = {
-				id = as.4
-			}
-		}
-	}
-}
-
-support_independence_action = {
-	condition = {
-		tooltip = FROM_BREAKING_ALLIANCE_RULES
-		potential = {
-			FROM = {
-				has_country_flag = breaking_rules
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = WOULD_BREAK_ALLIANCE_RULES
-		potential = {
-			is_subject = yes
-			would_break_rules = { compare = FROM }
-		}
-		allow = {
-			always = no
-		}
-	}
-	condition = {
-		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
-		potential = {
-			FROM = {
-				would_break_rules = { compare = ROOT }
-			}
-		}
-		allow = {
-			always = no
-		}
-	}
-	effect = {
-		if = {
-			limit = {
-				FROM = {
-					is_subject = yes
-				}
-			}
-			FROM = {
-				set_country_flag = force_update_treaties
-				country_event = {
-					id = as.4
-				}
-			}
-		}
-		else = {
-			set_country_flag = force_update_treaties
-			country_event = {
-				id = as.4
-			}
-		}
-	}
-}
-
 enforce_peace = {
 	#do this before the peace is enforced, or there is no war enemy country
 	pre_effect = {
@@ -432,7 +388,11 @@ annexationaction = {
 		tooltip = ANNEX_TOO_LOW
 		potential = {
 			FROM = {
-				vassal_of = ROOT
+				OR = {
+					is_subject_of_type = core_eyalet
+					is_subject_of_type = appanage
+					vassal_of = ROOT
+				}
 			}
 		}
 		allow = {
@@ -460,6 +420,29 @@ annexationaction = {
 	#		}
 	#	}
 	#}
+	condition = {
+		tooltip = CANNOT_ANNEX
+		potential = {
+			FROM = {
+				has_country_modifier = tur_mamlukian_administration
+			}
+		}
+		allow = {
+			FROM = {
+				NOT = { has_country_modifier = tur_mamlukian_administration }
+			}
+		}
+	}
+	condition = {
+		tooltip = NEEDS_50_CROWNLAND_TT
+		potential = {
+			has_government_attribute = need_crownland_to_annex
+			NOT = { crown_land_share = 50 }
+		}
+		allow = {
+			crown_land_share = 50
+		}
+	}
 }
 
 integrationaction = {
@@ -486,6 +469,19 @@ integrationaction = {
 			NOT = { has_government_attribute = cannot_integrate_personal_unions }
 		}
 	}
+	condition = {
+		tooltip = CANNOT_ANNEX
+		potential = {
+			FROM = {
+				has_country_modifier = tur_mamlukian_administration
+			}
+		}
+		allow = {
+			FROM = {
+				NOT = { has_country_modifier = tur_mamlukian_administration }
+			}
+		}
+	}
 }
 
 vassalaction = {
@@ -506,7 +502,7 @@ vassalaction = {
 	}
 }
 
-abandon_union_action = {
+abandon_union = {
 	condition = {
 		potential = {
 		}
@@ -627,7 +623,6 @@ tributary_state_action = {
 			always = no
 		}
 	}
-	
 }
 ask_for_tributary_state_action = {
 	condition = {
@@ -667,6 +662,101 @@ ask_for_tributary_state_action = {
 		}
 		allow = {
 			always = no
+		}
+	}
+}
+
+break_alliance = {
+	effect = {
+		on_alliance_broken_effect = yes
+	}
+}
+
+guaranteeaction = {
+	condition = {
+		tooltip = FROM_BREAKING_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				has_country_flag = breaking_rules
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	effect = {
+		FROM = {
+			set_country_flag = force_update_treaties
+			country_event = {
+				id = as.4
+			}
+		}
+	}
+}
+
+support_independence_action = {
+	condition = {
+		tooltip = FROM_BREAKING_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				has_country_flag = breaking_rules
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			is_subject = yes
+			would_break_rules = { compare = FROM }
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
+		tooltip = FROM_WOULD_BREAK_ALLIANCE_RULES
+		potential = {
+			FROM = {
+				would_break_rules = { compare = ROOT }
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				FROM = {
+					is_subject = yes
+				}
+			}
+			FROM = {
+				set_country_flag = force_update_treaties
+				country_event = {
+					id = as.4
+				}
+			}
+		}
+		else = {
+			set_country_flag = force_update_treaties
+			country_event = {
+				id = as.4
+			}
 		}
 	}
 }
