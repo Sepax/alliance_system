@@ -218,13 +218,13 @@ country_event = {
             config_version = 1 # <--- CONFIG VERSION
 
             # Base alliance points each player receives
-            base_points = 13
+            base_points = 11
 
             # HRE Emperor cost addition (before 1470) !!! NOT WORKING !!!
             hre_emperor_cost = 0
 
             # Point cost per power rating
-            great_power_cost = 7
+            great_power_cost = 6
             major_power_cost = 5
             prominent_power_cost = 4
             notable_power_cost = 3
@@ -233,11 +233,11 @@ country_event = {
 
             # Each power status is a percentage of the top rating in the world
             # If a country is above this percentage, they are considered have that power status
-            great_power_percentage = 0.9
-            major_power_percentage = 0.75
-            prominent_power_percentage = 0.55
-            notable_power_percentage = 0.35
-            minor_power_percentage = 0.15
+            great_power_percentage = 0.8
+            major_power_percentage = 0.65
+            prominent_power_percentage = 0.45
+            notable_power_percentage = 0.25
+            minor_power_percentage = 0.05
             puny_power_percentage = 0
 	    }
     }
