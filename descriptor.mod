@@ -4,5 +4,5 @@ tags={
 }
 name="Gurkans Alliance System"
 picture="thumbnail.jpg"
-supported_version="1.35.*"
+supported_version="1.36.*"
 remote_file_id="2959979339"
