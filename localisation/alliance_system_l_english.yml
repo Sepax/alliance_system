@@ -30,6 +30,8 @@
  as_notify_enabled: "Enabled"
  as_notify_disabled: "Disabled"
 
+ as_refresh_button: "Refresh"
+
  BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
  FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
  WOULD_BREAK_ALLIANCE_RULES:0 "You would end up breaking the alliance rules by making a treaty with this nation."
