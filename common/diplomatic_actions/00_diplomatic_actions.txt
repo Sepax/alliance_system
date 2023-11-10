@@ -151,6 +151,17 @@ declarewar = {
 		}
 	}
 	condition = {
+		tooltip = CANNOT_DECLARE_WARS_TEUTONS_HRE
+		potential = {
+			ai = yes 
+			has_country_flag = teu_joined_the_hre
+			FROM = { is_part_of_hre = yes }
+		}
+		allow = { 
+			FROM = { is_part_of_hre = no }
+		}
+	}
+	condition = {
 		tooltip = BREAKING_ALLIANCE_RULES
 		potential = { 
 			is_player = yes
@@ -348,6 +359,7 @@ allianceaction = {
 				id = as.4
 			}
 		}
+		change_asha_vahishta = { value = 2 }
 	}
 }
 
@@ -502,6 +514,35 @@ annexationaction = {
 			crown_land_share = 50
 		}
 	}
+	condition = {
+		tooltip = NEEDS_TO_HAVE_SEIZED_LAND
+		potential = {
+			has_government_attribute = has_appanages
+			NOT = {
+				check_variable = {
+					which = can_annex_appanages_points
+					value = 1
+				}
+			}
+		}
+		allow = {
+			check_variable = {
+				which = can_annex_appanages_points
+				value = 1
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				FROM = { is_subject_of_type = appanage }
+			}
+			subtract_variable = {
+				which = can_annex_appanages_points
+				value = 1
+			}
+		}
+	}
 }
 
 integrationaction = {
@@ -597,7 +638,7 @@ form_coalition = {
 				has_opinion_modifier = {
 					modifier = aggressive_expansion
 					who = FROM
-					value = -50
+					value = -49
 				}
 			}
 		}
@@ -828,5 +869,7 @@ support_independence_action = {
 				id = as.4
 			}
 		}
+		
+		change_asha_vahishta = { value = 1 }
 	}
 }
