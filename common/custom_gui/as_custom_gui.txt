@@ -1,9 +1,72 @@
 custom_button = {
-    name = as_test
+    name = as_show_window
     potential = {
         ai = no
     }
-    trigger = { always = yes }
-    effect = { select_current_branch = yes }
-    tooltip = select_current_branch_missions_title
+    effect = {
+        if = {
+            limit = {
+                has_country_flag = as_ui_open 
+            }
+            clr_country_flag = as_ui_open 
+        }
+        else {
+            set_country_flag = as_ui_open
+            update_treaties = yes
+        }
+    }
+    tooltip = as_toggle_ui_button
+}
+
+custom_window = {
+    name = as_window_test
+    potential = { 
+        has_country_flag = as_ui_open 
+    }
+}
+
+custom_icon = {
+	name = as_window_bg
+    potential = {}
+}
+
+custom_text_box = {
+    name = as_window_title
+    potential = {}
+}
+
+custom_text_box = {
+    name = as_alliance_slot_1A
+    potential = {
+		event_target:treaty_1A = {
+            in_treaty_with = { who = ROOT }
+        }
+	}
+}
+
+custom_text_box = {
+    name = as_alliance_slot_1B
+    potential = {
+		event_target:treaty_1B = {
+            in_treaty_with = { who = ROOT }
+        }
+	}
+}
+
+custom_text_box = {
+    name = as_alliance_slot_2A
+    potential = {
+		event_target:treaty_2A = {
+            in_treaty_with = { who = ROOT }
+        }
+	}
+}
+
+custom_text_box = {
+    name = as_alliance_slot_2B
+    potential = {
+		event_target:treaty_2B = {
+            in_treaty_with = { who = ROOT }
+        }
+	}
 }

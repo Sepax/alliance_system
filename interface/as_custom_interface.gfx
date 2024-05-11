@@ -1,0 +1,8 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_as_window_bg"
+		texturefile = "gfx/interface/as_gfx/as_window_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

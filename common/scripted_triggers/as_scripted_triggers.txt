@@ -1,5 +1,8 @@
 is_player = {
-    ai = no
+    OR = {
+        tag = HUN
+        tag = HAB
+    }
 }
 
 is_player_allied_with_player = {

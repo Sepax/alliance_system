@@ -5,31 +5,31 @@ defined_text = {
     text = {
         localisation_key = as_treaty_alliance
         trigger = {
-            has_country_flag = allied_with_@ROOT
+            has_country_flag = allied_with_@FROM
         }
     }
     text = {
         localisation_key = as_treaty_subject
         trigger = {
-            has_country_flag = subject_of_@ROOT
+            has_country_flag = subject_of_@FROM
         }
     }
     text = {
         localisation_key = as_treaty_guarantee
         trigger = {
-            has_country_flag = guaranteeing_@ROOT
+            has_country_flag = guaranteeing_@FROM
         }
     }
     text = {
         localisation_key = as_treaty_support
         trigger = {
-            has_country_flag = supporting_@ROOT
+            has_country_flag = supporting_@FROM
         }
     }
     text = {
         localisation_key = as_treaty_tributary
         trigger = {
-            has_country_flag = has_tributary_@ROOT
+            has_country_flag = has_tributary_@FROM
         }
     }
 }

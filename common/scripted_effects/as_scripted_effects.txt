@@ -412,6 +412,10 @@ update_treaties = {
 			is_player = yes
 		}
 
+		set_alliance_group = yes
+		clear_treaty_event_targets = yes
+		clear_treaty_count = yes
+
 		set_variable = {
 			which = as_points
 			which = as_points_max
@@ -446,6 +450,11 @@ update_treaties = {
 					is_player_supporting_player = { who = ROOT }
 				}
 			}
+
+			ROOT = {
+				increment_treaty_count = yes
+			}
+			set_treaty_event_target = yes
 
 			if = {
 				limit = {
@@ -546,5 +555,166 @@ reset_global_flag_timer = {
     clr_global_flag = $flag$
     set_global_flag = $flag$
 }
+
+set_treaty_event_target = {
+	ROOT = {
+		change_variable = {
+			which = event_target_counter
+			value = 1
+		}
+	}
+
+	if = {
+		limit = {
+			ROOT = {
+				has_country_flag = as_alliance_group_1
+			}
+		}
+		if = {
+			limit ={
+				ROOT = {
+					check_variable = {
+						which = event_target_counter
+						value = 1
+					}
+					NOT = {
+						check_variable = {
+							which = event_target_counter
+							value = 2
+						}
+					}
+				}
+			}
+			save_global_event_target_as = treaty_1A
+		}
+		else_if = {
+			limit ={
+				ROOT = {
+					check_variable = {
+						which = event_target_counter
+						value = 2
+					}
+					NOT = {
+						check_variable = {
+							which = event_target_counter
+							value = 3
+						}
+					}
+				}
+			}
+			save_global_event_target_as = treaty_1B
+		}
+	}
+	else_if = {
+		limit = {
+			ROOT = {
+				has_country_flag = as_alliance_group_2
+			}
+		}
+		if = {
+			limit ={
+				ROOT = {
+					check_variable = {
+						which = event_target_counter
+						value = 1
+					}
+					NOT = {
+						check_variable = {
+							which = event_target_counter
+							value = 2
+						}
+					}
+				}
+			}
+			save_global_event_target_as = treaty_2A
+		}
+		else_if = {
+			limit ={
+				ROOT = {
+					check_variable = {
+						which = event_target_counter
+						value = 2
+					}
+					NOT = {
+						check_variable = {
+							which = event_target_counter
+							value = 3
+						}
+					}
+				}
+			}
+			save_global_event_target_as = treaty_2B
+		}
+	}
+}
+
+set_alliance_group = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = alliance_group_set
+			}
+		}
+
+		set_country_flag = alliance_group_set
+
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = as_alliance_group_1_set
+				}
+			}
+			set_country_flag = as_alliance_group_1
+			set_global_flag = as_alliance_group_1_set
+		}
+		else_if = {
+			limit = {
+				NOT = {
+					has_global_flag = as_alliance_group_2_set
+				}
+			}
+			set_country_flag = as_alliance_group_2
+			set_global_flag = as_alliance_group_2_set
+		}
+	}
+}
+
+clear_treaty_event_targets = {
+	set_variable = {
+		which = event_target_counter
+		value = 0
+	}
+
+	if = {
+		limit = {
+			has_country_flag = as_alliance_group_1
+		}
+		clear_global_event_target = treaty_1A
+		clear_global_event_target = treaty_1B
+	}
+	else_if = {
+		limit = {
+			has_country_flag = as_alliance_group_2
+		}
+		clear_global_event_target = treaty_2A
+		clear_global_event_target = treaty_2B
+	}
+}
+
+increment_treaty_count = {
+	change_variable = {
+		which = as_treaty_count
+		vaule = 1
+	}
+}
+
+clear_treaty_count = {
+	set_variable = {
+		which = as_treaty_count
+		vaule = 0
+	}
+}
+
+
 
 

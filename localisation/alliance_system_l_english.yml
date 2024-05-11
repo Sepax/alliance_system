@@ -30,7 +30,7 @@
  as_notify_enabled: "Enabled"
  as_notify_disabled: "Disabled"
 
- as_refresh_button: "Refresh"
+ as_toggle_ui_button: "Open"
 
  BREAKING_ALLIANCE_RULES:0 "You are breaking the alliance rules."
  FROM_BREAKING_ALLIANCE_RULES:0 "[From.GetName] is breaking the alliance rules."
@@ -45,4 +45,9 @@
  as.6.d:1 "[From.GetName] is breaking the alliance rules and need to break one or more treaties with other players."
  as.6.a:0 "Shame on him!"
  as.6.b:0 "Disable notifications"
+
+ as_alliance_slot_1A: "@[treaty_1A.GetTag] [treaty_1A.GetName] - [treaty_1A.TreatyType] - £as_cost£ §R[treaty_1A.as_cost.GetValue]§!"
+ as_alliance_slot_1B: "@[treaty_1B.GetTag] [treaty_1B.GetName] - [treaty_1B.TreatyType] - £as_cost£ §R[treaty_1B.as_cost.GetValue]§!"
+ as_alliance_slot_2A: "@[treaty_2A.GetTag] [treaty_2A.GetName] - [treaty_2A.TreatyType] - £as_cost£ §R[treaty_2A.as_cost.GetValue]§!"
+ as_alliance_slot_2B: "@[treaty_2B.GetTag] [treaty_2B.GetName] - [treaty_2B.TreatyType] - £as_cost£ §R[treaty_2B.as_cost.GetValue]§!"
 
