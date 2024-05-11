@@ -1,0 +1,9 @@
+custom_button = {
+    name = as_test
+    potential = {
+        ai = no
+    }
+    trigger = { always = yes }
+    effect = { select_current_branch = yes }
+    tooltip = select_current_branch_missions_title
+}
