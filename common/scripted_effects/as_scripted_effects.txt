@@ -559,7 +559,7 @@ reset_global_flag_timer = {
 increment_treaty_count = {
 	change_variable = {
 		which = as_treaty_count
-		value = 10
+		value = 1
 	}
 }
 
