@@ -1,0 +1,300 @@
+custom_text_box = { 
+    name = as_slot_tag_1
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 1
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_2
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 2
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_3
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 3
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_4
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 4
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_5
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 5
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_6
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 6
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_7
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 7
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_8
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 8
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_9
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 9
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_tag_10
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 10
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_1
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 1
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_2
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 2
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_3
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 3
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_4
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 4
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_5
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 5
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_6
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 6
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_7
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 7
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_8
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 8
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_9
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 9
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_treaty_10
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 10
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_1
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 1
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_2
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 2
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_3
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 3
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_4
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 4
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_5
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 5
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_6
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 6
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_7
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 7
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_8
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 8
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_9
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 9
+	    }
+    }
+}
+
+custom_text_box = { 
+    name = as_slot_cost_10
+    potential = { 
+        check_variable = {
+            which = as_treaty_count
+            value = 10
+	    }
+    }
+}
+

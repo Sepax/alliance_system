@@ -5,4 +5,10 @@ spriteTypes = {
 		loadType = "INGAME"
 		transparencecheck = yes
 	}
+	spriteType = {
+		name = "GFX_as_window_bottom"
+		texturefile = "gfx/interface/as_gfx/as_window_bottom.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
 }

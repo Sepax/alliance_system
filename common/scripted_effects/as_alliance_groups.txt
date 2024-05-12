@@ -1,0 +1,611 @@
+set_alliance_group = {
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = alliance_group_set
+			}
+		}
+
+		set_country_flag = alliance_group_set
+
+		if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_1_set } }
+            set_country_flag = as_alliance_group_1
+            set_global_flag = as_alliance_group_1_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_2_set } }
+            set_country_flag = as_alliance_group_2
+            set_global_flag = as_alliance_group_2_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_3_set } }
+            set_country_flag = as_alliance_group_3
+            set_global_flag = as_alliance_group_3_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_4_set } }
+            set_country_flag = as_alliance_group_4
+            set_global_flag = as_alliance_group_4_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_5_set } }
+            set_country_flag = as_alliance_group_5
+            set_global_flag = as_alliance_group_5_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_6_set } }
+            set_country_flag = as_alliance_group_6
+            set_global_flag = as_alliance_group_6_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_7_set } }
+            set_country_flag = as_alliance_group_7
+            set_global_flag = as_alliance_group_7_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_8_set } }
+            set_country_flag = as_alliance_group_8
+            set_global_flag = as_alliance_group_8_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_9_set } }
+            set_country_flag = as_alliance_group_9
+            set_global_flag = as_alliance_group_9_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_10_set } }
+            set_country_flag = as_alliance_group_10
+            set_global_flag = as_alliance_group_10_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_11_set } }
+            set_country_flag = as_alliance_group_11
+            set_global_flag = as_alliance_group_11_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_12_set } }
+            set_country_flag = as_alliance_group_12
+            set_global_flag = as_alliance_group_12_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_13_set } }
+            set_country_flag = as_alliance_group_13
+            set_global_flag = as_alliance_group_13_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_14_set } }
+            set_country_flag = as_alliance_group_14
+            set_global_flag = as_alliance_group_14_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_15_set } }
+            set_country_flag = as_alliance_group_15
+            set_global_flag = as_alliance_group_15_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_16_set } }
+            set_country_flag = as_alliance_group_16
+            set_global_flag = as_alliance_group_16_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_17_set } }
+            set_country_flag = as_alliance_group_17
+            set_global_flag = as_alliance_group_17_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_18_set } }
+            set_country_flag = as_alliance_group_18
+            set_global_flag = as_alliance_group_18_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_19_set } }
+            set_country_flag = as_alliance_group_19
+            set_global_flag = as_alliance_group_19_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_20_set } }
+            set_country_flag = as_alliance_group_20
+            set_global_flag = as_alliance_group_20_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_21_set } }
+            set_country_flag = as_alliance_group_21
+            set_global_flag = as_alliance_group_21_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_22_set } }
+            set_country_flag = as_alliance_group_22
+            set_global_flag = as_alliance_group_22_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_23_set } }
+            set_country_flag = as_alliance_group_23
+            set_global_flag = as_alliance_group_23_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_24_set } }
+            set_country_flag = as_alliance_group_24
+            set_global_flag = as_alliance_group_24_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_25_set } }
+            set_country_flag = as_alliance_group_25
+            set_global_flag = as_alliance_group_25_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_26_set } }
+            set_country_flag = as_alliance_group_26
+            set_global_flag = as_alliance_group_26_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_27_set } }
+            set_country_flag = as_alliance_group_27
+            set_global_flag = as_alliance_group_27_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_28_set } }
+            set_country_flag = as_alliance_group_28
+            set_global_flag = as_alliance_group_28_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_29_set } }
+            set_country_flag = as_alliance_group_29
+            set_global_flag = as_alliance_group_29_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_30_set } }
+            set_country_flag = as_alliance_group_30
+            set_global_flag = as_alliance_group_30_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_31_set } }
+            set_country_flag = as_alliance_group_31
+            set_global_flag = as_alliance_group_31_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_32_set } }
+            set_country_flag = as_alliance_group_32
+            set_global_flag = as_alliance_group_32_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_33_set } }
+            set_country_flag = as_alliance_group_33
+            set_global_flag = as_alliance_group_33_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_34_set } }
+            set_country_flag = as_alliance_group_34
+            set_global_flag = as_alliance_group_34_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_35_set } }
+            set_country_flag = as_alliance_group_35
+            set_global_flag = as_alliance_group_35_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_36_set } }
+            set_country_flag = as_alliance_group_36
+            set_global_flag = as_alliance_group_36_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_37_set } }
+            set_country_flag = as_alliance_group_37
+            set_global_flag = as_alliance_group_37_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_38_set } }
+            set_country_flag = as_alliance_group_38
+            set_global_flag = as_alliance_group_38_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_39_set } }
+            set_country_flag = as_alliance_group_39
+            set_global_flag = as_alliance_group_39_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_40_set } }
+            set_country_flag = as_alliance_group_40
+            set_global_flag = as_alliance_group_40_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_41_set } }
+            set_country_flag = as_alliance_group_41
+            set_global_flag = as_alliance_group_41_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_42_set } }
+            set_country_flag = as_alliance_group_42
+            set_global_flag = as_alliance_group_42_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_43_set } }
+            set_country_flag = as_alliance_group_43
+            set_global_flag = as_alliance_group_43_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_44_set } }
+            set_country_flag = as_alliance_group_44
+            set_global_flag = as_alliance_group_44_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_45_set } }
+            set_country_flag = as_alliance_group_45
+            set_global_flag = as_alliance_group_45_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_46_set } }
+            set_country_flag = as_alliance_group_46
+            set_global_flag = as_alliance_group_46_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_47_set } }
+            set_country_flag = as_alliance_group_47
+            set_global_flag = as_alliance_group_47_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_48_set } }
+            set_country_flag = as_alliance_group_48
+            set_global_flag = as_alliance_group_48_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_49_set } }
+            set_country_flag = as_alliance_group_49
+            set_global_flag = as_alliance_group_49_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_50_set } }
+            set_country_flag = as_alliance_group_50
+            set_global_flag = as_alliance_group_50_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_51_set } }
+            set_country_flag = as_alliance_group_51
+            set_global_flag = as_alliance_group_51_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_52_set } }
+            set_country_flag = as_alliance_group_52
+            set_global_flag = as_alliance_group_52_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_53_set } }
+            set_country_flag = as_alliance_group_53
+            set_global_flag = as_alliance_group_53_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_54_set } }
+            set_country_flag = as_alliance_group_54
+            set_global_flag = as_alliance_group_54_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_55_set } }
+            set_country_flag = as_alliance_group_55
+            set_global_flag = as_alliance_group_55_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_56_set } }
+            set_country_flag = as_alliance_group_56
+            set_global_flag = as_alliance_group_56_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_57_set } }
+            set_country_flag = as_alliance_group_57
+            set_global_flag = as_alliance_group_57_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_58_set } }
+            set_country_flag = as_alliance_group_58
+            set_global_flag = as_alliance_group_58_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_59_set } }
+            set_country_flag = as_alliance_group_59
+            set_global_flag = as_alliance_group_59_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_60_set } }
+            set_country_flag = as_alliance_group_60
+            set_global_flag = as_alliance_group_60_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_61_set } }
+            set_country_flag = as_alliance_group_61
+            set_global_flag = as_alliance_group_61_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_62_set } }
+            set_country_flag = as_alliance_group_62
+            set_global_flag = as_alliance_group_62_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_63_set } }
+            set_country_flag = as_alliance_group_63
+            set_global_flag = as_alliance_group_63_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_64_set } }
+            set_country_flag = as_alliance_group_64
+            set_global_flag = as_alliance_group_64_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_65_set } }
+            set_country_flag = as_alliance_group_65
+            set_global_flag = as_alliance_group_65_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_66_set } }
+            set_country_flag = as_alliance_group_66
+            set_global_flag = as_alliance_group_66_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_67_set } }
+            set_country_flag = as_alliance_group_67
+            set_global_flag = as_alliance_group_67_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_68_set } }
+            set_country_flag = as_alliance_group_68
+            set_global_flag = as_alliance_group_68_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_69_set } }
+            set_country_flag = as_alliance_group_69
+            set_global_flag = as_alliance_group_69_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_70_set } }
+            set_country_flag = as_alliance_group_70
+            set_global_flag = as_alliance_group_70_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_71_set } }
+            set_country_flag = as_alliance_group_71
+            set_global_flag = as_alliance_group_71_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_72_set } }
+            set_country_flag = as_alliance_group_72
+            set_global_flag = as_alliance_group_72_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_73_set } }
+            set_country_flag = as_alliance_group_73
+            set_global_flag = as_alliance_group_73_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_74_set } }
+            set_country_flag = as_alliance_group_74
+            set_global_flag = as_alliance_group_74_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_75_set } }
+            set_country_flag = as_alliance_group_75
+            set_global_flag = as_alliance_group_75_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_76_set } }
+            set_country_flag = as_alliance_group_76
+            set_global_flag = as_alliance_group_76_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_77_set } }
+            set_country_flag = as_alliance_group_77
+            set_global_flag = as_alliance_group_77_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_78_set } }
+            set_country_flag = as_alliance_group_78
+            set_global_flag = as_alliance_group_78_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_79_set } }
+            set_country_flag = as_alliance_group_79
+            set_global_flag = as_alliance_group_79_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_80_set } }
+            set_country_flag = as_alliance_group_80
+            set_global_flag = as_alliance_group_80_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_81_set } }
+            set_country_flag = as_alliance_group_81
+            set_global_flag = as_alliance_group_81_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_82_set } }
+            set_country_flag = as_alliance_group_82
+            set_global_flag = as_alliance_group_82_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_83_set } }
+            set_country_flag = as_alliance_group_83
+            set_global_flag = as_alliance_group_83_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_84_set } }
+            set_country_flag = as_alliance_group_84
+            set_global_flag = as_alliance_group_84_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_85_set } }
+            set_country_flag = as_alliance_group_85
+            set_global_flag = as_alliance_group_85_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_86_set } }
+            set_country_flag = as_alliance_group_86
+            set_global_flag = as_alliance_group_86_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_87_set } }
+            set_country_flag = as_alliance_group_87
+            set_global_flag = as_alliance_group_87_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_88_set } }
+            set_country_flag = as_alliance_group_88
+            set_global_flag = as_alliance_group_88_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_89_set } }
+            set_country_flag = as_alliance_group_89
+            set_global_flag = as_alliance_group_89_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_90_set } }
+            set_country_flag = as_alliance_group_90
+            set_global_flag = as_alliance_group_90_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_91_set } }
+            set_country_flag = as_alliance_group_91
+            set_global_flag = as_alliance_group_91_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_92_set } }
+            set_country_flag = as_alliance_group_92
+            set_global_flag = as_alliance_group_92_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_93_set } }
+            set_country_flag = as_alliance_group_93
+            set_global_flag = as_alliance_group_93_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_94_set } }
+            set_country_flag = as_alliance_group_94
+            set_global_flag = as_alliance_group_94_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_95_set } }
+            set_country_flag = as_alliance_group_95
+            set_global_flag = as_alliance_group_95_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_96_set } }
+            set_country_flag = as_alliance_group_96
+            set_global_flag = as_alliance_group_96_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_97_set } }
+            set_country_flag = as_alliance_group_97
+            set_global_flag = as_alliance_group_97_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_98_set } }
+            set_country_flag = as_alliance_group_98
+            set_global_flag = as_alliance_group_98_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_99_set } }
+            set_country_flag = as_alliance_group_99
+            set_global_flag = as_alliance_group_99_set
+        }
+
+        else_if = {
+            limit = { NOT = { has_global_flag = as_alliance_group_100_set } }
+            set_country_flag = as_alliance_group_100
+            set_global_flag = as_alliance_group_100_set
+        }
+	}
+}

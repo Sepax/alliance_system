@@ -1,0 +1,500 @@
+custom_text_box = { 
+    name = as_alliance_slot_1A
+    potential = { event_target:treaty_1A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1B
+    potential = { event_target:treaty_1B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1C
+    potential = { event_target:treaty_1C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1D
+    potential = { event_target:treaty_1D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1E
+    potential = { event_target:treaty_1E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1F
+    potential = { event_target:treaty_1F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1G
+    potential = { event_target:treaty_1G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1H
+    potential = { event_target:treaty_1H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1I
+    potential = { event_target:treaty_1I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_1J
+    potential = { event_target:treaty_1J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2A
+    potential = { event_target:treaty_2A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2B
+    potential = { event_target:treaty_2B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2C
+    potential = { event_target:treaty_2C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2D
+    potential = { event_target:treaty_2D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2E
+    potential = { event_target:treaty_2E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2F
+    potential = { event_target:treaty_2F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2G
+    potential = { event_target:treaty_2G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2H
+    potential = { event_target:treaty_2H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2I
+    potential = { event_target:treaty_2I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_2J
+    potential = { event_target:treaty_2J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3A
+    potential = { event_target:treaty_3A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3B
+    potential = { event_target:treaty_3B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3C
+    potential = { event_target:treaty_3C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3D
+    potential = { event_target:treaty_3D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3E
+    potential = { event_target:treaty_3E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3F
+    potential = { event_target:treaty_3F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3G
+    potential = { event_target:treaty_3G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3H
+    potential = { event_target:treaty_3H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3I
+    potential = { event_target:treaty_3I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_3J
+    potential = { event_target:treaty_3J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4A
+    potential = { event_target:treaty_4A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4B
+    potential = { event_target:treaty_4B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4C
+    potential = { event_target:treaty_4C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4D
+    potential = { event_target:treaty_4D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4E
+    potential = { event_target:treaty_4E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4F
+    potential = { event_target:treaty_4F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4G
+    potential = { event_target:treaty_4G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4H
+    potential = { event_target:treaty_4H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4I
+    potential = { event_target:treaty_4I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_4J
+    potential = { event_target:treaty_4J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5A
+    potential = { event_target:treaty_5A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5B
+    potential = { event_target:treaty_5B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5C
+    potential = { event_target:treaty_5C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5D
+    potential = { event_target:treaty_5D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5E
+    potential = { event_target:treaty_5E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5F
+    potential = { event_target:treaty_5F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5G
+    potential = { event_target:treaty_5G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5H
+    potential = { event_target:treaty_5H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5I
+    potential = { event_target:treaty_5I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_5J
+    potential = { event_target:treaty_5J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6A
+    potential = { event_target:treaty_6A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6B
+    potential = { event_target:treaty_6B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6C
+    potential = { event_target:treaty_6C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6D
+    potential = { event_target:treaty_6D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6E
+    potential = { event_target:treaty_6E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6F
+    potential = { event_target:treaty_6F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6G
+    potential = { event_target:treaty_6G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6H
+    potential = { event_target:treaty_6H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6I
+    potential = { event_target:treaty_6I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_6J
+    potential = { event_target:treaty_6J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7A
+    potential = { event_target:treaty_7A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7B
+    potential = { event_target:treaty_7B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7C
+    potential = { event_target:treaty_7C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7D
+    potential = { event_target:treaty_7D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7E
+    potential = { event_target:treaty_7E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7F
+    potential = { event_target:treaty_7F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7G
+    potential = { event_target:treaty_7G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7H
+    potential = { event_target:treaty_7H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7I
+    potential = { event_target:treaty_7I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_7J
+    potential = { event_target:treaty_7J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8A
+    potential = { event_target:treaty_8A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8B
+    potential = { event_target:treaty_8B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8C
+    potential = { event_target:treaty_8C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8D
+    potential = { event_target:treaty_8D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8E
+    potential = { event_target:treaty_8E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8F
+    potential = { event_target:treaty_8F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8G
+    potential = { event_target:treaty_8G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8H
+    potential = { event_target:treaty_8H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8I
+    potential = { event_target:treaty_8I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_8J
+    potential = { event_target:treaty_8J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9A
+    potential = { event_target:treaty_9A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9B
+    potential = { event_target:treaty_9B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9C
+    potential = { event_target:treaty_9C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9D
+    potential = { event_target:treaty_9D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9E
+    potential = { event_target:treaty_9E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9F
+    potential = { event_target:treaty_9F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9G
+    potential = { event_target:treaty_9G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9H
+    potential = { event_target:treaty_9H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9I
+    potential = { event_target:treaty_9I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_9J
+    potential = { event_target:treaty_9J = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10A
+    potential = { event_target:treaty_10A = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10B
+    potential = { event_target:treaty_10B = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10C
+    potential = { event_target:treaty_10C = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10D
+    potential = { event_target:treaty_10D = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10E
+    potential = { event_target:treaty_10E = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10F
+    potential = { event_target:treaty_10F = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10G
+    potential = { event_target:treaty_10G = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10H
+    potential = { event_target:treaty_10H = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10I
+    potential = { event_target:treaty_10I = { in_treaty_with = { who = ROOT } } }
+}
+
+custom_text_box = { 
+    name = as_alliance_slot_10J
+    potential = { event_target:treaty_10J = { in_treaty_with = { who = ROOT } } }
+}
+

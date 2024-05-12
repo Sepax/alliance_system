@@ -2,6 +2,15 @@ is_player = {
     OR = {
         tag = HUN
         tag = HAB
+        tag = FRA
+        tag = ENG
+        tag = SPA
+        tag = TUR
+        tag = MAM
+        tag = HOL
+        tag = SWE
+        tag = SAX
+        tag = ROT
     }
 }
 

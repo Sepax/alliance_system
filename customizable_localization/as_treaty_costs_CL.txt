@@ -1,0 +1,6070 @@
+defined_text = {
+    name = GetCost_1
+    random = no
+
+    text = {
+        localisation_key = as_cost_1A
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2A
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3A
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4A
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5A
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6A
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7A
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8A
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9A
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10A
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11A
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12A
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13A
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14A
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15A
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16A
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17A
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18A
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19A
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20A
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21A
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22A
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23A
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24A
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25A
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26A
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27A
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28A
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29A
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30A
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31A
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32A
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33A
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34A
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35A
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36A
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37A
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38A
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39A
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40A
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41A
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42A
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43A
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44A
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45A
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46A
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47A
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48A
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49A
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50A
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51A
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52A
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53A
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54A
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55A
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56A
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57A
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58A
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59A
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60A
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61A
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62A
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63A
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64A
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65A
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66A
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67A
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68A
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69A
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70A
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71A
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72A
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73A
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74A
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75A
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76A
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77A
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78A
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79A
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80A
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81A
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82A
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83A
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84A
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85A
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86A
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87A
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88A
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89A
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90A
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91A
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92A
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93A
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94A
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95A
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96A
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97A
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98A
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99A
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100A
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_2
+    random = no
+
+    text = {
+        localisation_key = as_cost_1B
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2B
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3B
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4B
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5B
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6B
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7B
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8B
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9B
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10B
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11B
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12B
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13B
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14B
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15B
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16B
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17B
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18B
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19B
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20B
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21B
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22B
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23B
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24B
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25B
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26B
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27B
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28B
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29B
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30B
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31B
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32B
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33B
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34B
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35B
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36B
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37B
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38B
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39B
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40B
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41B
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42B
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43B
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44B
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45B
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46B
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47B
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48B
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49B
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50B
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51B
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52B
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53B
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54B
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55B
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56B
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57B
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58B
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59B
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60B
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61B
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62B
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63B
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64B
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65B
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66B
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67B
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68B
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69B
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70B
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71B
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72B
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73B
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74B
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75B
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76B
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77B
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78B
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79B
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80B
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81B
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82B
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83B
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84B
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85B
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86B
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87B
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88B
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89B
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90B
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91B
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92B
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93B
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94B
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95B
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96B
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97B
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98B
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99B
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100B
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_3
+    random = no
+
+    text = {
+        localisation_key = as_cost_1C
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2C
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3C
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4C
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5C
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6C
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7C
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8C
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9C
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10C
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11C
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12C
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13C
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14C
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15C
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16C
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17C
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18C
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19C
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20C
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21C
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22C
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23C
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24C
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25C
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26C
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27C
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28C
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29C
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30C
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31C
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32C
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33C
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34C
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35C
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36C
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37C
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38C
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39C
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40C
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41C
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42C
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43C
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44C
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45C
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46C
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47C
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48C
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49C
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50C
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51C
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52C
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53C
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54C
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55C
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56C
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57C
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58C
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59C
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60C
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61C
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62C
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63C
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64C
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65C
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66C
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67C
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68C
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69C
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70C
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71C
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72C
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73C
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74C
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75C
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76C
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77C
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78C
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79C
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80C
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81C
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82C
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83C
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84C
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85C
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86C
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87C
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88C
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89C
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90C
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91C
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92C
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93C
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94C
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95C
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96C
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97C
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98C
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99C
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100C
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_4
+    random = no
+
+    text = {
+        localisation_key = as_cost_1D
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2D
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3D
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4D
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5D
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6D
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7D
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8D
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9D
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10D
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11D
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12D
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13D
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14D
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15D
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16D
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17D
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18D
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19D
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20D
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21D
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22D
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23D
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24D
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25D
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26D
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27D
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28D
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29D
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30D
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31D
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32D
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33D
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34D
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35D
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36D
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37D
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38D
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39D
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40D
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41D
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42D
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43D
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44D
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45D
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46D
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47D
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48D
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49D
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50D
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51D
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52D
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53D
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54D
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55D
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56D
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57D
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58D
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59D
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60D
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61D
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62D
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63D
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64D
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65D
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66D
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67D
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68D
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69D
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70D
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71D
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72D
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73D
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74D
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75D
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76D
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77D
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78D
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79D
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80D
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81D
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82D
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83D
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84D
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85D
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86D
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87D
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88D
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89D
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90D
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91D
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92D
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93D
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94D
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95D
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96D
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97D
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98D
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99D
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100D
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_5
+    random = no
+
+    text = {
+        localisation_key = as_cost_1E
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2E
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3E
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4E
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5E
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6E
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7E
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8E
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9E
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10E
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11E
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12E
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13E
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14E
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15E
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16E
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17E
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18E
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19E
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20E
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21E
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22E
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23E
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24E
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25E
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26E
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27E
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28E
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29E
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30E
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31E
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32E
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33E
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34E
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35E
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36E
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37E
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38E
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39E
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40E
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41E
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42E
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43E
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44E
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45E
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46E
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47E
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48E
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49E
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50E
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51E
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52E
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53E
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54E
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55E
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56E
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57E
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58E
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59E
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60E
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61E
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62E
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63E
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64E
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65E
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66E
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67E
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68E
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69E
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70E
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71E
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72E
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73E
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74E
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75E
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76E
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77E
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78E
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79E
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80E
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81E
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82E
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83E
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84E
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85E
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86E
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87E
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88E
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89E
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90E
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91E
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92E
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93E
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94E
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95E
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96E
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97E
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98E
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99E
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100E
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_6
+    random = no
+
+    text = {
+        localisation_key = as_cost_1F
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2F
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3F
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4F
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5F
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6F
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7F
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8F
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9F
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10F
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11F
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12F
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13F
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14F
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15F
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16F
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17F
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18F
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19F
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20F
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21F
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22F
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23F
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24F
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25F
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26F
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27F
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28F
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29F
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30F
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31F
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32F
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33F
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34F
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35F
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36F
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37F
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38F
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39F
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40F
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41F
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42F
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43F
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44F
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45F
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46F
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47F
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48F
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49F
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50F
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51F
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52F
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53F
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54F
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55F
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56F
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57F
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58F
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59F
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60F
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61F
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62F
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63F
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64F
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65F
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66F
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67F
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68F
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69F
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70F
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71F
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72F
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73F
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74F
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75F
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76F
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77F
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78F
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79F
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80F
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81F
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82F
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83F
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84F
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85F
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86F
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87F
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88F
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89F
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90F
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91F
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92F
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93F
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94F
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95F
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96F
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97F
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98F
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99F
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100F
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_7
+    random = no
+
+    text = {
+        localisation_key = as_cost_1G
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2G
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3G
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4G
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5G
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6G
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7G
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8G
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9G
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10G
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11G
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12G
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13G
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14G
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15G
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16G
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17G
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18G
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19G
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20G
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21G
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22G
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23G
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24G
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25G
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26G
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27G
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28G
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29G
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30G
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31G
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32G
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33G
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34G
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35G
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36G
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37G
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38G
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39G
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40G
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41G
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42G
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43G
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44G
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45G
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46G
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47G
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48G
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49G
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50G
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51G
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52G
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53G
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54G
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55G
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56G
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57G
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58G
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59G
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60G
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61G
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62G
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63G
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64G
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65G
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66G
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67G
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68G
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69G
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70G
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71G
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72G
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73G
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74G
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75G
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76G
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77G
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78G
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79G
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80G
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81G
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82G
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83G
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84G
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85G
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86G
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87G
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88G
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89G
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90G
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91G
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92G
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93G
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94G
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95G
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96G
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97G
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98G
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99G
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100G
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_8
+    random = no
+
+    text = {
+        localisation_key = as_cost_1H
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2H
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3H
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4H
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5H
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6H
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7H
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8H
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9H
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10H
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11H
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12H
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13H
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14H
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15H
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16H
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17H
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18H
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19H
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20H
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21H
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22H
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23H
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24H
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25H
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26H
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27H
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28H
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29H
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30H
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31H
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32H
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33H
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34H
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35H
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36H
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37H
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38H
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39H
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40H
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41H
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42H
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43H
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44H
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45H
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46H
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47H
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48H
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49H
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50H
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51H
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52H
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53H
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54H
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55H
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56H
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57H
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58H
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59H
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60H
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61H
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62H
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63H
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64H
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65H
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66H
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67H
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68H
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69H
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70H
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71H
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72H
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73H
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74H
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75H
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76H
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77H
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78H
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79H
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80H
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81H
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82H
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83H
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84H
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85H
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86H
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87H
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88H
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89H
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90H
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91H
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92H
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93H
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94H
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95H
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96H
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97H
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98H
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99H
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100H
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_9
+    random = no
+
+    text = {
+        localisation_key = as_cost_1I
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2I
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3I
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4I
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5I
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6I
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7I
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8I
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9I
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10I
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11I
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12I
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13I
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14I
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15I
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16I
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17I
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18I
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19I
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20I
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21I
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22I
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23I
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24I
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25I
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26I
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27I
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28I
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29I
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30I
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31I
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32I
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33I
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34I
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35I
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36I
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37I
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38I
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39I
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40I
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41I
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42I
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43I
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44I
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45I
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46I
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47I
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48I
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49I
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50I
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51I
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52I
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53I
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54I
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55I
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56I
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57I
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58I
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59I
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60I
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61I
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62I
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63I
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64I
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65I
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66I
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67I
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68I
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69I
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70I
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71I
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72I
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73I
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74I
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75I
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76I
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77I
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78I
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79I
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80I
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81I
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82I
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83I
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84I
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85I
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86I
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87I
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88I
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89I
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90I
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91I
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92I
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93I
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94I
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95I
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96I
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97I
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98I
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99I
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100I
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetCost_10
+    random = no
+
+    text = {
+        localisation_key = as_cost_1J
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_cost_2J
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_cost_3J
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_cost_4J
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_cost_5J
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_cost_6J
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_cost_7J
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_cost_8J
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_cost_9J
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_cost_10J
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_cost_11J
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_cost_12J
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_cost_13J
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_cost_14J
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_cost_15J
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_cost_16J
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_cost_17J
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_cost_18J
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_cost_19J
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_cost_20J
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_cost_21J
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_cost_22J
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_cost_23J
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_cost_24J
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_cost_25J
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_cost_26J
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_cost_27J
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_cost_28J
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_cost_29J
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_cost_30J
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_cost_31J
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_cost_32J
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_cost_33J
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_cost_34J
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_cost_35J
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_cost_36J
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_cost_37J
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_cost_38J
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_cost_39J
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_cost_40J
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_cost_41J
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_cost_42J
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_cost_43J
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_cost_44J
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_cost_45J
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_cost_46J
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_cost_47J
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_cost_48J
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_cost_49J
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_cost_50J
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_cost_51J
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_cost_52J
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_cost_53J
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_cost_54J
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_cost_55J
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_cost_56J
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_cost_57J
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_cost_58J
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_cost_59J
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_cost_60J
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_cost_61J
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_cost_62J
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_cost_63J
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_cost_64J
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_cost_65J
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_cost_66J
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_cost_67J
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_cost_68J
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_cost_69J
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_cost_70J
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_cost_71J
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_cost_72J
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_cost_73J
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_cost_74J
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_cost_75J
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_cost_76J
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_cost_77J
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_cost_78J
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_cost_79J
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_cost_80J
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_cost_81J
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_cost_82J
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_cost_83J
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_cost_84J
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_cost_85J
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_cost_86J
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_cost_87J
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_cost_88J
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_cost_89J
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_cost_90J
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_cost_91J
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_cost_92J
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_cost_93J
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_cost_94J
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_cost_95J
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_cost_96J
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_cost_97J
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_cost_98J
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_cost_99J
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_cost_100J
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+

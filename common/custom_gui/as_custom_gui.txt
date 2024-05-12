@@ -18,6 +18,13 @@ custom_button = {
     tooltip = as_toggle_ui_button
 }
 
+custom_button = {
+    name = as_close_button
+    effect = {
+            clr_country_flag = as_ui_open 
+    }
+}
+
 custom_window = {
     name = as_window_test
     potential = { 
@@ -35,38 +42,22 @@ custom_text_box = {
     potential = {}
 }
 
-custom_text_box = {
-    name = as_alliance_slot_1A
-    potential = {
-		event_target:treaty_1A = {
-            in_treaty_with = { who = ROOT }
-        }
-	}
+custom_text_box = { 
+    name = as_rating_value
+    potential = {}
 }
 
-custom_text_box = {
-    name = as_alliance_slot_1B
-    potential = {
-		event_target:treaty_1B = {
-            in_treaty_with = { who = ROOT }
-        }
-	}
+custom_text_box = { 
+    name = as_power_value
+    potential = {}
 }
 
-custom_text_box = {
-    name = as_alliance_slot_2A
-    potential = {
-		event_target:treaty_2A = {
-            in_treaty_with = { who = ROOT }
-        }
-	}
+custom_text_box = { 
+    name = as_points_value
+    potential = {}
 }
 
-custom_text_box = {
-    name = as_alliance_slot_2B
-    potential = {
-		event_target:treaty_2B = {
-            in_treaty_with = { who = ROOT }
-        }
-	}
+custom_text_box = { 
+    name = as_cost_value
+    potential = {}
 }

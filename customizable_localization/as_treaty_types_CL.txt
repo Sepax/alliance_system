@@ -1,0 +1,6070 @@
+defined_text = {
+    name = GetTreaty_1
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1A
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2A
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3A
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4A
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5A
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6A
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7A
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8A
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9A
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10A
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11A
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12A
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13A
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14A
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15A
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16A
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17A
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18A
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19A
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20A
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21A
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22A
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23A
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24A
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25A
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26A
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27A
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28A
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29A
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30A
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31A
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32A
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33A
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34A
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35A
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36A
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37A
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38A
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39A
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40A
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41A
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42A
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43A
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44A
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45A
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46A
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47A
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48A
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49A
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50A
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51A
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52A
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53A
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54A
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55A
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56A
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57A
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58A
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59A
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60A
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61A
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62A
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63A
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64A
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65A
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66A
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67A
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68A
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69A
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70A
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71A
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72A
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73A
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74A
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75A
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76A
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77A
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78A
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79A
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80A
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81A
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82A
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83A
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84A
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85A
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86A
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87A
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88A
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89A
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90A
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91A
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92A
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93A
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94A
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95A
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96A
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97A
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98A
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99A
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100A
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_2
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1B
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2B
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3B
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4B
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5B
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6B
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7B
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8B
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9B
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10B
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11B
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12B
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13B
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14B
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15B
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16B
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17B
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18B
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19B
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20B
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21B
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22B
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23B
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24B
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25B
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26B
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27B
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28B
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29B
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30B
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31B
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32B
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33B
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34B
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35B
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36B
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37B
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38B
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39B
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40B
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41B
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42B
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43B
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44B
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45B
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46B
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47B
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48B
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49B
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50B
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51B
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52B
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53B
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54B
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55B
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56B
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57B
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58B
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59B
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60B
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61B
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62B
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63B
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64B
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65B
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66B
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67B
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68B
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69B
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70B
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71B
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72B
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73B
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74B
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75B
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76B
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77B
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78B
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79B
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80B
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81B
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82B
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83B
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84B
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85B
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86B
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87B
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88B
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89B
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90B
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91B
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92B
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93B
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94B
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95B
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96B
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97B
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98B
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99B
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100B
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_3
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1C
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2C
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3C
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4C
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5C
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6C
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7C
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8C
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9C
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10C
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11C
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12C
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13C
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14C
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15C
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16C
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17C
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18C
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19C
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20C
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21C
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22C
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23C
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24C
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25C
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26C
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27C
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28C
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29C
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30C
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31C
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32C
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33C
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34C
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35C
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36C
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37C
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38C
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39C
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40C
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41C
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42C
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43C
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44C
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45C
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46C
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47C
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48C
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49C
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50C
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51C
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52C
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53C
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54C
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55C
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56C
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57C
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58C
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59C
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60C
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61C
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62C
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63C
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64C
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65C
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66C
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67C
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68C
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69C
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70C
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71C
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72C
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73C
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74C
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75C
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76C
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77C
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78C
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79C
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80C
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81C
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82C
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83C
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84C
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85C
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86C
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87C
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88C
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89C
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90C
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91C
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92C
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93C
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94C
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95C
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96C
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97C
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98C
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99C
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100C
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_4
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1D
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2D
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3D
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4D
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5D
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6D
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7D
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8D
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9D
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10D
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11D
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12D
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13D
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14D
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15D
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16D
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17D
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18D
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19D
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20D
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21D
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22D
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23D
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24D
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25D
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26D
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27D
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28D
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29D
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30D
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31D
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32D
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33D
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34D
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35D
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36D
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37D
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38D
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39D
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40D
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41D
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42D
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43D
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44D
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45D
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46D
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47D
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48D
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49D
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50D
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51D
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52D
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53D
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54D
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55D
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56D
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57D
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58D
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59D
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60D
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61D
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62D
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63D
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64D
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65D
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66D
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67D
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68D
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69D
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70D
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71D
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72D
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73D
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74D
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75D
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76D
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77D
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78D
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79D
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80D
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81D
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82D
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83D
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84D
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85D
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86D
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87D
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88D
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89D
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90D
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91D
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92D
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93D
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94D
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95D
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96D
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97D
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98D
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99D
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100D
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_5
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1E
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2E
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3E
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4E
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5E
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6E
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7E
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8E
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9E
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10E
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11E
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12E
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13E
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14E
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15E
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16E
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17E
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18E
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19E
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20E
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21E
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22E
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23E
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24E
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25E
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26E
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27E
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28E
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29E
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30E
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31E
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32E
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33E
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34E
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35E
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36E
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37E
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38E
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39E
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40E
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41E
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42E
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43E
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44E
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45E
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46E
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47E
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48E
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49E
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50E
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51E
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52E
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53E
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54E
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55E
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56E
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57E
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58E
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59E
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60E
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61E
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62E
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63E
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64E
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65E
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66E
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67E
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68E
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69E
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70E
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71E
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72E
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73E
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74E
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75E
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76E
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77E
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78E
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79E
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80E
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81E
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82E
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83E
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84E
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85E
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86E
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87E
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88E
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89E
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90E
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91E
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92E
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93E
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94E
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95E
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96E
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97E
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98E
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99E
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100E
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_6
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1F
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2F
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3F
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4F
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5F
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6F
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7F
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8F
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9F
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10F
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11F
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12F
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13F
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14F
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15F
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16F
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17F
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18F
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19F
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20F
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21F
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22F
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23F
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24F
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25F
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26F
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27F
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28F
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29F
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30F
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31F
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32F
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33F
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34F
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35F
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36F
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37F
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38F
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39F
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40F
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41F
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42F
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43F
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44F
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45F
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46F
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47F
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48F
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49F
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50F
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51F
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52F
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53F
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54F
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55F
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56F
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57F
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58F
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59F
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60F
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61F
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62F
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63F
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64F
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65F
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66F
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67F
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68F
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69F
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70F
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71F
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72F
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73F
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74F
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75F
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76F
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77F
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78F
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79F
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80F
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81F
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82F
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83F
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84F
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85F
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86F
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87F
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88F
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89F
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90F
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91F
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92F
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93F
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94F
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95F
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96F
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97F
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98F
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99F
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100F
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_7
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1G
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2G
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3G
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4G
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5G
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6G
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7G
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8G
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9G
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10G
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11G
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12G
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13G
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14G
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15G
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16G
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17G
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18G
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19G
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20G
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21G
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22G
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23G
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24G
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25G
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26G
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27G
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28G
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29G
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30G
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31G
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32G
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33G
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34G
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35G
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36G
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37G
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38G
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39G
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40G
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41G
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42G
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43G
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44G
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45G
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46G
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47G
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48G
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49G
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50G
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51G
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52G
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53G
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54G
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55G
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56G
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57G
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58G
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59G
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60G
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61G
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62G
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63G
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64G
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65G
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66G
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67G
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68G
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69G
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70G
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71G
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72G
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73G
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74G
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75G
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76G
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77G
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78G
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79G
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80G
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81G
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82G
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83G
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84G
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85G
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86G
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87G
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88G
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89G
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90G
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91G
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92G
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93G
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94G
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95G
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96G
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97G
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98G
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99G
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100G
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_8
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1H
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2H
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3H
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4H
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5H
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6H
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7H
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8H
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9H
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10H
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11H
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12H
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13H
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14H
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15H
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16H
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17H
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18H
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19H
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20H
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21H
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22H
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23H
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24H
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25H
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26H
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27H
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28H
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29H
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30H
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31H
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32H
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33H
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34H
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35H
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36H
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37H
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38H
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39H
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40H
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41H
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42H
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43H
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44H
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45H
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46H
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47H
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48H
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49H
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50H
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51H
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52H
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53H
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54H
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55H
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56H
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57H
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58H
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59H
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60H
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61H
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62H
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63H
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64H
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65H
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66H
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67H
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68H
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69H
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70H
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71H
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72H
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73H
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74H
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75H
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76H
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77H
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78H
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79H
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80H
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81H
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82H
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83H
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84H
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85H
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86H
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87H
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88H
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89H
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90H
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91H
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92H
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93H
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94H
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95H
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96H
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97H
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98H
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99H
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100H
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_9
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1I
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2I
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3I
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4I
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5I
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6I
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7I
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8I
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9I
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10I
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11I
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12I
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13I
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14I
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15I
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16I
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17I
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18I
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19I
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20I
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21I
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22I
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23I
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24I
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25I
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26I
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27I
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28I
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29I
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30I
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31I
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32I
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33I
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34I
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35I
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36I
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37I
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38I
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39I
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40I
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41I
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42I
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43I
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44I
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45I
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46I
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47I
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48I
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49I
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50I
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51I
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52I
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53I
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54I
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55I
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56I
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57I
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58I
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59I
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60I
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61I
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62I
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63I
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64I
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65I
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66I
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67I
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68I
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69I
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70I
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71I
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72I
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73I
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74I
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75I
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76I
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77I
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78I
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79I
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80I
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81I
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82I
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83I
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84I
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85I
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86I
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87I
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88I
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89I
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90I
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91I
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92I
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93I
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94I
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95I
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96I
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97I
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98I
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99I
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100I
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+
+defined_text = {
+    name = GetTreaty_10
+    random = no
+
+    text = {
+        localisation_key = as_treaty_1J
+        trigger = {
+            has_country_flag = as_alliance_group_1
+        }
+    }
+    text = {
+        localisation_key = as_treaty_2J
+        trigger = {
+            has_country_flag = as_alliance_group_2
+        }
+    }
+    text = {
+        localisation_key = as_treaty_3J
+        trigger = {
+            has_country_flag = as_alliance_group_3
+        }
+    }
+    text = {
+        localisation_key = as_treaty_4J
+        trigger = {
+            has_country_flag = as_alliance_group_4
+        }
+    }
+    text = {
+        localisation_key = as_treaty_5J
+        trigger = {
+            has_country_flag = as_alliance_group_5
+        }
+    }
+    text = {
+        localisation_key = as_treaty_6J
+        trigger = {
+            has_country_flag = as_alliance_group_6
+        }
+    }
+    text = {
+        localisation_key = as_treaty_7J
+        trigger = {
+            has_country_flag = as_alliance_group_7
+        }
+    }
+    text = {
+        localisation_key = as_treaty_8J
+        trigger = {
+            has_country_flag = as_alliance_group_8
+        }
+    }
+    text = {
+        localisation_key = as_treaty_9J
+        trigger = {
+            has_country_flag = as_alliance_group_9
+        }
+    }
+    text = {
+        localisation_key = as_treaty_10J
+        trigger = {
+            has_country_flag = as_alliance_group_10
+        }
+    }
+    text = {
+        localisation_key = as_treaty_11J
+        trigger = {
+            has_country_flag = as_alliance_group_11
+        }
+    }
+    text = {
+        localisation_key = as_treaty_12J
+        trigger = {
+            has_country_flag = as_alliance_group_12
+        }
+    }
+    text = {
+        localisation_key = as_treaty_13J
+        trigger = {
+            has_country_flag = as_alliance_group_13
+        }
+    }
+    text = {
+        localisation_key = as_treaty_14J
+        trigger = {
+            has_country_flag = as_alliance_group_14
+        }
+    }
+    text = {
+        localisation_key = as_treaty_15J
+        trigger = {
+            has_country_flag = as_alliance_group_15
+        }
+    }
+    text = {
+        localisation_key = as_treaty_16J
+        trigger = {
+            has_country_flag = as_alliance_group_16
+        }
+    }
+    text = {
+        localisation_key = as_treaty_17J
+        trigger = {
+            has_country_flag = as_alliance_group_17
+        }
+    }
+    text = {
+        localisation_key = as_treaty_18J
+        trigger = {
+            has_country_flag = as_alliance_group_18
+        }
+    }
+    text = {
+        localisation_key = as_treaty_19J
+        trigger = {
+            has_country_flag = as_alliance_group_19
+        }
+    }
+    text = {
+        localisation_key = as_treaty_20J
+        trigger = {
+            has_country_flag = as_alliance_group_20
+        }
+    }
+    text = {
+        localisation_key = as_treaty_21J
+        trigger = {
+            has_country_flag = as_alliance_group_21
+        }
+    }
+    text = {
+        localisation_key = as_treaty_22J
+        trigger = {
+            has_country_flag = as_alliance_group_22
+        }
+    }
+    text = {
+        localisation_key = as_treaty_23J
+        trigger = {
+            has_country_flag = as_alliance_group_23
+        }
+    }
+    text = {
+        localisation_key = as_treaty_24J
+        trigger = {
+            has_country_flag = as_alliance_group_24
+        }
+    }
+    text = {
+        localisation_key = as_treaty_25J
+        trigger = {
+            has_country_flag = as_alliance_group_25
+        }
+    }
+    text = {
+        localisation_key = as_treaty_26J
+        trigger = {
+            has_country_flag = as_alliance_group_26
+        }
+    }
+    text = {
+        localisation_key = as_treaty_27J
+        trigger = {
+            has_country_flag = as_alliance_group_27
+        }
+    }
+    text = {
+        localisation_key = as_treaty_28J
+        trigger = {
+            has_country_flag = as_alliance_group_28
+        }
+    }
+    text = {
+        localisation_key = as_treaty_29J
+        trigger = {
+            has_country_flag = as_alliance_group_29
+        }
+    }
+    text = {
+        localisation_key = as_treaty_30J
+        trigger = {
+            has_country_flag = as_alliance_group_30
+        }
+    }
+    text = {
+        localisation_key = as_treaty_31J
+        trigger = {
+            has_country_flag = as_alliance_group_31
+        }
+    }
+    text = {
+        localisation_key = as_treaty_32J
+        trigger = {
+            has_country_flag = as_alliance_group_32
+        }
+    }
+    text = {
+        localisation_key = as_treaty_33J
+        trigger = {
+            has_country_flag = as_alliance_group_33
+        }
+    }
+    text = {
+        localisation_key = as_treaty_34J
+        trigger = {
+            has_country_flag = as_alliance_group_34
+        }
+    }
+    text = {
+        localisation_key = as_treaty_35J
+        trigger = {
+            has_country_flag = as_alliance_group_35
+        }
+    }
+    text = {
+        localisation_key = as_treaty_36J
+        trigger = {
+            has_country_flag = as_alliance_group_36
+        }
+    }
+    text = {
+        localisation_key = as_treaty_37J
+        trigger = {
+            has_country_flag = as_alliance_group_37
+        }
+    }
+    text = {
+        localisation_key = as_treaty_38J
+        trigger = {
+            has_country_flag = as_alliance_group_38
+        }
+    }
+    text = {
+        localisation_key = as_treaty_39J
+        trigger = {
+            has_country_flag = as_alliance_group_39
+        }
+    }
+    text = {
+        localisation_key = as_treaty_40J
+        trigger = {
+            has_country_flag = as_alliance_group_40
+        }
+    }
+    text = {
+        localisation_key = as_treaty_41J
+        trigger = {
+            has_country_flag = as_alliance_group_41
+        }
+    }
+    text = {
+        localisation_key = as_treaty_42J
+        trigger = {
+            has_country_flag = as_alliance_group_42
+        }
+    }
+    text = {
+        localisation_key = as_treaty_43J
+        trigger = {
+            has_country_flag = as_alliance_group_43
+        }
+    }
+    text = {
+        localisation_key = as_treaty_44J
+        trigger = {
+            has_country_flag = as_alliance_group_44
+        }
+    }
+    text = {
+        localisation_key = as_treaty_45J
+        trigger = {
+            has_country_flag = as_alliance_group_45
+        }
+    }
+    text = {
+        localisation_key = as_treaty_46J
+        trigger = {
+            has_country_flag = as_alliance_group_46
+        }
+    }
+    text = {
+        localisation_key = as_treaty_47J
+        trigger = {
+            has_country_flag = as_alliance_group_47
+        }
+    }
+    text = {
+        localisation_key = as_treaty_48J
+        trigger = {
+            has_country_flag = as_alliance_group_48
+        }
+    }
+    text = {
+        localisation_key = as_treaty_49J
+        trigger = {
+            has_country_flag = as_alliance_group_49
+        }
+    }
+    text = {
+        localisation_key = as_treaty_50J
+        trigger = {
+            has_country_flag = as_alliance_group_50
+        }
+    }
+    text = {
+        localisation_key = as_treaty_51J
+        trigger = {
+            has_country_flag = as_alliance_group_51
+        }
+    }
+    text = {
+        localisation_key = as_treaty_52J
+        trigger = {
+            has_country_flag = as_alliance_group_52
+        }
+    }
+    text = {
+        localisation_key = as_treaty_53J
+        trigger = {
+            has_country_flag = as_alliance_group_53
+        }
+    }
+    text = {
+        localisation_key = as_treaty_54J
+        trigger = {
+            has_country_flag = as_alliance_group_54
+        }
+    }
+    text = {
+        localisation_key = as_treaty_55J
+        trigger = {
+            has_country_flag = as_alliance_group_55
+        }
+    }
+    text = {
+        localisation_key = as_treaty_56J
+        trigger = {
+            has_country_flag = as_alliance_group_56
+        }
+    }
+    text = {
+        localisation_key = as_treaty_57J
+        trigger = {
+            has_country_flag = as_alliance_group_57
+        }
+    }
+    text = {
+        localisation_key = as_treaty_58J
+        trigger = {
+            has_country_flag = as_alliance_group_58
+        }
+    }
+    text = {
+        localisation_key = as_treaty_59J
+        trigger = {
+            has_country_flag = as_alliance_group_59
+        }
+    }
+    text = {
+        localisation_key = as_treaty_60J
+        trigger = {
+            has_country_flag = as_alliance_group_60
+        }
+    }
+    text = {
+        localisation_key = as_treaty_61J
+        trigger = {
+            has_country_flag = as_alliance_group_61
+        }
+    }
+    text = {
+        localisation_key = as_treaty_62J
+        trigger = {
+            has_country_flag = as_alliance_group_62
+        }
+    }
+    text = {
+        localisation_key = as_treaty_63J
+        trigger = {
+            has_country_flag = as_alliance_group_63
+        }
+    }
+    text = {
+        localisation_key = as_treaty_64J
+        trigger = {
+            has_country_flag = as_alliance_group_64
+        }
+    }
+    text = {
+        localisation_key = as_treaty_65J
+        trigger = {
+            has_country_flag = as_alliance_group_65
+        }
+    }
+    text = {
+        localisation_key = as_treaty_66J
+        trigger = {
+            has_country_flag = as_alliance_group_66
+        }
+    }
+    text = {
+        localisation_key = as_treaty_67J
+        trigger = {
+            has_country_flag = as_alliance_group_67
+        }
+    }
+    text = {
+        localisation_key = as_treaty_68J
+        trigger = {
+            has_country_flag = as_alliance_group_68
+        }
+    }
+    text = {
+        localisation_key = as_treaty_69J
+        trigger = {
+            has_country_flag = as_alliance_group_69
+        }
+    }
+    text = {
+        localisation_key = as_treaty_70J
+        trigger = {
+            has_country_flag = as_alliance_group_70
+        }
+    }
+    text = {
+        localisation_key = as_treaty_71J
+        trigger = {
+            has_country_flag = as_alliance_group_71
+        }
+    }
+    text = {
+        localisation_key = as_treaty_72J
+        trigger = {
+            has_country_flag = as_alliance_group_72
+        }
+    }
+    text = {
+        localisation_key = as_treaty_73J
+        trigger = {
+            has_country_flag = as_alliance_group_73
+        }
+    }
+    text = {
+        localisation_key = as_treaty_74J
+        trigger = {
+            has_country_flag = as_alliance_group_74
+        }
+    }
+    text = {
+        localisation_key = as_treaty_75J
+        trigger = {
+            has_country_flag = as_alliance_group_75
+        }
+    }
+    text = {
+        localisation_key = as_treaty_76J
+        trigger = {
+            has_country_flag = as_alliance_group_76
+        }
+    }
+    text = {
+        localisation_key = as_treaty_77J
+        trigger = {
+            has_country_flag = as_alliance_group_77
+        }
+    }
+    text = {
+        localisation_key = as_treaty_78J
+        trigger = {
+            has_country_flag = as_alliance_group_78
+        }
+    }
+    text = {
+        localisation_key = as_treaty_79J
+        trigger = {
+            has_country_flag = as_alliance_group_79
+        }
+    }
+    text = {
+        localisation_key = as_treaty_80J
+        trigger = {
+            has_country_flag = as_alliance_group_80
+        }
+    }
+    text = {
+        localisation_key = as_treaty_81J
+        trigger = {
+            has_country_flag = as_alliance_group_81
+        }
+    }
+    text = {
+        localisation_key = as_treaty_82J
+        trigger = {
+            has_country_flag = as_alliance_group_82
+        }
+    }
+    text = {
+        localisation_key = as_treaty_83J
+        trigger = {
+            has_country_flag = as_alliance_group_83
+        }
+    }
+    text = {
+        localisation_key = as_treaty_84J
+        trigger = {
+            has_country_flag = as_alliance_group_84
+        }
+    }
+    text = {
+        localisation_key = as_treaty_85J
+        trigger = {
+            has_country_flag = as_alliance_group_85
+        }
+    }
+    text = {
+        localisation_key = as_treaty_86J
+        trigger = {
+            has_country_flag = as_alliance_group_86
+        }
+    }
+    text = {
+        localisation_key = as_treaty_87J
+        trigger = {
+            has_country_flag = as_alliance_group_87
+        }
+    }
+    text = {
+        localisation_key = as_treaty_88J
+        trigger = {
+            has_country_flag = as_alliance_group_88
+        }
+    }
+    text = {
+        localisation_key = as_treaty_89J
+        trigger = {
+            has_country_flag = as_alliance_group_89
+        }
+    }
+    text = {
+        localisation_key = as_treaty_90J
+        trigger = {
+            has_country_flag = as_alliance_group_90
+        }
+    }
+    text = {
+        localisation_key = as_treaty_91J
+        trigger = {
+            has_country_flag = as_alliance_group_91
+        }
+    }
+    text = {
+        localisation_key = as_treaty_92J
+        trigger = {
+            has_country_flag = as_alliance_group_92
+        }
+    }
+    text = {
+        localisation_key = as_treaty_93J
+        trigger = {
+            has_country_flag = as_alliance_group_93
+        }
+    }
+    text = {
+        localisation_key = as_treaty_94J
+        trigger = {
+            has_country_flag = as_alliance_group_94
+        }
+    }
+    text = {
+        localisation_key = as_treaty_95J
+        trigger = {
+            has_country_flag = as_alliance_group_95
+        }
+    }
+    text = {
+        localisation_key = as_treaty_96J
+        trigger = {
+            has_country_flag = as_alliance_group_96
+        }
+    }
+    text = {
+        localisation_key = as_treaty_97J
+        trigger = {
+            has_country_flag = as_alliance_group_97
+        }
+    }
+    text = {
+        localisation_key = as_treaty_98J
+        trigger = {
+            has_country_flag = as_alliance_group_98
+        }
+    }
+    text = {
+        localisation_key = as_treaty_99J
+        trigger = {
+            has_country_flag = as_alliance_group_99
+        }
+    }
+    text = {
+        localisation_key = as_treaty_100J
+        trigger = {
+            has_country_flag = as_alliance_group_100
+        }
+    }
+}
+
+

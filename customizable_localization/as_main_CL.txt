@@ -108,3 +108,39 @@ defined_text = {
         }
     }
 }
+
+defined_text = {
+    name = GetCostTest
+    random = no
+
+    text = {
+        localisation_key = as_cost_test
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = GetTagTest
+    random = no
+
+    text = {
+        localisation_key = as_tag_test
+        trigger = {
+            always = yes
+        }
+    }
+}
+
+defined_text = {
+    name = GetTreatyTest
+    random = no
+
+    text = {
+        localisation_key = as_treaty_test
+        trigger = {
+            always = yes
+        }
+    }
+}
