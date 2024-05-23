@@ -224,6 +224,7 @@ country_event = {
             hre_emperor_cost = 0
 
             # Point cost per power rating
+            colossal_power_cost = 7
             great_power_cost = 6
             major_power_cost = 5
             prominent_power_cost = 4
@@ -233,6 +234,7 @@ country_event = {
 
             # Each power status is a percentage of the top rating in the world
             # If a country is above this percentage, they are considered have that power status
+            colossal_power_percentage = 1.2
             great_power_percentage = 0.8
             major_power_percentage = 0.65
             prominent_power_percentage = 0.45
